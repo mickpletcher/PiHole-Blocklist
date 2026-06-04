@@ -134,39 +134,42 @@ Supported source formats:
 
 ## Using The Lists In Pi-hole
 
-Pi-hole needs to access the files by URL. If this repo is published to GitHub, you can use raw GitHub URLs.
+Pi-hole needs a direct raw text URL. Do not use the normal GitHub page URL. Use the `raw.githubusercontent.com` URL.
 
-GitHub hosted curated list URLs for this repo:
+Use these URLs:
 
 ```text
 https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt
 https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt
 ```
 
-Example blocklist URL format:
+The blocklist URL is:
 
 ```text
-https://raw.githubusercontent.com/<user>/<repo>/<branch>/Lists/curated-blocklist.txt
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt
 ```
 
-Example whitelist URL format:
+The whitelist URL is:
 
 ```text
-https://raw.githubusercontent.com/<user>/<repo>/<branch>/Lists/curated-whitelist.txt
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt
 ```
 
-For the blocklist:
+To add the curated blocklist:
 
 1. Open the Pi-hole admin page.
 2. Go to the adlist or subscribed denylist section.
-3. Add `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt`.
+3. Paste the blocklist raw URL.
 4. Update gravity.
 
-For the whitelist:
+To add the curated whitelist:
 
-- Pi-hole v6 and newer can use subscribed allowlists.
-- Add `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt` as a subscribed allowlist URL.
-- Older Pi-hole versions may need whitelist domains added directly instead of as a subscribed list.
+1. Use Pi-hole v6 or newer.
+2. Go to the subscribed allowlist section.
+3. Paste the whitelist raw URL.
+4. Update gravity.
+
+Older Pi-hole versions may need whitelist domains added directly instead of as a subscribed list.
 
 Update gravity from the Pi-hole host:
 

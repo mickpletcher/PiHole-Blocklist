@@ -2,6 +2,7 @@
 
 ## 2026-06-04
 
+- Clarified raw GitHub URL instructions for using the curated lists in Pi-hole.
 - Added a GitHub Actions workflow to automatically rebuild and commit generated list files.
 - Added a comprehensive root `README.md` for novice users.
 - Added CSV source inventory in `pihole-blocklist-sources.csv`.
