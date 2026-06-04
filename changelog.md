@@ -2,6 +2,7 @@
 
 ## 2026-06-04
 
+- Removed `Lists` folder ignore rules so list outputs and per-source files can be committed to GitHub.
 - Added a comprehensive root `README.md` with novice-friendly setup, validation, build, Pi-hole import, troubleshooting, and project history sections.
 - Added a git ignore rule for `future-upgrades.md` so planning notes stay local and are not pushed.
 - Added a git ignore rule for VS Code workspace files so local workspace settings are not pushed.

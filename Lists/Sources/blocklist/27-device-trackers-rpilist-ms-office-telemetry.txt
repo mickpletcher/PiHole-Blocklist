@@ -1,0 +1,3 @@
+self.events.data.microsoft.com
+nexus.officeapps.live.com
+hubblecontent.osi.office.net
