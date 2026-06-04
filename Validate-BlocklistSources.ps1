@@ -1,9 +1,9 @@
 param(
     [ValidateScript({ Test-Path $_ -PathType Leaf })]
-    [string]$MarkdownPath = ".\pihole-list-sources.md",
+    [string]$MarkdownPath = "./pihole-list-sources.md",
 
     [ValidateScript({ Test-Path $_ -PathType Leaf })]
-    [string]$CsvPath = ".\pihole-blocklist-sources.csv",
+    [string]$CsvPath = "./pihole-blocklist-sources.csv",
 
     [int]$TimeoutSeconds = 20,
 

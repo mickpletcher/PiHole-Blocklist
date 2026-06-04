@@ -19,7 +19,7 @@
     Path to the input CSV. Must contain columns: Category, Source, URL.
 
 .PARAMETER OutputDirectory
-    Directory where curated list files are written. Default: .\Lists.
+    Directory where curated list files are written. Default: ./Lists.
 
 .PARAMETER SourceDirectoryName
     Subdirectory under OutputDirectory where per-source text files are written.
@@ -50,7 +50,7 @@ param (
     [ValidateScript({ Test-Path $_ -PathType Leaf })]
     [string]$SourceCsv,
 
-    [string]$OutputDirectory = ".\Lists",
+    [string]$OutputDirectory = "./Lists",
 
     [string]$SourceDirectoryName = "Sources",
 

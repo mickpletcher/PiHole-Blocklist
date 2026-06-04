@@ -174,6 +174,34 @@ Update gravity from the Pi-hole host:
 pihole -g
 ```
 
+## Automatic GitHub Updates
+
+This repo includes a GitHub Actions workflow:
+
+```text
+.github\workflows\update-lists.yml
+```
+
+The workflow:
+
+1. Runs every day at 10:00 UTC.
+2. Can also be started manually from the GitHub Actions tab.
+3. Validates the source inventory.
+4. Deletes the existing `Lists` directory in the GitHub runner.
+5. Rebuilds every per-source list file.
+6. Rebuilds `Lists\curated-blocklist.txt`.
+7. Rebuilds `Lists\curated-whitelist.txt`.
+8. Refreshes `validation-report.txt`.
+9. Commits the changed generated files back to the repo.
+
+This means the GitHub repo can update the generated list files without running the script locally.
+
+For this to work, the repo must be pushed to GitHub and GitHub Actions must have permission to write to the repository. In GitHub, check:
+
+```text
+Settings > Actions > General > Workflow permissions > Read and write permissions
+```
+
 ## Adding A New Source
 
 Edit `pihole-blocklist-sources.csv`.

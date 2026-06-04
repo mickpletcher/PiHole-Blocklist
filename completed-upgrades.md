@@ -2,6 +2,7 @@
 
 ## 2026-06-04
 
+- Added a GitHub Actions workflow to automatically rebuild and commit generated list files.
 - Added a comprehensive root `README.md` for novice users.
 - Added CSV source inventory in `pihole-blocklist-sources.csv`.
 - Added markdown source index in `pihole-list-sources.md`.

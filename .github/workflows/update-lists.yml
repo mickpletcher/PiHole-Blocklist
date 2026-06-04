@@ -1,0 +1,63 @@
+name: Update Pi-hole lists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pihole-lists
+  cancel-in-progress: false
+
+jobs:
+  update-lists:
+    name: Build and commit generated lists
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate source inventory
+        shell: pwsh
+        run: |
+          ./Validate-BlocklistSources.ps1
+
+      - name: Rebuild Lists directory
+        shell: pwsh
+        run: |
+          if (Test-Path ./Lists) {
+            Remove-Item -LiteralPath ./Lists -Recurse -Force
+          }
+
+          ./Merge-PiholeBlocklists.ps1 `
+            -SourceCsv ./pihole-blocklist-sources.csv `
+            -OutputDirectory ./Lists `
+            -TimeoutSeconds 60
+
+      - name: Refresh validation report
+        shell: pwsh
+        run: |
+          ./Validate-BlocklistSources.ps1 *> ./validation-report.txt
+
+      - name: Commit list updates
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Lists validation-report.txt
+
+          $changes = git status --porcelain
+          if (-not $changes) {
+            Write-Host "No generated list changes to commit."
+            exit 0
+          }
+
+          git commit -m "Update generated Pi-hole lists"
+          git push

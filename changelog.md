@@ -2,6 +2,7 @@
 
 ## 2026-06-04
 
+- Added a GitHub Actions workflow to validate, rebuild, replace, and commit the `Lists` directory automatically.
 - Updated `README.md` with direct GitHub raw URLs for curated blocklist and whitelist files and clearer Pi-hole linking steps.
 - Removed `Lists` folder ignore rules so list outputs and per-source files can be committed to GitHub.
 - Added a comprehensive root `README.md` with novice-friendly setup, validation, build, Pi-hole import, troubleshooting, and project history sections.
