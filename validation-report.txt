@@ -1,0 +1,24 @@
+=== SUMMARY ===
+MarkdownRows=46
+CsvRows=46
+ParityDifferences=0
+InvalidUrls=0
+DuplicateUrls=0
+DuplicateSources=0
+FailedHttp=0
+Redirects=0
+
+=== DUPLICATE URLS ===
+None
+
+=== DUPLICATE SOURCES ===
+None
+
+=== CSV VS MARKDOWN DIFF ===
+None
+
+=== FAILED URLS ===
+None
+
+=== REDIRECTS ===
+None

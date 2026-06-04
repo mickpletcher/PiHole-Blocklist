@@ -1,0 +1,6 @@
+Blocklists/*.csv
+Blocklists/*.txt
+Lists/*.txt
+Lists/Sources/**/*.txt
+*.code-workspace
+future-upgrades.md
