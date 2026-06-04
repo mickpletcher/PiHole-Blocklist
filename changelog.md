@@ -2,6 +2,7 @@
 
 ## 2026-06-04
 
+- Updated `README.md` with direct GitHub raw URLs for curated blocklist and whitelist files and clearer Pi-hole linking steps.
 - Removed `Lists` folder ignore rules so list outputs and per-source files can be committed to GitHub.
 - Added a comprehensive root `README.md` with novice-friendly setup, validation, build, Pi-hole import, troubleshooting, and project history sections.
 - Added a git ignore rule for `future-upgrades.md` so planning notes stay local and are not pushed.

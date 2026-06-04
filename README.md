@@ -136,6 +136,13 @@ Supported source formats:
 
 Pi-hole needs to access the files by URL. If this repo is published to GitHub, you can use raw GitHub URLs.
 
+GitHub hosted curated list URLs for this repo:
+
+```text
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt
+```
+
 Example blocklist URL format:
 
 ```text
@@ -152,12 +159,13 @@ For the blocklist:
 
 1. Open the Pi-hole admin page.
 2. Go to the adlist or subscribed denylist section.
-3. Add the raw URL for `curated-blocklist.txt`.
+3. Add `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt`.
 4. Update gravity.
 
 For the whitelist:
 
 - Pi-hole v6 and newer can use subscribed allowlists.
+- Add `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt` as a subscribed allowlist URL.
 - Older Pi-hole versions may need whitelist domains added directly instead of as a subscribed list.
 
 Update gravity from the Pi-hole host:
