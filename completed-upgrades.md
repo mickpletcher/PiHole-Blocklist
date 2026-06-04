@@ -2,6 +2,9 @@
 
 ## 2026-06-04
 
+- Added `LISTS.md` for user review of blocklist and whitelist sources.
+- Added `Update-ListSourceMarkdown.ps1` to regenerate source review markdown files from the CSV.
+- Updated GitHub Actions to refresh source review markdown during scheduled list updates.
 - Clarified raw GitHub URL instructions for using the curated lists in Pi-hole.
 - Added a GitHub Actions workflow to automatically rebuild and commit generated list files.
 - Added a comprehensive root `README.md` for novice users.

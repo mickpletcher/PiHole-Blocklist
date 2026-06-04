@@ -47,8 +47,10 @@ Do not use the normal GitHub page URL. Use the `raw.githubusercontent.com` URL o
 |---|---|
 | `pihole-blocklist-sources.csv` | Source inventory used by scripts |
 | `pihole-list-sources.md` | Human-readable source index |
+| `LISTS.md` | User-facing review page for all blocklist and whitelist sources |
 | `Validate-BlocklistSources.ps1` | Source validation |
 | `Merge-PiholeBlocklists.ps1` | Source download and list build |
+| `Update-ListSourceMarkdown.ps1` | Regenerates markdown source review files from the CSV |
 | `validation-report.txt` | Latest validator output |
 | `Lists/Sources/blocklist/*.txt` | Per-source normalized blocklist files |
 | `Lists/Sources/whitelist/*.txt` | Per-source normalized whitelist files |
@@ -124,11 +126,17 @@ Settings > Actions > General > Workflow permissions > Read and write permissions
 Update `pihole-blocklist-sources.csv`, then run validation and merge:
 
 ```powershell
+.\Update-ListSourceMarkdown.ps1
 .\Validate-BlocklistSources.ps1
 .\Merge-PiholeBlocklists.ps1 -SourceCsv .\pihole-blocklist-sources.csv
 ```
 
-Keep `pihole-list-sources.md` in sync with CSV updates.
+The markdown source review files are generated from the CSV:
+
+- [LISTS.md](LISTS.md)
+- [pihole-list-sources.md](pihole-list-sources.md)
+
+Users who want to review every source before using the curated outputs can read [LISTS.md](LISTS.md).
 
 ## Troubleshooting
 

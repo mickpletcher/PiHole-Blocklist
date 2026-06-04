@@ -1,6 +1,24 @@
-# Pi-hole List Sources
+# Curated Pi-hole Lists
 
-Full index of curated blocklist and whitelist sources organized by category. The CSV is the source of truth for automation. Keep this file in parity with pihole-blocklist-sources.csv.
+This file lists every source used to build the curated Pi-hole blocklist and whitelist outputs.
+
+## Curated Output URLs
+
+| Output | Raw URL |
+|---|---|
+| Curated blocklist | https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt |
+| Curated whitelist | https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt |
+
+## Inventory Summary
+
+| Metric | Count |
+|---|---:|
+| Total source rows | 46 |
+| Blocklist sources | 45 |
+| Whitelist sources | 1 |
+| Categories | 15 |
+
+## Blocklist Sources
 
 ## Suspicious / Spam
 
@@ -116,6 +134,8 @@ Full index of curated blocklist and whitelist sources organized by category. The
 | Source | URL |
 |---|---|
 | StevenBlack Unified Hosts | https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts |
+
+## Whitelist Sources
 
 ## Whitelist
 

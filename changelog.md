@@ -2,6 +2,9 @@
 
 ## 2026-06-04
 
+- Added `LISTS.md` as a user-facing review page for blocklist and whitelist sources.
+- Added `Update-ListSourceMarkdown.ps1` to regenerate source review markdown files from the CSV.
+- Updated the GitHub Actions workflow to refresh source review markdown during scheduled list updates.
 - Updated `.github/workflows/update-lists.yml` to use `actions/checkout@v5` to address the Node.js 20 deprecation warning in GitHub Actions.
 - Cleaned up `README.md` by removing duplicate sections, normalizing path examples, and clarifying hosted curated list usage in Pi-hole.
 - Updated `README.md` with clearer raw GitHub URL instructions for importing curated lists into Pi-hole.

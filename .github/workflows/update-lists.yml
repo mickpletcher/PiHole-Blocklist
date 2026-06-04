@@ -26,6 +26,7 @@ jobs:
       - name: Validate source inventory
         shell: pwsh
         run: |
+          ./Update-ListSourceMarkdown.ps1
           ./Validate-BlocklistSources.ps1
 
       - name: Rebuild Lists directory
@@ -51,7 +52,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Lists validation-report.txt
+          git add Lists LISTS.md pihole-list-sources.md validation-report.txt
 
           $changes = git status --porcelain
           if (-not $changes) {
