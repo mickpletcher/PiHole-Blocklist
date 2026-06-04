@@ -2,6 +2,8 @@
 
 ## 2026-06-04
 
+- Updated `.github/workflows/update-lists.yml` to use `actions/checkout@v5` to address the Node.js 20 deprecation warning in GitHub Actions.
+- Cleaned up `README.md` by removing duplicate sections, normalizing path examples, and clarifying hosted curated list usage in Pi-hole.
 - Updated `README.md` with clearer raw GitHub URL instructions for importing curated lists into Pi-hole.
 - Added a GitHub Actions workflow to validate, rebuild, replace, and commit the `Lists` directory automatically.
 - Updated `README.md` with direct GitHub raw URLs for curated blocklist and whitelist files and clearer Pi-hole linking steps.
