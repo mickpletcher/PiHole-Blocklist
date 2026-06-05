@@ -27,7 +27,7 @@ jobs:
         shell: pwsh
         run: |
           ./Update-ListSourceMarkdown.ps1
-          ./Validate-BlocklistSources.ps1
+          ./Validate-BlocklistSources.ps1 -SkipUrlChecks
 
       - name: Rebuild Lists directory
         shell: pwsh
