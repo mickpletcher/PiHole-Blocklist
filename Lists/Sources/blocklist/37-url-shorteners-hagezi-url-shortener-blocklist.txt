@@ -539,7 +539,6 @@ goto.onestream.live
 url-server-75g5.onrender.com
 sh.oo.gd
 n.opn.tl
-url.optidiscover.com
 url.fti.or.th
 user.spring8.or.jp
 s.wiz.or.id
@@ -656,7 +655,6 @@ to.servers.com
 u.seva.id
 tts.sh.ph
 go.shell.com
-app.shorteneo.com
 go.shr.lc
 u.shxj.pw
 social.sigmaequipment.com
@@ -4687,7 +4685,6 @@ likes.fans
 likifi.com
 lil.ee
 lil.ge
-lil.vc
 lilbt.com
 lillink.net
 lillink.xyz
@@ -4869,7 +4866,6 @@ linklab.cc
 linklada.com
 linkloom.link
 linkly.co
-linkly.info
 linkly.qa
 linklyhq.com
 linklytics.com
@@ -4902,7 +4898,6 @@ linkoqr.com
 linkotomy.com
 linkotw.live
 linkp.ir
-linkp.online
 linkpage.it
 linkpara.bio
 linkpatel.com
@@ -4910,7 +4905,6 @@ linkpays.in
 linkpop.com
 linkpop.in
 linkprotbkita.com
-linkqb.com
 linkqr.io
 linkr.com
 linkr.it
@@ -5464,7 +5458,6 @@ minecraftparodileri.com
 mineurl.top
 minggu.cfd
 mini-url.in
-mini-url.net
 minifi.ca
 minify.link
 minify-url.com
@@ -5688,7 +5681,6 @@ mypaperwriter.com
 mypin.in
 myplansignup.com
 myporn.link
-mypowerlinks.org
 mypoya.com
 myppt.cc
 myprivateproxies.org
@@ -5740,7 +5732,6 @@ nagakuat.com
 nah.uy
 naik-terus.com
 nakama420.xyz
-nakdetail.com
 nal.la
 nalo.life
 name.ly
@@ -5761,7 +5752,6 @@ naver.me
 nawala.my
 nawalaku.com
 nawawinews.site
-nbanner.link
 nbc4dc.com
 nbcbay.com
 nbcchi.com
@@ -6280,7 +6270,6 @@ pke.to
 pkg.pw
 pkv.li
 pkvg.link
-plabtainment.com
 placesunknown.art
 pladollmo.com
 plannery.app
@@ -6456,7 +6445,6 @@ pxs.cl
 pxu.co
 pxxbet.promo
 py.md
-py6.ru
 pygy.co
 pym.se
 pymd.org
@@ -6577,10 +6565,8 @@ qrurl.us
 qrx.im
 qry.kr
 qs1.it
-qti.ai
 qtr.sh
 qty3e.pro
-qu-ax.org
 quainator.com
 quamiller.com
 quee.link
@@ -6593,7 +6579,6 @@ quickchart.io
 quickcode.digital
 quicklinkpro.io
 quickqr.be
-quickshrink.ovh
 quicky.digital
 quicurl.com
 quik.im
@@ -7173,7 +7158,6 @@ short.tips
 short.to
 short-belink.com
 short-bio.com
-short-fact.com
 short-gg.org
 short-it.cc
 short-link.co
@@ -7202,7 +7186,6 @@ shortclient.top
 shortcm.li
 shortco.net
 shortcut.ac
-shortcuturl.com
 shortduck.com
 shorte.bio
 shorte.ink
@@ -7212,7 +7195,6 @@ shortearn.to
 shortearner.in
 shorteasy.com
 shortedge.pro
-shortedurl.com
 shorten.asia
 shorten.ee
 shorten.fyi
@@ -7270,7 +7252,6 @@ shortfake.com
 shortfree.link
 shortgo.me
 shorti.me
-shorti.uk
 shortico.in
 shortie.io
 shortify.pro
@@ -7323,7 +7304,6 @@ shortly.cc
 shortly.click
 shortly.cyou
 shortly.im
-shortly.nu
 shortly.ro
 shortly.sx
 shortlyfi.com
@@ -7432,7 +7412,6 @@ shp.ee
 shpze.com
 shr.gg
 shr.li
-shrcr.us
 shre.ink
 shrink.gg
 shrink.pe
@@ -7446,10 +7425,8 @@ shrinkify.com
 shrinkin.xyz
 shrinklinx.com
 shrinkme.app
-shrinkme.cc
 shrinkme.click
 shrinkme.dev
-shrinkme.in
 shrinkme.info
 shrinkme.ink
 shrinkme.io
@@ -7559,14 +7536,12 @@ simatso.site
 simgr.id
 simonclaussen.com
 simp.ly
-simpleurl.link
 simpleurl.tech
 simpltrk.com
 simurl.com
 sina.lt
 sincere.ly
 sindo.me
-singkatin.link
 sini.la
 sinkto.link
 sinourl.tw
