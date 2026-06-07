@@ -7846,7 +7846,6 @@ starturl.com
 starz.tv
 statistics4u.net
 stdl.eu
-steammodule.com
 stearns.co
 stedi.link
 steelcut.io
@@ -8004,7 +8003,6 @@ tabzi.com
 taedy.com
 tagbuilder.io
 taggpro.me
-tagli.net
 tagly.us
 tahmil.net
 tailurl.com
@@ -8231,7 +8229,6 @@ tiny-link.org
 tiny-links.com
 tiny-links.net
 tiny-url.me
-tiny123.com
 tiny1z.com
 tinyard.co
 tinyarro.ws
@@ -8535,11 +8532,9 @@ ttoo.top
 ttr.ir
 ttrewards.com
 tts.sh
-ttt.name
 ttt.onl
 tu4.me
 tuasy.com
-tuch.club
 tuch.marketing
 tuckers.link
 tufts.au
@@ -8658,7 +8653,6 @@ ukf.me
 ukoeln.de
 ul.rs
 ul.to
-ul3.ir
 uldox.com
 ulnk.app
 ultimateaderaser.com
@@ -8829,7 +8823,6 @@ urlenco.de
 urlers.com
 urles.us
 urless.com
-urlexpander.org
 urlf.cc
 urlfile.xyz
 urlflea.com
@@ -9001,7 +8994,6 @@ usf.services
 usglife.com
 usheethe.com
 ushort.my
-ushort.xyz
 usite.jp
 usreviewers.com
 ut9.cc
@@ -9018,7 +9010,6 @@ utrend.info
 uucc.cc
 uurl.at
 uurl.icu
-uuu.gl
 uuz.cc
 uvv.im
 uwat.ca
@@ -9041,7 +9032,6 @@ v2g.live
 v2links.com
 v3d.net
 v68.io
-v7c.cn
 va.lk
 vaca.sh
 vaddev.de
@@ -9137,7 +9127,6 @@ vipshortener.com
 vipslot4d.site
 viraatlabs.com
 viralblade.com
-viralme.me
 viraln.co
 viralpep.com
 virl.com
@@ -9460,7 +9449,6 @@ x2c.eu
 x2l.ir
 x2t.com
 x2y.me
-x5n.cn
 x7.lv
 x89.us
 xaddr.com
@@ -9539,7 +9527,6 @@ xtglinks.com
 xth.me
 xtr.bz
 xtre.me
-xua.me
 xub.me
 xuc88.club
 xuo.us
@@ -9741,7 +9728,6 @@ zipurl.link
 zipurl.net
 zipy.me
 zipzy.in
-zisoj.cyou
 ziturl.com
 zixso.com
 ziypto.com
@@ -9803,7 +9789,6 @@ zuplo.link
 zurb.us
 zurins.uk
 zurl.co
-zurl.es
 zurl.info
 zurl.ir
 zurl.ws
