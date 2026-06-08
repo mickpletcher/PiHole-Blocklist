@@ -6198,7 +6198,6 @@ us-browse.startpage.com
 us-proxy.startpage.com
 us1-browse.startpage.com
 us2-browse.startpage.com
-us3-browse.startpage.com
 dns.startupstack.tech
 idea.graph.statboss.com
 adguard.stealbit.com
@@ -11769,6 +11768,7 @@ kamberi.vip
 kanye-west.top
 kaomojiz.mom
 karnuvia.ru
+karo-vpn.xyz
 kastino.ru
 katakanachart.com
 kavkaz.monster
@@ -15242,6 +15242,7 @@ towersflowerss.com
 towervpn.com
 tproxy.ink
 tproxy.mom
+tproxy.monster
 tproxyru.live
 tq8izzzrqtktkdoarptl3u.online
 tqqzrbjd.com
@@ -16883,14 +16884,12 @@ zorlunet.ru
 zorrovpn.io
 zorvian.com
 zougloub.eu
-zpath.net
 zproxy.de
 zproxy.org
 zqazgydo.cc
 zqntvkud.cc
 zqxgfbtj.com
 zrackrmr.com
-zscalertwo.net
 zspeed-cdn.com
 zt.al
 ztpvqxcr.cc
