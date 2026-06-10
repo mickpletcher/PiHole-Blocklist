@@ -16,6 +16,7 @@ dynamicdns.org.uk
 limit.org.uk
 h4g3z1-dyndns.web.app
 0000000000000000000000.com
+0rg.us
 0x.no
 100mountain.com
 10dv.com
@@ -347,6 +348,7 @@ dsmynas.com
 dsmynas.net
 dsmynas.org
 dtdns.com
+dtdns.net
 dtdns.org
 dubya.info
 dubya.net
@@ -1258,6 +1260,7 @@ sexmistrz.pl
 sexxxy.biz
 shacknet.biz
 shacknet.us
+shadir.com
 sharkltd.com
 sheatfish.org
 sheepindonesia.org
