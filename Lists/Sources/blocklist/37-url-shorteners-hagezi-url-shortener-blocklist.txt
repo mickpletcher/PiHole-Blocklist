@@ -20,6 +20,7 @@ tel-u.ac.id
 go.acciojob.com
 s.accupass.com
 dbf.adalaj.org
+buy.adhitan.com
 y.ahoo.it
 mylink.ai.in
 go.aim.edu
@@ -122,6 +123,7 @@ go.thamrin.co.id
 w.webicon.co.za
 1url.co.uk
 acsafrica.co.za
+aptly.co.za
 atpcf.co.uk
 biolinks.co.uk
 boostability.co.in
@@ -621,6 +623,7 @@ view.robothumb.com
 bio.rocketapps.pro
 lets.rok.biz
 goo-gl.ru.com
+bio.rub3n.io
 short.ruksk.com
 s.sachiniyer.com
 url.sae.digital
@@ -655,6 +658,7 @@ to.servers.com
 u.seva.id
 tts.sh.ph
 go.shell.com
+app.shorteneo.com
 go.shr.lc
 u.shxj.pw
 social.sigmaequipment.com
@@ -1379,6 +1383,7 @@ adaymag.co
 adbaw.com
 adbl.co
 adbly.co
+add.lat
 add-l.ink
 add2wallet.link
 addtr.ee
@@ -1419,6 +1424,7 @@ aduke.bio
 adurly.cc
 adv.li
 adv.pe
+advartiso.com
 advisable.link
 advmyc.com
 advnutri.com
@@ -1435,6 +1441,7 @@ afly.in
 afresh.link
 aftv.news
 aftvnews.com
+agbr.ir
 agentassistcrm.org
 agileurbia.com
 agirz.com
@@ -1480,6 +1487,7 @@ akademicevre.com
 aki.today
 aklam.io
 akm.works
+akoo.ir
 akr.gr
 akses.digital
 akses.gg
@@ -1576,10 +1584,12 @@ amz.tf
 amzn.com
 amzn.id
 amzn.pw
+an.fo
 an.to
 ana.ms
 anacon.org
 analyticslinker.ovh
+anbisu.com
 anch.co
 anchorurl.cloud
 ancstry.me
@@ -1644,6 +1654,7 @@ apticirl.com
 aptsbyusu.com
 apurl.in
 aqariads.com
+aqva.pl
 ara.solutions
 arab.news
 arah.in
@@ -1662,10 +1673,12 @@ arlinks.in
 arn.es
 arnogo.net
 arnolditkinclaims.com
+aroimak.link
 arolinks.com
 arpressllc.com
 arpy.in
 arrabet.link
+arshorten.com
 arsn.al
 artmo.app
 arurl.us
@@ -1693,6 +1706,7 @@ asusrog.de
 at-home-show.me
 at0m.de
 ata.ink
+atag.pk
 ateng.me
 atglinks.com
 ath-web.com
@@ -1704,6 +1718,7 @@ ativo.online
 atm.tk
 atmilb.com
 atmlb.com
+atoor.net
 atpz.ir
 atqiv.org
 atres.red
@@ -1715,6 +1730,7 @@ atu.ca
 audiof.com
 augustinus.digital
 aur.li
+aurelus.link
 aus.md
 author.to
 autistic.training
@@ -1730,6 +1746,7 @@ avenir.to
 avhop.net
 avit.link
 avitlink.com
+avjosa.com
 avl.mx
 avlne.ws
 avlr.co
@@ -1756,9 +1773,11 @@ ayokale.me
 ayt.fr
 ayuk.link
 ayzyu.com
+az6.ir
 azc.cc
 azipurl.app
 azipurl.com
+azl.one
 azlink.me
 azr.link
 azshrtr.com
@@ -1790,6 +1809,7 @@ baas.kr
 baba.bio
 babblecase.com
 babel.team
+bacc666.mobi
 bacn.me
 baggyrepackingrocky.com
 bagi.link
@@ -1893,11 +1913,13 @@ biaotee.top
 biastonu.com
 bibl.es
 bidiurl.com
+bidly.cc
 bidsforkids.org
 bie.to
 bigbigwinjiliwin63.online
 bigcc.cc
 bigfi.sh
+bigfk.com
 biggiris.link
 biggo.tw
 bigurl.io
@@ -1927,6 +1949,7 @@ biolinkplus.com
 biolinkpro.com
 biolinkr.app
 biolinks.link
+biolinks.ma
 biolinksplus.com
 biolinky.co
 biolnk.in
@@ -1942,6 +1965,7 @@ biotap.click
 biotap.io
 biotr.link
 biourl.link
+biourl.me
 biritr.com
 birkbtc.com
 bisadimasuk.in
@@ -1956,6 +1980,7 @@ bitb.ee
 bitded.com
 bitesli.com
 bitfy.cc
+bitgg.co
 bitigee.com
 bitl.app
 bitl.to
@@ -1985,6 +2010,8 @@ bitlyshort.com
 bitlyvi.com
 bitlz.cc
 bitq.link
+bitq.pw
+bitradex.net
 bitri.link
 bitshort.vip
 bitshrt.com
@@ -2058,6 +2085,7 @@ blyto.com
 bmai.cc
 bmr.li
 bn8.us
+bndfr.com
 bnds.in
 bnetwhk.com
 bnidigital.com
@@ -2103,11 +2131,13 @@ botemoda.com
 boudie.link
 boudoirads.cc
 bovi.app
+boxoko.com
 boybu.com
 bp.cool
 bp-gc.in
 bpjames.com
 bpk.id
+bpkrlinks.com
 bpl.kr
 bpo.cloud
 br4.in
@@ -2123,6 +2153,7 @@ brcloud.me
 bre.is
 brendan.fyi
 brev.ws
+breve.bio
 brevelink.com
 brever.link
 brevi.space
@@ -2255,6 +2286,7 @@ caluni.online
 cam.tips
 campaignware.com
 can.al
+can.si
 candicegilmerauthor.com
 canon.us
 canyonstudent.net
@@ -2294,6 +2326,7 @@ catchingtherain.com
 catchl.ink
 cathaybk.tw
 cathaysec.tw
+cayim.by
 cb.click
 cb.com
 cb.io
@@ -2314,6 +2347,7 @@ ccits.cc
 ccj.im
 cctor.link
 ccurl.in
+ccurl.net
 ccurl.xyz
 ccut.me
 ccx1.net
@@ -2464,6 +2498,8 @@ clicky.me
 cliczy.com
 clientlinks.net
 clik.now
+clik.rip
+clikk.in
 clikr.ir
 cliks.co
 clikx.net
@@ -2497,6 +2533,7 @@ clkro.com
 clktrack.com
 cllab.co
 clmp.me
+clockurl.com
 clotplaynews.live
 cloudfare.icu
 cloudku.click
@@ -2529,7 +2566,9 @@ cnkf.cn
 cnn.it
 cnnmon.ie
 cnvrge.co
+cnz.ir
 coachingtree.com
+coachstudio.org
 coba.la
 cockroa.ch
 cocn.in
@@ -2604,6 +2643,7 @@ creativesalahu.com
 credicard.biz
 creeds.io
 creepylink.com
+crfe.top
 crisp.to
 critch.it
 crizons.pro
@@ -5800,6 +5840,7 @@ neonslug.com
 neontools.io
 nepolls.com
 nerdleveltech.com
+net46.net
 netbrandly.com
 neti.cc
 netizen303.org

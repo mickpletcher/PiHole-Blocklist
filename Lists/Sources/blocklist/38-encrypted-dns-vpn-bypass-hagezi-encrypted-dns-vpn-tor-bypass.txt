@@ -138,6 +138,7 @@ dns.888654.xyz
 dns.890806.xyz
 rammerhead.8bit.ca
 tatakai001.8bit.ca
+arts.field.8tb.net
 arches-srv1.8ws.net
 arches-srv2.8ws.net
 outie.8ws.net
@@ -306,6 +307,7 @@ dns.adrianlam.com
 adguard.adrianofrongillo.ovh
 drive.google.com.adultboss.pl
 y3suyx0cg2lewi2dmn.advaitghaisas.in
+builtlikearat.advanced-orchestra.site
 tetra.aeins.at
 subscribe.vcsa.aeroantenna.com
 buy.aeroantenna.com
@@ -684,6 +686,7 @@ thorn.barneysaurous.net
 archlinuxisthebestlol.baselinux.net
 dashboardd.baselinux.net
 agriculture.arts.bastaff.ru
+aphistorytutoring.bastaff.ru
 galaxy-glint.bastaff.ru
 smack.bastaff.ru
 tacobelljobs.bastaff.ru
@@ -2360,6 +2363,7 @@ a5135324.csie.io
 teaching944.cspcorp.com
 duck.csproject.org
 dns.csswg.org
+app.plugga-matte.ct.ws
 joinpd.ctx.cl
 webdav.cubecloud.win
 iux3-s.cuiy4trg8fmosya2iip3ci.name
@@ -2717,6 +2721,7 @@ ab.zaydstillhasbraindamage.duckdns.org
 4littleducks.duckdns.org
 adfreemb.duckdns.org
 adgrm.duckdns.org
+adguardcalpena.duckdns.org
 andryk111.duckdns.org
 andrykarcew.duckdns.org
 appleishealthy.duckdns.org
@@ -3496,6 +3501,8 @@ wow.fun.cool.glasstechnik.ro
 adguard.glbd.fr
 fr33ze.gleeze.com
 kayleesickfern.gleeze.com
+alpha.y.glenwaverleychurches.org
+beta.y.glenwaverleychurches.org
 dns.glf.wtf
 dns.api.globus.org
 dns.api.preview.globus.org
@@ -5250,6 +5257,7 @@ ns4.opennameserver.org
 httpdns.ocloud.oppomobile.com
 httpdns.push.oppomobile.com
 learnaboutbillclinton.opt-inrewards.com
+clashroyale.opticalize.com
 hsd.malam.or.id
 jazz-band-goated.malam.or.id
 id.misem.or.id
@@ -6051,6 +6059,7 @@ career.snwy.dev
 vpn.snxi.de
 dove.soapagent.com
 petezahpizza.omega.social-networking.me
+cooldude123.sociedadelcubo.com
 www-proxy.sodemc.com
 adguardhome.softcloud.pe
 myprivityvpn.softether.net
@@ -7132,6 +7141,7 @@ laddersoftfloor.zone.id
 lumi.zone.id
 ripschool.zone.id
 tocoolforschoollol.zone.id
+calculus.zothow.com
 online.zotio.ru
 vpn.zotus.ru
 d.zscale.gq
@@ -7571,6 +7581,7 @@ aceshadowsocks.com
 aceshandian.com
 aceshandian.net
 aceshanyang.com
+aceshendeng.com
 aceshendeng.net
 aceskyblue.com
 aceskyline.net
@@ -7623,6 +7634,7 @@ acsnet.co
 actfordeal.com
 actipw3.online
 activitysforscience.space
+activpn.com
 actmobile.com
 adampowell.pro
 adblockersite.com
@@ -7658,6 +7670,7 @@ adsvpn.help
 adultproxy.men
 advanced.name
 advanceddataanalysiscenter.com
+advancedvpn.com
 aecd74796f0ff8d20255d3286ec5cd89bf989b12.com
 aecoe.xyz
 aeeesjxk.cc
@@ -7668,6 +7681,7 @@ afilite.app
 agambizleeyleniglottery.com
 agentsless.org
 aghdns.com
+ahaan.xyz
 ahaapi.com
 ahadns.net
 ahagad.com
@@ -7682,6 +7696,7 @@ ahoj.email
 ai-yuni.top
 aibuddytech.com
 aicx99.shop
+aihe.app
 aiiaguli.info
 ailivechatweb.com
 ailogogenerator.top
@@ -7749,6 +7764,7 @@ alohaprofile.com
 alon93rus.ru
 alphabr.online
 alphagame.co
+alphavpn.info
 altovate.xyz
 altvpn.com
 altvpn.net
@@ -7780,6 +7796,7 @@ an-online.shop
 an81dns.ru
 ananoos.com
 anchorfree.net
+anchorfree.us
 andrewnw.xyz
 andrey93rus.ru
 androidconnect.fyi
@@ -7860,7 +7877,6 @@ aoxvpn.net
 aoxvpn666.com
 aoxvpnapp.com
 apache-iv.com
-apfgexfusion.com
 api-gogles.com
 api-tel.xyz
 api999.com
@@ -7909,6 +7925,7 @@ archervpn.help
 archivebase.info
 archvpn.help
 arcticstorm.ru
+areas.fun
 aridia.ru
 arisaka.io
 ark.to
@@ -7954,6 +7971,7 @@ astroutercn.com
 astrovpn.co
 at5w361xq.online
 atejiasu.com
+atlasvpn.com
 atlasvpn.net
 atomapi.com
 atomicspike.art
@@ -7961,6 +7979,7 @@ atozproxy.com
 atris.cyou
 atsilva.link
 attractoverall.com
+atvsh.ir
 auberge78.site
 auraclient.com
 aurevia.ru
@@ -7983,6 +8002,7 @@ avira-vpn.com
 avira-vpn.net
 aviravpn.help
 avo-vpn.com
+avo-vpn.help
 avo-vpn.ru
 avologin.com
 avopage.com
@@ -8032,8 +8052,12 @@ azzico.com
 azzico.pw
 b-dns.se
 b16c43b3a4aba893962ec9400015aea5.top
+b19d4bf166bb2647cfaa6133b12254c84819a074.com
 b2bwhitelabel.com
+b34a893d847abfcbe20ebde6fee02113afe680d4.com
+b54e52438af9dcc7eb3e4b4dd44e5545411a2779.com
 b78772063930e9c944132eff50bfa9cec07cf356.com
+b9b7099bb27a6ea166072732a91324d6a836ec39.com
 b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space
 babelsnow.com
 badrsgpr.com
@@ -8053,6 +8077,7 @@ baoxue888.online
 bapplinks.com
 barintg.top
 barnabech.fr
+bartvpn.com
 base99.com
 basildo.beer
 bastlipv.com
@@ -8065,6 +8090,7 @@ baxtri.ru
 bazooki-infra.dev
 bbbbb.men
 bcloudv.com
+bcohqwqmvyioqg.xyz
 bd-assets.com
 bdns.im
 bdns.io
@@ -8116,6 +8142,7 @@ bebraaavpn.ru
 bebravpn.app
 bebravpn.biz
 bebravpn.blog
+bebravpn.help
 bebravpn.lol
 bebravpn.mom
 bebravpn.online
@@ -8316,6 +8343,7 @@ bestpanda.net
 bestpartyanimals.com
 bestpojieban.com
 bestprivate.net
+bestproxy.ink
 bestproxy.xyz
 bestpubg.com
 bestpure.net
@@ -8393,6 +8421,8 @@ bestxy.net
 bestyilian.com
 bestyinghu.com
 bestyingyan.com
+bestyouproxytube.com
+bestyoutubeproxy.info
 bestyouxi.net
 bestyouyou.net
 bestyunfan.com
@@ -8413,6 +8443,7 @@ bhkdk.cn
 bhlzibih.cc
 bhpuvkri.com
 bhupygnj.com
+bi-tree.ru
 bichvpn.ru
 bienna.ru
 bigdih.shop
@@ -8539,6 +8570,7 @@ borderlessvpn.io
 bore.pub
 boredomarcade.xyz
 borisov.page
+botclassic.com
 botvpn.help
 botvpntype.com
 bouquetberlin.org
@@ -8672,6 +8704,7 @@ bypasser.us
 bypassfw.com
 bypassip.com
 bypasskey.com
+bypasstunnel.com
 bytebenefit.io
 bytelixir.com
 bytzvpn.com
@@ -8679,8 +8712,11 @@ bzfnngeb.com
 c-dns.com
 c-kailian.com
 c-kuailian.com
+c48afdb0a50939a19a1eb477fa3da3be2aa67e1d.com
+c5325786f0985dd8d1844a9df52874195ecd2887.com
 c6gj-static.net
 c7484e359297.site
+c785b92d703d4ec0ad3f1c05bb54dac886f748e4.com
 cacheflow.cloud
 cacheflow.live
 cachequick.info
@@ -8730,6 +8766,8 @@ careersandjobs.org
 careproxy.com
 carnegle.com
 carpetcouriers.com
+carphone92.com
+cartable92.com
 cashraven.io
 casinovpn.com
 casuary.beer
@@ -8756,6 +8794,7 @@ caveofmythicalseals.life
 caveofmythicalseals.xyz
 caxb1yr7zzggup07pzesgqr.online
 cb.gripe
+cbb8862eb15eea2cc6c1bad3f00a8fc7ef1dae17.com
 cbhb5kzmizfidrmjal.online
 cbr2ozbx.online
 ccave.com
@@ -8827,14 +8866,17 @@ centerheavy.com
 cepinggou.com
 cerun.click
 cevvienb.cc
+cf343b8b96364c015a23155b1e46ed1832b13796.com
 cfdjb.org
 cfigdthx.cc
 cfjldquf.com
 cgahwtlh3.online
 cguviacg.com
+cgwsvqpkllgjo.xyz
 ch-kuailian.com
 chairbook92.com
 chaircar92.com
+chairphone92.com
 chamvpn.com
 chandr1000.net
 changemyip.com
@@ -8866,10 +8908,12 @@ china-letsvpn.com
 chinacitybit.click
 chinagrows.com
 chinapeopleinfo.com
+chinapolymetallic.com
 chinastoryshop.com
 chinese-kl.com
 chinese-lets.com
 chips.run
+chjwhpcwibbsoz.xyz
 chkttzrt.com
 chlaebi.info
 chnroute.com
@@ -8905,12 +8949,14 @@ cjwhahqi.com
 cknzusrx.cc
 clash-mi.org
 clash-party.org
+clashappx.com
 clashforandroid.org
 clashforwindows.org
 clashgithub.com
 clashgui.com
 clashios.com
 clashnyanpasu.org
+clashrs.com
 clashsubs.com
 clashverge.org
 clashvergerev.org
@@ -8932,7 +8978,9 @@ clickwork7secure.com
 cliffschools.org
 clkcsxwl.cc
 clmvip.com
+cloaker.ca
 cloaker.us
+cloakpoint.com
 cloakvpn.com
 clorvan.ru
 closetruth.date
@@ -8963,6 +9011,7 @@ cn-app-kuailian.com
 cn-kailian.com
 cn-klvpn.com
 cn-kuailian.cn
+cn-kuailian.org
 cn-letsvpnapp.com
 cn-nord.info
 cn-pc-kuailian.com
@@ -8971,6 +9020,7 @@ cnlrdoxd.com
 cns-kuailian.cn
 cns-kuailian.com
 cns-kuailian.net
+cnusxumyiiw.xyz
 cnwangluo.net
 co-kuailian.com
 co2wr.co
@@ -9005,6 +9055,7 @@ competemine.com
 compsci.college
 computercar92.com
 computerphone92.com
+computertable92.com
 comss.one
 conceptpride.com
 config-24.com
@@ -9044,6 +9095,7 @@ courtesytell.life
 covering.run
 coverproxy.com
 covertheorange.com
+covertproxy.com
 covpn.mom
 covwskpb.cc
 cppcoding.site
@@ -9065,6 +9117,7 @@ criarssh.com
 crieewy.cn
 crimson-latch.com
 cristianocosta.me
+crossorigin.me
 crosswall.cc
 crownproxy.com
 crownrealty.org
@@ -9075,6 +9128,8 @@ croxy.org
 croxy.red
 croxy.rocks
 croxy-proxy.com
+croxyproxy.app
+croxyproxy.best
 croxyproxy.com
 croxyproxy.net
 croxyproxy.rocks
@@ -14430,6 +14485,7 @@ rushproxy.com
 rusnet-android.click
 rustynailspace.com
 rusuojiasu.net
+rusvpn.com
 ruvexona.ru
 ruxelo.xyz
 rvpn.ws
