@@ -3503,6 +3503,7 @@ fr33ze.gleeze.com
 kayleesickfern.gleeze.com
 alpha.y.glenwaverleychurches.org
 beta.y.glenwaverleychurches.org
+delta.y.glenwaverleychurches.org
 dns.glf.wtf
 dns.api.globus.org
 dns.api.preview.globus.org
@@ -9144,6 +9145,7 @@ crypticvpn.com
 crypto.sx
 crypto-college.cc
 crypto2049.store
+cryptohippie.com
 cryptostorm.is
 cryptovpn.com
 cryptroute.com
@@ -9209,6 +9211,7 @@ czwrlqpta.com
 d16.net
 d3vy.ru
 d4.re
+d4a6e688b23eaf8458fcc89ce6ec85199eb437bb.com
 d807c4.cn
 dabache.top
 dabai.in
@@ -9219,6 +9222,7 @@ dageyun.info
 dageyun.net
 dageyunpro.com
 dagljcdy.com
+dailyvpn.io
 daishujiasu.club
 daishujiasuapp.com
 daneshvardost.com
@@ -9286,6 +9290,7 @@ demonzero.xyz
 demy.name
 denstro.ru
 departlamb.com
+departsettle.com
 deproxyserver.com
 deqyutix.online
 der-lino.ru
@@ -9306,6 +9311,7 @@ dgloong.com
 dgy02.com
 dgywzc.com
 dialertoserver.com
+dicebolsa.com
 dicefan.com
 dichvusocks.net
 difficultycrossing.org
@@ -9320,6 +9326,7 @@ dingdangnao.com
 dinoo.org
 dinqul.com
 dinuxcloud.com
+dir-proxy.org
 directconnect.fyi
 dirproxy.biz
 dirproxy.net

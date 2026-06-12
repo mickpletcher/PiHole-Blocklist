@@ -40,6 +40,7 @@ centralus-0.in.applicationinsights.azure.com
 centralus-2.in.applicationinsights.azure.com
 centralus-3.in.applicationinsights.azure.com
 chinaeast2-0.in.applicationinsights.azure.cn
+chinaeast3-global.in.applicationinsights.azure.cn
 chinanorth3-0.in.applicationinsights.azure.cn
 eastasia-0.in.applicationinsights.azure.com
 eastus-0.in.applicationinsights.azure.com
@@ -83,12 +84,14 @@ southindia-0.in.applicationinsights.azure.com
 spaincentral-0.in.applicationinsights.azure.com
 swedencentral-0.in.applicationinsights.azure.com
 switzerlandnorth-0.in.applicationinsights.azure.com
+uaenorth-0.in.applicationinsights.azure.com
 uksouth-0.in.applicationinsights.azure.com
 uksouth-1.in.applicationinsights.azure.com
 ukwest-0.in.applicationinsights.azure.com
 usgovarizona-0.in.applicationinsights.azure.us
 usgovvirginia-0.in.applicationinsights.azure.us
 usgovvirginia-1.in.applicationinsights.azure.us
+usgovvirginia-global.in.applicationinsights.azure.us
 westeurope.in.applicationinsights.azure.com
 westeurope-0.in.applicationinsights.azure.com
 westeurope-1.in.applicationinsights.azure.com
@@ -168,6 +171,7 @@ eurppc-word-telemetry.officeapps.live.com
 excel-telemetry.officeapps.live.com
 ffc-excel-telemetry.officeapps.live.com
 ffc-word-telemetry.officeapps.live.com
+fgteu1-word-telemetry-vip.officeapps.live.com
 frc-visio-telemetry.officeapps.live.com
 inc-visio-telemetry.officeapps.live.com
 nexus.officeapps.live.com
@@ -291,7 +295,6 @@ server8.pipe.aria.microsoft.com
 tb.pipe.aria.microsoft.com
 us.pipe.aria.microsoft.com
 collector.azure.microsoft.cloud
-collector.azure.microsoft.scloud
 azurewatson.microsoft.com
 azurewatsontest.microsoft.com
 bingads.microsoft.com
@@ -605,6 +608,7 @@ m365cdn.nelsdf.measure.office.net
 powerpointonline.nelsdf.measure.office.net
 sdwan.measure.office.com
 prod.editor.ads.trafficmanager.net
+ads-msn-com-profile.trafficmanager.net
 adsdk.trafficmanager.net
 agps-location-livenet.trafficmanager.net
 analytics.trafficmanager.net
@@ -612,9 +616,12 @@ hub.analytics.trafficmanager.net
 geo.hub.analytics.trafficmanager.net
 analytics-listener.trafficmanager.net
 beacons.trafficmanager.net
+bingads.trafficmanager.net
+azure.bingads.trafficmanager.net
 azure.bcp.bingads.trafficmanager.net
 azure.tip.bingads.trafficmanager.net
 ch-asimov-leafs-events-data.trafficmanager.net
+collection-location-livenet.trafficmanager.net
 collector-main.trafficmanager.net
 tracker.flightview.com.trafficmanager.net
 events.data.trafficmanager.net
@@ -678,6 +685,7 @@ vstelemetry.trafficmanager.net
 euc-excel-telemetry.wac.trafficmanager.net
 euc-powerpoint-telemetry.wac.trafficmanager.net
 euc-word-telemetry.wac.trafficmanager.net
+eurffc-word-telemetry.wac.trafficmanager.net
 excel-telemetry.wac.trafficmanager.net
 powerpoint-telemetry.wac.trafficmanager.net
 ppc-excel-telemetry.wac.trafficmanager.net
