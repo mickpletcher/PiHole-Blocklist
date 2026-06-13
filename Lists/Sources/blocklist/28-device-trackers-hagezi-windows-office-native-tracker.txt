@@ -134,7 +134,6 @@ g.bing.com
 r.g.bing.com
 raka.bing.com
 c.bingapis.com
-upload.fp.measure.office.com.corp.mmco.int.cardano.com
 exo.nel.measure.office.net.cardano.com
 identity.nel.measure.office.net.cardano.com
 m365cdn.nel.measure.office.net.cardano.com
@@ -692,7 +691,6 @@ ppc-excel-telemetry.wac.trafficmanager.net
 ppc-powerpoint-telemetry.wac.trafficmanager.net
 ppc-word-telemetry.wac.trafficmanager.net
 word-telemetry.wac.trafficmanager.net
-we-events-prod-1.trafficmanager.net
 win-global-asimov-leafs-events-data.trafficmanager.net
 dc.services.visualstudio.com
 h4g3z1-native.winoffice.web.app

@@ -75,6 +75,7 @@ samsung-akcja.e-kei.pl
 samsung.ecorebates.com
 samsung.telemetry.eyeo.com
 ehg-samsungusa.hitbox.com
+ureca.samsungapps.com.ad.mexnet.de
 moai-dev-samsung.com
 www.moai-dev-samsung.com
 samsungcard.sc.omtrdc.net
@@ -122,6 +123,7 @@ event-tracking.samsung.com
 eumarketing.event-tracking.samsung.com
 europe.event-tracking.samsung.com
 marketing.event-tracking.samsung.com
+us.event-tracking.samsung.com
 images.frbusiness.samsung.com
 bldr.mkt.samsung.com
 analytics.mpay.samsung.com
@@ -146,6 +148,7 @@ images.ssbusiness.samsung.com
 bigdata.ssp.samsung.com
 target-us.samsung.com
 samsungacr.com
+log-1.samsungacr.com
 log-config.samsungacr.com
 log-ingestion.samsungacr.com
 log-ingestion-ap2.samsungacr.com
@@ -195,6 +198,7 @@ prderrordumpssm.samsungcloudsolution.net
 diagmon-policy.samsungdm.com
 diagmon-serviceapi.samsungdm.com
 report.gras.samsungdm.com
+us-report.gras.samsungdm.com
 dev-apigw.samsungdmroute.com
 stg-apigw.samsungdmroute.com
 analytics.samsungedo.com
