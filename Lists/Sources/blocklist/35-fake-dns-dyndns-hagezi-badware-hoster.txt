@@ -4,7 +4,6 @@ free.bizhat.com
 24.co.at
 all.co.uk
 thamboli.co.za
-blogspot.com.br
 blogspot.com.es
 kl.com.ua
 zzz.com.ua
@@ -464,7 +463,6 @@ game.lc
 gamer.gd
 gaming.lc
 gearhostpreview.com
-gerentebr.com
 getenjoyment.net
 gg123.vip
 gilde.in
@@ -627,6 +625,7 @@ me.ly
 me-page.com
 medianewsonline.com
 merchats.com
+mindnmagick.com
 mit-wenig-geld.de
 mobi.ps
 mp3.cr
@@ -660,6 +659,7 @@ name.vg
 narod.ru
 neocities.org
 net16.net
+net23.net
 net63.net
 net76.net
 net84.net
@@ -667,6 +667,7 @@ netai.net
 netau.net
 netfast.org
 nethouse.ru
+netii.net
 netne.net
 netten.ru
 netz.tl
@@ -731,7 +732,6 @@ pk.gp
 pktriot.net
 pl.de
 pl.gp
-pl-oferta-id2387942371.top
 planet.tl
 portal.lc
 preview-domain.com
@@ -755,8 +755,6 @@ r-e.kr
 rapidshare.se
 re2.de
 reco.ws
-regruhosting.ru
-reodev.com
 rf.gd
 ro.gp
 royal-host.com
@@ -784,6 +782,7 @@ server.gg
 server.tl
 server2.eu
 server3.eu
+servetown.com
 service.lc
 share.lc
 sharkserve.com
@@ -794,6 +793,7 @@ shopping.hn
 shortenerword.com
 site11.com
 site123.me
+site40.net
 site50.net
 site88.net
 site90.com
@@ -803,7 +803,6 @@ skul.de
 sms.cr
 smsu.io
 solidwebhost.com
-sophiashantidaniel.com
 space.lc
 sport-pro.de
 sportsontheweb.net
@@ -833,7 +832,6 @@ tehno-politen.ru
 tempisite.com
 temporary.site
 temporary-demo.site
-tentbuildingservices.eu
 test.lc
 tggame.xyz
 th.gp
@@ -929,6 +927,7 @@ will-dich.eu
 world.mu
 world-blog.de
 world-store.de
+worldsoffinance.com
 writes.de
 wstd.io
 wtcsites.com
