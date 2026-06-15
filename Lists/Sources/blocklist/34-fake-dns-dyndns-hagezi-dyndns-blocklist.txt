@@ -1429,6 +1429,7 @@ venez.fr
 venez.net
 verymad.net
 viamisoftware.com
+vicinanza.org
 vicp.cc
 vicp.net
 vietnamddns.com
@@ -1449,6 +1450,7 @@ vxe6.net
 wakingmoon.com
 wan64.de
 wanip.ch
+warp9computers.com
 webhop.biz
 webhop.info
 webhop.me
@@ -1477,6 +1479,7 @@ worse-than.tv
 writesthisblog.com
 www1.biz
 wwwhost.biz
+wwwhost.us
 x24hr.com
 x443.pw
 xddns.de

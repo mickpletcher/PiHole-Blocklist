@@ -216,6 +216,7 @@ treezy.com.br
 used.com.ph
 useek.com.au
 vanlifediyfitouts.com.au
+vm88.com.co
 wwon.com.br
 xpol.com.tr
 youlinks.com.au
@@ -602,6 +603,7 @@ go.qb.by
 su.mss.qc.ca
 url.qhon.com
 jobs.qjobsindia.com
+url.quick-social.com
 toweraws.cs.rackspace.com
 qs.rams-app.com
 go.rapid-meta.com
@@ -4754,6 +4756,7 @@ lef.link
 lego.build
 leica.gs
 leitup.com
+lejumo.com
 lekale.me
 lelien.de
 lelink.in
@@ -8252,6 +8255,7 @@ taklo.me
 talinker.com
 tam.fyi
 tamar.is
+tampz.com
 tamthangnam.life
 tandcsurf.com
 tanitkazan.com
@@ -8260,6 +8264,7 @@ tao.mba
 tap.kr
 tapetco.vn
 taplink.cc
+tapm.ee
 tapme.ink
 tapmy.app
 tappyurl.com
@@ -8296,6 +8301,7 @@ tdy.sg
 teachselfgov.com
 teamenoch.co
 teamthrows.design
+tebar.in
 techigro.com
 techind.co
 techshort.co
@@ -8455,6 +8461,7 @@ tiny.ae
 tiny.cc
 tiny.do
 tiny.ee
+tiny.ie
 tiny.lt
 tiny.ms
 tiny.one
@@ -8469,6 +8476,7 @@ tiny-links.com
 tiny-links.net
 tiny-url.me
 tiny1z.com
+tiny4t.com
 tinyard.co
 tinyarro.ws
 tinybit.cc
@@ -8476,6 +8484,7 @@ tinybro.com
 tinycc.com
 tinycut.in
 tinycut.io
+tinyel.com
 tinyerz.com
 tinyfy.io
 tinyfy.me
@@ -8505,6 +8514,7 @@ tinytome.io
 tinyuri.com
 tinyurl.com
 tinyurl.dev
+tinyurl.direct
 tinyurl.ee
 tinyurl.hu
 tinyurl.mobi
@@ -8513,6 +8523,7 @@ tinyurl.ph
 tinyurl.rest
 tinyurl.rocks
 tinyurl.se
+tinyurl.win
 tinyurlforbusiness.com
 tinyurll.io
 tinyurls.biz
@@ -8537,6 +8548,7 @@ tiy.be
 tj.wtf
 tkla.be
 tklinknow.com
+tklinks.com
 tkno.co
 tkopod.co
 tkpd.me
@@ -8555,6 +8567,7 @@ tlmv.ca
 tlot.cc
 tlrd.pl
 tlrk.it
+tls.tc
 tls.yt
 tlsn.io
 tlsurl.com
@@ -8620,6 +8633,7 @@ toolbites.com
 toolboxdaily.com
 toolify.link
 toolking.net
+toolkingo.com
 toolong.info
 toolsfox.com
 toolspivot.com
@@ -8657,6 +8671,7 @@ tpt.one
 tr.ee
 tr.im
 tr.link
+tr.my
 tr1.pw
 traceurl.com
 track-tag.com
@@ -8711,6 +8726,7 @@ trimuly.com
 trimurl.co
 trimurls.com
 trisula88short.xyz
+tritri.my
 trizlink.com
 trk24.com
 trkr.ws
@@ -8774,6 +8790,7 @@ tts.sh
 ttt.onl
 tu4.me
 tuasy.com
+tuch.club
 tuch.marketing
 tuckers.link
 tufts.au
@@ -8794,6 +8811,7 @@ tuskqr.com
 tusviralesc.us
 tvdg.io
 tvote.org
+tvoy-link.ru
 tvss.jp
 tvurl.cn
 tw.sv
@@ -8892,6 +8910,7 @@ ukf.me
 ukoeln.de
 ul.rs
 ul.to
+ul3.ir
 uldox.com
 ulnk.app
 ultimateaderaser.com
@@ -8940,6 +8959,7 @@ uom.link
 uorbursarysupport.com
 uos.cc
 up.to
+updating.me
 upld.in
 uplifter.ai
 upmchp.us
@@ -9002,6 +9022,7 @@ url28x.com
 url2a.site
 url2go.pro
 url2s.com
+url2xx.com
 url302x.icu
 url302x.top
 url36x.com
@@ -9028,13 +9049,16 @@ url88.online
 url8x.com
 urla.ru
 urladda.com
+urlah.com
 urlao.com
 urlaz.com
 urlb.link
 urlbae.com
 urlbee.site
+urlbind.com
 urlbit.co
 urlbit.io
+urlbit.online
 urlbit.pro
 urlbity.com
 urlbox.cc
@@ -9062,8 +9086,10 @@ urlenco.de
 urlers.com
 urles.us
 urless.com
+urlex.org
 urlf.cc
 urlfile.xyz
+urlfirm.com
 urlflea.com
 urlforyou.com
 urlfy.pro
@@ -9107,6 +9133,7 @@ urllink.me
 urllinker.com
 urllix.com
 urlm.net
+urlmama.com
 urlme.cc
 urlme.ru
 urlme.us
@@ -9117,6 +9144,7 @@ urlno.com
 urlnova.com
 urlo.in
 urlo12x.com
+urlot.com
 urlpi.com
 urlplus.net
 urlpoints.com
@@ -9124,12 +9152,14 @@ urlq.com
 urlr.me
 urlra.com
 urlro.com
+urlrox.com
 urlroxx.com
 urlrw.com
 urls.ae
 urls.by
 urls.direct
 urls.fr
+urls.ie
 urls.kr
 urls.ovh
 urls.to
@@ -9154,11 +9184,13 @@ urlshortener.biz
 urlshortener.bnpparibas
 urlshortener.pro
 urlshortener.site
+urlshortenerking.com
 urlshortenertool.com
 urlshortenervip.com
 urlshortenerx.com
 urlshortly.com
 urlshortn.com
+urlshortner.at
 urlshortner.org
 urlshortx.com
 urlshortx.io
@@ -9186,6 +9218,8 @@ urltrax.com
 urltronic.com
 urltta.top
 urlttb.top
+urlty.cc
+urlty.co
 urlunicorn.com
 urluno.com
 urlvanish.com
@@ -9199,6 +9233,8 @@ urlxray.com
 urly.co
 urly.fi
 urly.pro
+urlys.one
+urlys.pro
 urlyshort.pro
 urlyte.com
 urlyy.com
@@ -9357,6 +9393,7 @@ vip-gacha99.info
 vip123.biz
 vipb.io
 vipcair.click
+vipgacor77.net
 vipjus.click
 viplink.us
 vipp.link
@@ -9369,8 +9406,11 @@ viralblade.com
 viraln.co
 viralpep.com
 virl.com
+virl.me
+visionia.site
 visit.my
 visit.st
+visit2earn.com
 visitmy.link
 visitmylinks.com
 visitsitenow.com
@@ -9392,6 +9432,7 @@ vlnq.in
 vloggi.com
 vloglo.com
 vlug.link
+vm88bet.org
 vms.bz
 vn.run
 vndr.tech
@@ -9450,6 +9491,7 @@ vypij.bar
 vyr.me
 vytext.com
 vz.to
+vzturl.com
 w.app
 w.wiki
 w09.ru
@@ -9510,6 +9552,7 @@ wdsh.rs
 we.co
 we.pe
 we.tl
+we-shop.xyz
 weall.vote
 weare.rs
 weareja.org
@@ -9523,6 +9566,7 @@ webi.li
 webinfos.info
 webixcard.me
 weblink.biz
+webmienphi.net
 webn.in
 webproject.pt
 webrc.net
@@ -9598,6 +9642,7 @@ wit.to
 withtask.com
 witly.online
 wiwir.cc
+wjcf.co
 wkf.ms
 wkpwr.be
 wl.co
@@ -9624,6 +9669,7 @@ wor.ai
 work.ink
 worldpay.live
 worrysolve.com
+wounofoarausooy.net
 wow.doctor
 wow.link
 wowo.kids
@@ -9655,6 +9701,7 @@ wso.li
 wssurl.com
 wsurl.link
 wtc.la
+wtfurl.com
 wu.cz
 wu.vc
 wun.io
@@ -9698,6 +9745,7 @@ xbitly.com
 xboys.online
 xbrch.com
 xbx.lv
+xcard.id
 xcrl.us
 xdomain.io
 xdu.me
@@ -9714,6 +9762,7 @@ xfru.it
 xgam.es
 xgd.in
 xi.ht
+xib.me
 xify.co
 xinghua.plus
 xiqi.us
@@ -9783,6 +9832,7 @@ xxuse.com
 xxxdwz.cc
 xxxdwz.co
 xxxdwz.com
+xxxdwz.pro
 xxxl.ink
 xy.ar
 xy2.eu
