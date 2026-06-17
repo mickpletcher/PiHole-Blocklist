@@ -25849,6 +25849,9 @@ webflow.safegraph.com
 data.safegraph.com
 link.safegraph.com
 service2.safegraph.com
+go.safegraph.com
+self-serve-api-logger.safegraph.com
+arcgis.safegraph.com
 placed.com
 www.placed.com
 affiliate.placed.com
@@ -65402,6 +65405,7 @@ app-staging.staging.sprig.com
 app-qa25.qa25.sprig.com
 qa50.qa50.sprig.com
 a.sprig.com
+mcp.sprig.com
 kong-admin.staging.sprig.com
 kong.qa99.sprig.com
 app-qa50.qa50.sprig.com
@@ -74738,3 +74742,14 @@ jalebistats.moonfroglabs.com
 jalebiuser.moonfroglabs.com
 events.moonfroglabs.com
 click.inc42.com
+origin-dev-xcmetrics-backend.ns.paramount.tech
+chinougoo.cfd
+go2bank-verify.store
+go2bank-verify.org
+go2bank-verify.online
+go2bank-verify.com
+fidelitybankaccount.com
+analytics02.aptoide.com
+analytics.aptoide.com
+aptoide-mmp-stats.dev.aptoide.com
+aptoide-mmp-stats.aptoide.com

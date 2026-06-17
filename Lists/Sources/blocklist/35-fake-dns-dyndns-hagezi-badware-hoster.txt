@@ -16,9 +16,11 @@ zzz.com.ua
 3-89-181-9.cprapid.com
 sitebeat.crazydomains.com
 members.domaindlx.com
+ping.fb-cdn.net
 blink.hirebiz.com
 adlinkfly.mightyscripts.xyz
 mightyurl.mightyscripts.xyz
+vpn.net.br
 qr.nikastic.com
 24.org.es
 goo-gl.ru.com
@@ -122,6 +124,7 @@ ishg.za.com
 351.at
 36f.de
 3blogger.com
+3d-ul.ir
 3ya.de
 4.je
 42t.com
@@ -224,6 +227,7 @@ az.gp
 azl.one
 b.gp
 b2b.lc
+b51.tw
 bakoweb.com
 ballern.de
 bappy.com
@@ -261,6 +265,7 @@ blogspot.ae
 blogspot.am
 blogspot.ba
 blogspot.be
+blogspot.bg
 blogspot.ca
 blogspot.ch
 blogspot.cz
@@ -302,6 +307,7 @@ byethost.com
 byethost11.com
 byethost12.com
 byethost13.com
+byethost14.com
 byethost17.com
 byethost18.com
 byethost3.com
@@ -373,6 +379,7 @@ corolain.ru
 craftum.io
 created.app
 creatorlink.net
+crypto-market-world.com
 cryptonight.net
 cs-clan.org
 cstu.io
@@ -409,6 +416,7 @@ digitalzones.com
 dik.si
 dimsolo.com
 diowebhost.com
+dohggte.com
 domain.lc
 doodlekit.com
 dot.tk
@@ -428,6 +436,7 @@ e.gp
 e-docssig.com
 e-kei.pl
 easyfreehosting.com
+eb2a.com
 ec.gp
 ecardalert.com
 ecomplanet.com
@@ -598,6 +607,7 @@ healthyemployee.me
 herobo.com
 hexe.in
 hilfe24h.de
+hiturl.at
 home.lc
 homemarker.com
 homepage.cx
@@ -631,6 +641,7 @@ hyip.com
 hyperphp.com
 i.gp
 i8.ae
+ialert-maps.info
 ibiz.cc
 iblogger.org
 ic0.app
@@ -696,6 +707,7 @@ job.ec
 jp.gp
 ju.mp
 just-allen.com
+just2earn.com
 justicewasgreen.com
 justns.ru
 k.gp
@@ -721,6 +733,7 @@ l.gp
 l4n.org
 l8n5kafm6l.net
 laden.biz
+launchaco.com
 leaguelineup.com
 leechall.com
 leetleech.org
@@ -730,11 +743,14 @@ liebe.lc
 liftmyresume.com
 lihi1.com
 lihi3.cc
+likesyou.org
 link.ac
 linkcyb.org
 linkfast.me
+linkiweb.com
 linkku.me
 links.lc
+linkswave.net
 list-mgmt.com
 littlebyte.net
 live-stream.eu
@@ -764,6 +780,7 @@ mail.ht
 majesticbank.at
 majesticbank.de
 maminforum.com
+martshort.com
 mashstaffing.com
 mdbgo.io
 me.gp
@@ -777,7 +794,9 @@ merchats.com
 microsoftaistories.com
 microsoftfiles.live
 migly.in
+mihanblog.com
 mindnmagick.com
+minilink.nl
 mirorii.com
 mit-wenig-geld.de
 mixturecloud.com
@@ -942,6 +961,8 @@ rcl.ink
 re2.de
 reco.ws
 redirme.com
+regruhosting.ru
+reodev.com
 replug.link
 rf.gd
 risu.io
@@ -955,11 +976,13 @@ rumahweb.org
 runhosting.com
 s.gp
 sa.gp
+santuy.me
 sc.link
 schmust.de
 schoolrack.com
 se.gp
 search.gp
+sebipay.com
 securebankinggroup.com
 securebankinggroup.org
 secureonline.store
@@ -976,6 +999,7 @@ server3.eu
 servetown.com
 service.lc
 share.lc
+shareease.link
 sharkserve.com
 shop.fm
 shop2.de
@@ -1070,6 +1094,7 @@ trend.in
 tribalpages.com
 trim.one
 tripod.com
+turbo.site
 turkish.lc
 tw.gp
 tw1.ru
@@ -1103,6 +1128,7 @@ urest.org
 url1.io
 urlaub.lc
 urle.me
+urlty.cc
 urlyte.com
 us.nf
 us.st
@@ -1142,6 +1168,7 @@ web.gg
 web.pe
 web-chat.eu
 web-clan.de
+web1337.net
 web44.net
 webaccess-alert.com
 webaccess-email.com

@@ -920,7 +920,6 @@ go.zordo.net
 0bs.de
 0i.is
 0ln.eu
-0ln.io
 0o.lv
 0oj.cn
 0rl.cc
@@ -1013,7 +1012,6 @@ go.zordo.net
 1ta.kr
 1tk.us
 1tn.se
-1to3.link
 1ty.me
 1u2.ru
 1un.fr
@@ -1424,7 +1422,6 @@ adshort.click
 adshort.co
 adslinks.site
 adsmoker.com
-adtr.ee
 aduke.bio
 adurly.cc
 adv.li
@@ -1871,7 +1868,6 @@ becakrcg.xyz
 becsn.net
 bee-kz.life
 bee1s.com
-bee4.biz
 beeb.us
 beelnk.com
 beepurl.com
@@ -1939,7 +1935,6 @@ bio.link
 bio.ovh
 bio-links.ru
 bioandlink.com
-biobee.io
 biocardpro.com
 bioclick.net
 biofy.ai
@@ -2466,7 +2461,6 @@ cleanhockinghills.com
 cleanuri.com
 clearstream.io
 cleverlink.pro
-cleverurls.com
 cli.fm
 cli.gs
 cli.re
@@ -2483,7 +2477,6 @@ click-goo.com
 click-myl.ink
 click360.gr
 clickbase.pro
-clickbio.co
 clicke.me
 clickhub.cc
 clicklink.dev
@@ -2506,7 +2499,6 @@ clik.now
 clik.rip
 clikk.in
 clikr.ir
-cliks.co
 clikx.net
 clinkzy.com
 cliow.com
@@ -2545,7 +2537,6 @@ cloudku.click
 cloudradar.net
 cloudshrinker.com
 cloudtechlinks.com
-cloudwapi.site
 clourls.com
 clpr.tn
 clps.app
@@ -2729,7 +2720,6 @@ cuterurlha.xyz
 cuteurl.co
 cuteurl.com
 cutevalues.com
-cutfy.co
 cutit.bid
 cutle.co
 cutli.to
@@ -2777,7 +2767,6 @@ cutx.to
 cutxly.com
 cuty.io
 cutyurl.com
-cutzlnk.cloud
 cvcpl.us
 cvent.me
 cvitko.com
@@ -2882,7 +2871,6 @@ demcon24.com
 demolink.net
 dems.me
 depedzn.net
-descuentoahora.com
 designcommerce.agency
 designrigs.com
 desin.me
@@ -3206,7 +3194,6 @@ emu.li
 enbl.tech
 encurta.ae
 encurtador.net
-encurtar.app
 encurtee.me
 encut.me
 engn.it
@@ -3304,7 +3291,6 @@ ezylnk.com
 ezymanage.net
 ezyurl.co
 ezyurl.net
-f-ast.me
 f-internal.info
 f-n.link
 f0rk.in
@@ -3453,7 +3439,6 @@ flu.yt
 flubber.pro
 flug.marketing
 flumin.pro
-flut.run
 fluub.de
 flx.to
 fly.yt
@@ -3622,7 +3607,6 @@ genzurl.com
 georiot.co
 geotargetly.com
 gera.bio
-geralink.net
 gesit.io
 gesn.it
 gestyy.com
@@ -3654,7 +3638,6 @@ getsmallurl.com
 getsterlink.com
 getthot.com
 gettolink.net
-geturls.net
 getus.at
 gf.to
 gfl2exilium.link
@@ -3930,7 +3913,6 @@ hellotxt.com
 hellowork.life
 helo.ai
 help-on.com
-help-ua.cloud
 helvetqr.ch
 hepsipay.eu
 her.is
@@ -3995,7 +3977,6 @@ hmd.bio
 hmf.li
 hmp.me
 hmt.ai
-hncinnamon.com
 hnd.bio
 hnpa.top
 hnsl.mn
@@ -4612,7 +4593,6 @@ klmf.ly
 klpt.io
 kmcpwe.online
 kmi.mobi
-kmr1.org
 kn-t.net
 knext.in
 knf.md
@@ -4909,7 +4889,6 @@ linkbee.me
 linkbeton.com
 linkbio.ch
 linkbio.co
-linkbio.space
 linkbite.io
 linkbitty.com
 linkbloomer.com
@@ -4958,7 +4937,6 @@ linkfusion.in
 linkgacortexas.org
 linkgizmo.com
 linkgo.live
-linkgol88.com
 linkgqq.org
 linkgue.com
 linkhebat.com
@@ -5076,7 +5054,6 @@ linksc.click
 linkscop.me
 linksdr.com
 linksdude.com
-linksehat.net
 linkseo.live
 linksero.com
 linksfire.net
@@ -5130,7 +5107,6 @@ linktgd.net
 linkthis.link
 linkti.mx
 linkto.eu
-linktoearn.net
 linktop.site
 linktr.ee
 linktrack.app
@@ -5223,7 +5199,6 @@ llu.ch
 lmcjl.com
 lmddgtfy.net
 lmg.gg
-lmg9.com
 lmt.co
 lmt.sh
 lmy.de
@@ -5675,7 +5650,6 @@ ml.mk
 ml.my
 mlab-park.org
 mlc-wels.edu
-mlink.tw
 mllej.com
 mlnk.vn
 mlog.news
@@ -5712,7 +5686,6 @@ moomusic.co
 moonlinks.in
 moourl.com
 moovit.me
-mooxi.io
 more.sh
 moreluck.xyz
 morimo.info
@@ -5856,7 +5829,6 @@ myplansignup.com
 myporn.link
 mypoya.com
 myppt.cc
-myprivateproxies.org
 myqlixellink.com
 myqrcode.mobi
 myrxbmember.info
@@ -5976,7 +5948,6 @@ nfw.cz
 ng.je
 ngers.org
 nghub.net
-nglink.id
 ngrid.com
 ngshortx.com
 nguyenphucgialinh.com
@@ -6004,7 +5975,6 @@ nja.im
 njersy.co
 njfl.ink
 njit.gg
-njqeooqq.fun
 nkbp.jp
 nkf.re
 nkisa.link
@@ -6219,7 +6189,6 @@ opkale.me
 opli.xyz
 oplink.club
 opn.my
-oporajitashop.com
 opportunityonlinebusiness.com
 opr.as
 opr.news
@@ -6408,10 +6377,8 @@ pgrs.in
 pgto.net
 ph.ly
 ph88.link
-phaiphai.life
 philips.to
 philthefire.com
-phimhdx.live
 phst.in
 phuongso.com
 phygo.io
@@ -6452,7 +6419,6 @@ pj.pizza
 pjps.to
 pke.to
 pkg.pw
-pkv.li
 pkvg.link
 placesunknown.art
 pladollmo.com
@@ -6624,7 +6590,6 @@ putar.win
 puugs.com
 puulp.it
 puxt.cc
-pvurl.xyz
 pwc.to
 pwgo.to
 pws1ooo.xyz
@@ -7055,7 +7020,6 @@ rstr.me
 rt.se
 rtc.la
 rtk.tools
-rtr.sh
 rtube.nl
 rtvote.com
 rtxt.co
@@ -7144,7 +7108,6 @@ samnill.com
 san.aq
 sangamtalks.com
 sanilac.gives
-santuy.fun
 santuy.me
 sany.co
 sap.yt
@@ -7254,7 +7217,6 @@ seka.li
 sekb.net
 selalu.me
 selfhostedsecurity.com
-selfurl.xyz
 selink.top
 selnd.com
 semua2ada.com
@@ -7312,7 +7274,6 @@ sharelinkpro.com
 sharem.tech
 sharepointshorturl.com
 sharetabs.com
-shareurl.io
 shareus.io
 shareyou.link
 shatu.nl
@@ -7389,7 +7350,6 @@ short-url.run
 short1.link
 short1.org
 short24.pw
-short2cut.com
 short4fly.com
 short4me.io
 shortaro.com
@@ -7496,7 +7456,6 @@ shortl.net
 shortlab.bio
 shortlinc.com
 shortlink.ad
-shortlink.click
 shortlink.cz
 shortlink.gr
 shortlink.is
@@ -7526,7 +7485,6 @@ shortly.cc
 shortly.click
 shortly.cyou
 shortly.im
-shortly.ro
 shortly.sx
 shortlyfi.com
 shortlync.com
@@ -7570,7 +7528,6 @@ shortslinks.com
 shortslinks.site
 shortstat.com
 shortster.net
-shortsurl.at
 shortsurl.site
 shortswitch.com
 shortsy.pro
@@ -7711,7 +7668,6 @@ shrturl.com
 shrturl.io
 shrturl.site
 shrturll.com
-shrtx.pro
 shrtxb4d.live
 shrtxtus.wiki
 shrty.eu
@@ -7752,7 +7708,6 @@ sieduc.digital
 siehe.eu
 sifu.im
 sigboms.com
-sigdp.io
 sigshort.com
 siguiente.link
 sikencang.com
@@ -7761,7 +7716,6 @@ sikk.de
 siklik.id
 silfraphotos.is
 silvagiris.com
-simatso.site
 simgr.id
 simonclaussen.com
 simp.ly
@@ -7776,7 +7730,6 @@ sinkto.link
 sinourl.tw
 sinyi.biz
 sinyi.in
-sipetir.pro
 siracacl.com
 siracacl.de
 siriusxm.us
@@ -7785,7 +7738,6 @@ siteco.re
 sitedetour.com
 sitegpl.com
 sites.kr
-siteu.net
 siteurl.ink
 sitioz.com
 situsslotzeus.store
@@ -7842,7 +7794,6 @@ slnk.se
 slot633.gg
 slotamina.com
 slpre.com
-slptr.com
 slslink.com
 slugy.co
 sly.be
@@ -7942,7 +7893,6 @@ sniplink.co
 sniplnk.co
 sniply.io
 sniply.me
-sniplytics.com
 snipmojo.com
 snipp.dev
 snipqr.com
@@ -8042,7 +7992,6 @@ sqrx.io
 squ.re
 squadgen.com
 squarejawmedia.com
-squeez.org
 squeezelinks.com
 squid.us
 sqzr.cz
@@ -8664,7 +8613,6 @@ toyota.us
 tpaper.my
 tpc.io
 tpishz.net
-tpm.ac
 tpmr.com
 tprk.us
 tpt.one
@@ -8799,7 +8747,6 @@ tulinks.online
 tulip.app
 tunepit.net
 tunl.link
-tunprlo.com
 turboagram.com
 turlt.com
 turlw.com
@@ -9521,7 +9468,6 @@ walkjc.org
 wall.sh
 waltersauto.net
 wangzhanzhubo.com
-wapicome.site
 wapo.st
 wapp.to
 warby.me
@@ -9560,7 +9506,6 @@ weaveen.com
 web99.eu
 webb.in
 webcataloger.com
-webcut.net
 webdevtutor.net
 webi.li
 webinfos.info
@@ -9957,7 +9902,6 @@ z20.su
 z23.ru
 z2h.it
 z4sh.com
-z5h.cn
 z6c.de
 z9.fr
 z9n.net
