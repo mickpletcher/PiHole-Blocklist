@@ -74753,3 +74753,7 @@ analytics02.aptoide.com
 analytics.aptoide.com
 aptoide-mmp-stats.dev.aptoide.com
 aptoide-mmp-stats.aptoide.com
+gmslb.net
+safernetwork.io
+tera-home.com
+ninjatech.io

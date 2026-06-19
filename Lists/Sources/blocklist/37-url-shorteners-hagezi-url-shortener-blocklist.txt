@@ -2355,6 +2355,9 @@ cdat.ca
 cdclub.net
 cdcp.io
 cden.co
+cdn-n.net
+cdn-x.net
+cdn-z.net
 cdwus.com
 ce-ism.org
 ce0.net
@@ -5935,6 +5938,7 @@ newpro.io
 newquote.au
 newsfeedph.info
 newss.info
+newswrap.xyz
 nextdrop.bz
 nexturl.in
 nextworm.com
