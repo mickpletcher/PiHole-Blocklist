@@ -39,7 +39,6 @@ ishg.za.com
 000webapp.com
 000webhost.fr
 000webhostapp.com
-000webhotapp.com
 000worldwide.com
 00author.com
 00go.com
@@ -165,7 +164,6 @@ abstellen.de
 abwechslungsreiches.de
 ac6.de
 admarketlocation.com
-aeza.network
 ag.gp
 ag0rcgwjv5.com
 airset.com
@@ -435,7 +433,6 @@ events-games.com
 ewp.live
 exactpages.com
 ez-sites.ws
-ezyro.com
 f11.us
 facebookid.live
 faceboook-app.com
@@ -1063,7 +1060,6 @@ webn.cc
 webnode.com
 webnode.page
 webobo.com
-webpages.one
 webservis.ru
 website.at
 website-home.ws
