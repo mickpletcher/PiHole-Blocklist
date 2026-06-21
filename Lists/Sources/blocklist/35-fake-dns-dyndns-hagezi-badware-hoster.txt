@@ -7,7 +7,6 @@ premiumbyleo.co.cc
 surfblocked.co.cc
 thamboli.co.za
 universitriat.co.cc
-blogspot.com.es
 encurtador.com.br
 kl.com.ua
 webnode.com.pt
@@ -38,7 +37,6 @@ ishg.za.com
 000space.com
 000webapp.com
 000webhost.fr
-000webhostapp.com
 000worldwide.com
 00author.com
 00go.com
@@ -85,7 +83,6 @@ ishg.za.com
 1x7.de
 2.je
 204.at
-20m.us
 24.eu
 24.gg
 24.gp
@@ -113,7 +110,6 @@ ishg.za.com
 3ya.de
 4.je
 42t.com
-42web.io
 433.at
 4everland.app
 4kp.de
@@ -131,7 +127,6 @@ ishg.za.com
 8.je
 81x.com
 85d.de
-89.pl
 89q.sk
 8c8.de
 9.je
@@ -145,7 +140,6 @@ a3n.de
 aa6.de
 aa8.de
 aa9.de
-aba.ae
 aba.vg
 abbremsen.de
 abfertigen.de
@@ -230,7 +224,6 @@ bityl.co
 bitzli.ch
 biz.ps
 biz.tc
-blackapplehost.com
 blatnet.com
 blltly.com
 blog.lc
@@ -239,34 +232,18 @@ blogcheese.com
 bloggt.de
 blogmonster.de
 blogspot.ae
-blogspot.am
 blogspot.ba
 blogspot.be
 blogspot.bg
-blogspot.ca
 blogspot.ch
-blogspot.cz
 blogspot.de
-blogspot.dk
 blogspot.fi
 blogspot.fr
-blogspot.gr
-blogspot.hk
 blogspot.in
-blogspot.it
-blogspot.jp
-blogspot.li
 blogspot.lu
-blogspot.mx
-blogspot.nl
-blogspot.no
 blogspot.org
 blogspot.pt
-blogspot.rs
-blogspot.ru
-blogspot.se
 blogspot.sk
-blogspot.sn
 blogspot.tw
 bo.gp
 boxmode.io
@@ -359,7 +336,6 @@ d.gp
 d3l.de
 da.cx
 daftpage.com
-dailyuploads.net
 dardarkom.com
 ddl2.pl
 de.cm
@@ -399,7 +375,6 @@ ecomplanet.com
 edgeone.app
 edgeone.dev
 edoctransfer.com
-edu.eu
 educatorpage.com
 educatorpages.com
 efacturas.net
@@ -762,7 +737,6 @@ newmail.ru
 nexmicrosystems.com
 nicepage.io
 nichesite.org
-nip.io
 nl.gp
 nl.kg
 noads.biz
@@ -1051,7 +1025,6 @@ web-clan.de
 web1337.net
 webaccess-alert.com
 webaccess-email.com
-webador.com
 webblog24.de
 webboss.site
 webcindario.com
