@@ -37,6 +37,7 @@ ishg.za.com
 000space.com
 000webapp.com
 000webhost.fr
+000webhotapp.com
 000worldwide.com
 00author.com
 00go.com
@@ -127,6 +128,7 @@ ishg.za.com
 8.je
 81x.com
 85d.de
+89.pl
 89q.sk
 8c8.de
 9.je
@@ -158,6 +160,7 @@ abstellen.de
 abwechslungsreiches.de
 ac6.de
 admarketlocation.com
+aeza.network
 ag.gp
 ag0rcgwjv5.com
 airset.com
@@ -375,6 +378,7 @@ ecomplanet.com
 edgeone.app
 edgeone.dev
 edoctransfer.com
+edu.eu
 educatorpage.com
 educatorpages.com
 efacturas.net
@@ -408,6 +412,7 @@ events-games.com
 ewp.live
 exactpages.com
 ez-sites.ws
+ezyro.com
 f11.us
 facebookid.live
 faceboook-app.com
@@ -1033,6 +1038,7 @@ webn.cc
 webnode.com
 webnode.page
 webobo.com
+webpages.one
 webservis.ru
 website.at
 website-home.ws
