@@ -1062,7 +1062,6 @@ go.zordo.net
 2link.cc
 2link.in
 2ly.link
-2m.is
 2my.info
 2no.co
 2nu.gs
@@ -6769,7 +6768,6 @@ rbxurl.pro
 rch.lt
 rcknr.io
 rckstr.bz
-rcl.ink
 rcld.io
 rd.gt
 rd-client.com

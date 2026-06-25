@@ -3,10 +3,8 @@ free.bizhat.com
 123freehost.co.uk
 24.co.at
 all.co.uk
-premiumbyleo.co.cc
 surfblocked.co.cc
 thamboli.co.za
-universitriat.co.cc
 blogspot.com.br
 blogspot.com.es
 encurtador.com.br
@@ -20,6 +18,7 @@ members.domaindlx.com
 blink.hirebiz.com
 adlinkfly.mightyscripts.xyz
 mightyurl.mightyscripts.xyz
+vpn.net.br
 qr.nikastic.com
 24.org.es
 goo-gl.ru.com
@@ -33,7 +32,6 @@ ishg.za.com
 000.pe
 000a.de
 000free.us
-000space.com
 000webapp.com
 000webhost.com
 000webhost.fr
@@ -112,9 +110,7 @@ ishg.za.com
 2h.ae
 2itb.com
 2kool4u.net
-2m.is
 2no.co
-2shared.com
 310.at
 350.com
 351.at
@@ -199,7 +195,6 @@ anschauen.in
 anschiessen.de
 anyhub.net
 appbitly.com
-appwrite.network
 ar.gp
 arcadepages.com
 arrangiert.de
@@ -258,6 +253,7 @@ blogspot.ae
 blogspot.am
 blogspot.ba
 blogspot.be
+blogspot.bg
 blogspot.ca
 blogspot.ch
 blogspot.cz
@@ -276,6 +272,7 @@ blogspot.mx
 blogspot.nl
 blogspot.no
 blogspot.org
+blogspot.pl
 blogspot.pt
 blogspot.rs
 blogspot.ru
@@ -299,6 +296,7 @@ byethost.com
 byethost11.com
 byethost12.com
 byethost13.com
+byethost14.com
 byethost17.com
 byethost18.com
 byethost3.com
@@ -313,6 +311,7 @@ bz.tc
 c.pl
 ca.gp
 cbkgardens.com
+ccwu.cc
 cebol.me
 center.tl
 ch.gp
@@ -375,7 +374,6 @@ cs-clan.org
 cstu.io
 ct.ws
 ct8.pl
-ctempurl.com
 cut.vin
 cutedrive.com
 cwqso.net
@@ -674,7 +672,6 @@ is-great.net
 is-great.org
 ispot.cc
 ist-ok.de
-it.gg
 it.gp
 it-security-group.com
 it-support-group.com
@@ -698,6 +695,7 @@ justns.ru
 k.gp
 k1.cx
 kann-helfen.de
+keepo.bio
 kesug.com
 kilu.at
 kilu.biz
@@ -718,6 +716,7 @@ l.gp
 l4n.org
 l8n5kafm6l.net
 laden.biz
+launchaco.com
 leaguelineup.com
 leechall.com
 leetleech.org
@@ -730,7 +729,6 @@ lihi3.cc
 link.ac
 linkcyb.org
 linkfast.me
-linkku.me
 links.lc
 list-mgmt.com
 littlebyte.net
@@ -774,6 +772,7 @@ merchats.com
 microsoftaistories.com
 microsoftfiles.live
 migly.in
+mihanblog.com
 mindnmagick.com
 mirorii.com
 mit-wenig-geld.de
@@ -789,13 +788,13 @@ musik.lc
 mx.gp
 my.gp
 my-board.org
+my-free.website
 my-place.us
 my-style.in
 my3gb.com
 my5353.com
 myartsonline.com
 mybb.pw
-mybb.rocks
 myblogvoice.com
 mybluehost.me
 mybluehostin.me
@@ -847,7 +846,6 @@ npx.de
 ns.hn
 nsfera.pl
 nut.cc
-nxcli.io
 o.gp
 o-f.com
 o-r.kr
@@ -866,7 +864,6 @@ online.gp
 online.ly
 online.tc
 online-net.de
-onlineweb.shop
 onlinewebshop.net
 only4u.eu
 onmbl.com
@@ -907,7 +904,6 @@ pl-oferta-id2387942371.top
 planet.tl
 plu.sh
 portal.lc
-portmap.host
 preview-domain.com
 primetap.com
 privat.lc
@@ -916,6 +912,8 @@ pro.vg
 pro3.de
 profis.info
 profreehost.com
+psce.pw
+psee.io
 psend.com
 pt.gp
 pt.kg
@@ -936,7 +934,6 @@ r-e.kr
 rapidshare.com
 rapidshare.de
 rapidshare.se
-rcl.ink
 re2.de
 reco.ws
 redirme.com
@@ -960,8 +957,10 @@ schmust.de
 schoolrack.com
 se.gp
 search.gp
+sebipay.com
 securebankinggroup.com
 securebankinggroup.org
+secureonline.store
 seite.com
 seite.info
 seite.ru
@@ -1036,7 +1035,6 @@ team.cx
 team.tl
 teamzonesports.com
 tehno-politen.ru
-tek-blogs.com
 teleporthq.app
 tempisite.com
 temporary.site
@@ -1069,6 +1067,7 @@ trend.in
 tribalpages.com
 trim.one
 tripod.com
+turbo.site
 turkish.lc
 tw.gp
 tw1.ru
@@ -1129,6 +1128,7 @@ voellig-daneben.de
 vollidiot.net
 vollsten.de
 voten.in
+vuzelia.com
 vz.lc
 w3spaces.com
 wapka.club
@@ -1175,7 +1175,6 @@ world.mu
 world-blog.de
 world-store.de
 worldsoffinance.com
-wox.cc
 writes.de
 wstd.io
 wtcsites.com
