@@ -97,6 +97,7 @@ soundcore.co.at
 speedos.co.at
 staud.co.at
 superdry.co.at
+talvurieks-official.co.at
 teddith.co.uk
 timbuk2.co.at
 uggs.co.at
@@ -3969,6 +3970,7 @@ deinenergieplan.de
 deinetierliebe.de
 deinhandwerkershop.de
 deinheizoel.de
+deini.com
 deinliebesmensch.de
 deinlieblingstier.co
 deinmodetrends.com
@@ -6680,7 +6682,6 @@ groundiesdeutsch.de
 groundiesoutlet.de
 groundiesschoenennederland.com
 groundiesshop.at
-groundiesukshoes.com
 group-investment.com
 group-rwe.de
 groupebinary.com
@@ -6972,6 +6973,7 @@ haustieralles.com
 haustierbedarfshop.com
 haustiererabatt.com
 haustiereshop.com
+haustierstolz.de
 haustirwelten.de
 hausture.com
 hausundgarten.haus
@@ -13764,6 +13766,7 @@ skiracedepartment.com
 skirt-discount-store.shop
 skispeichern.com
 skisurfskate.com
+skisurfsports.com
 skometa.com
 sktoolsworkshop.com
 sky-trikot-shop.de
@@ -14614,6 +14617,12 @@ talerkaffee.de
 talkbuds.de
 tallerfelix.com
 talvurieks.at
+talvurieks.com
+talvurieks.org
+talvurieks-ai.at
+talvurieks-austria.at
+talvurieks-official.net
+talvurieks-official-at.com
 tamarisoutlet.com
 tambaro.de
 tandexo.com
@@ -15568,6 +15577,9 @@ urhenwchmuckrosel.de
 urnsey.shop
 ursime.com
 ursulam.com
+urvlentoki.com
+urvlentoki-at.com
+urvlentoki-ie.com
 urzadomzone.com
 us-shop.online
 us-supplements.to
