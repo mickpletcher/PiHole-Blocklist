@@ -401,6 +401,7 @@ videyfour.isuaceh.com
 videytwo.isuaceh.com
 clubhouse.it.com
 linkbio.it.com
+yewfjsdi.it.com
 go.itanea.fr
 kutt.itarian.com
 qr.itservicebd.com
@@ -1687,6 +1688,7 @@ asmoah.com
 aspen.li
 aspireinstallations.live
 asq.kr
+asset-cdn.dev
 assinar.io
 asso.in
 astag.top
