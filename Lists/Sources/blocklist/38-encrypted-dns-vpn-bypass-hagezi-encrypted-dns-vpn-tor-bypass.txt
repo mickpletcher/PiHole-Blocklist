@@ -60,10 +60,6 @@ t2c.240130034.xyz
 dns.240527.xyz
 college-pathway.rakunan-h.ed.jp.24x7.hk
 educational-site.24x7.hk
-bbcincheecks.26252526.xyz
-quizzesandworksheets.26252526.xyz
-sophie-fulton.26252526.xyz
-when-sophie-gets-angry.26252526.xyz
 doh003.280blocker.net
 skynet.2bsafe.info
 proxy.2d.su
@@ -92,10 +88,8 @@ adg.3k.work
 dns.3wv.de
 dns.4-the.win
 vpn.4-the.win
-904523.404.mn
 ababaershop67thatscostaquartar.404.mn
 notfound-google.404.mn
-speedineedthis7475.404.mn
 doh.42l.fr
 bannana.web-doge.42web.io
 ns1.4netguides.org
@@ -136,7 +130,6 @@ dns19.854000.xyz
 tyo.883933770.xyz
 dns.886886886.xyz
 dns.888654.xyz
-dns.890806.xyz
 rammerhead.8bit.ca
 tatakai001.8bit.ca
 arts.field.8tb.net
@@ -273,7 +266,6 @@ resolver3.absolight.net
 ajlxwk4kedu5.absq.ch
 pebdbvi58gbc.absq.ch
 block.abstergo.it
-doh.iucc.ac.il
 adguard1.unima.ac.id
 adguard2.unima.ac.id
 open-resolver1.unima.ac.id
@@ -303,11 +295,9 @@ dns-unfiltered.adguard.com
 dns.adguarddns.com
 family.adguarddns.com
 unfiltered.adguarddns.com
-dashboard.adidasnmdcitysock.com
 dns.adnull.com
 dns.adrianlam.com
 adguard.adrianofrongillo.ovh
-drive.google.com.adultboss.pl
 y3suyx0cg2lewi2dmn.advaitghaisas.in
 builtlikearat.advanced-orchestra.site
 tetra.aeins.at
@@ -353,10 +343,7 @@ httpdns-api.aliyuncs.com
 httpdns-sc.aliyuncs.com
 fgsdhfch.allenbarnes.com
 interesting.allintime.space
-6767676767676767676162.allisons.org
 676767676767676767616864.allisons.org
-67676767676767676762.allisons.org
-cool67.allisons.org
 fern2.allisons.org
 fern3.allisons.org
 fern4.allisons.org
@@ -423,7 +410,6 @@ xv-client-json-configuration.s3.us-east-1.amazonaws.com
 dsl-app.s3.us-east-2.amazonaws.com
 innov-windows.s3.us-east-2.amazonaws.com
 commandedurchin.amber-cypress.com
-jobixtetoyuri.ames.website
 dns.amigo-mgn.ru
 adguard.aminetwork.biz
 blog2.amlegion.org
@@ -7399,7 +7385,6 @@ dns.zzuhacker.cn
 55780358.xyz
 55aktnolkvuoctxitm.online
 55gms.com
-55gms.store
 55laomao.com
 57824.com
 583838.xyz
@@ -7467,7 +7452,6 @@ dns.zzuhacker.cn
 8wgohwr.online
 9184e7e5d684dc56def4c6186122231660620807.com
 91ftq.com
-91vpn02.cfd
 91zfdao.com
 9249c7687ddbc42eb7167e0e9030ef06b9528c98.com
 935a0c6f55dc46d2dcf2522c4d8bd546.top
@@ -7700,7 +7684,6 @@ adguardvpn.lol
 admir21.ru
 adresseip.com
 adsimix.com
-adslimit.info
 adsnexage.com
 adsnzebv.com
 adsoasis.xyz
@@ -7738,7 +7721,6 @@ aibuddytech.com
 aicx99.shop
 aihe.app
 aiiaguli.info
-ailivechatweb.com
 ailogogenerator.top
 ainavigate.app
 aioz.network
@@ -7847,7 +7829,6 @@ andyvpn.cc
 angdwml6.com
 angelvpn.com
 angrysky.ru
-anhphamhn82.uk
 animeproxy.net
 aniscartujo.com
 anixlab.com
@@ -7855,7 +7836,6 @@ anker-beton.ru
 annual2025.uk
 ano404.top
 anol.loan
-anomivpn.com
 anonine.com
 anonto.pw
 anonvpn.io
@@ -7892,7 +7872,6 @@ aox666.com
 aox777.xyz
 aoxblog.com
 aoxera.xyz
-aoxinvite.com
 aoxjiasu.com
 aoxjsq666.com
 aoxlink.com
