@@ -1636,7 +1636,6 @@ appna.me
 appp.fyi
 appscross.com
 appsfly.co
-appsko.ca
 appurl.io
 appwhats.in
 apsense.cc
@@ -1751,7 +1750,6 @@ aws3-demo.link
 aww.al
 awwurl.com
 awy.to
-axees.ir
 axiom.link
 axios.link
 axo.li
@@ -2149,7 +2147,6 @@ brg.mobi
 bridg.ee
 bridge.dev
 brief.ly
-briefbyte.online
 briefen.me
 brightestbeginning.me
 brightscanr.com
