@@ -148,7 +148,6 @@ images.ssbusiness.samsung.com
 bigdata.ssp.samsung.com
 target-us.samsung.com
 samsungacr.com
-log-1.samsungacr.com
 log-config.samsungacr.com
 log-ingestion.samsungacr.com
 log-ingestion-ap2.samsungacr.com
@@ -165,6 +164,7 @@ ww25.ad.samsungadhub.com
 www.samsungadhub.com
 samsungads.com
 ad-server.samsungads.com
+ad-tracker.samsungads.com
 ads.samsungads.com
 api-dooh.samsungads.com
 config.samsungads.com
@@ -172,6 +172,7 @@ dsp.samsungads.com
 events.samsungads.com
 go.samsungads.com
 go2.samsungads.com
+privacy-backend.samsungads.com
 rtb-config.samsungads.com
 tvp-ads-log.samsungads.com
 tvp-ads-log-staging.samsungads.com
