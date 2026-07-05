@@ -79,7 +79,6 @@ artist.blanchtrap.com
 ai.blendnow.com
 s.block183.net
 talk.bloomup.org
-ro.blox.com
 shortener.blueeyestech.com
 tu.bongobd.com
 cdl.booksy.com
@@ -3282,7 +3281,6 @@ fa.by
 fa.gd
 fa-st.co
 facebookid.live
-facebookprofiles.com
 faceboook-app.com
 fadurl.com
 fal.cn
@@ -3304,7 +3302,6 @@ fastjpeg.net
 fastserp.com
 fastslinks.site
 fasttory.com
-fasturl.link
 fattoincasadabenedetta.link
 faturl.com
 fav.me
@@ -3362,7 +3359,6 @@ findmylink.org
 finy.me
 fire.to
 firefone.com
-firelinks.site
 firsturl.de
 firsturl.net
 fitnur.com
@@ -3473,7 +3469,6 @@ frizzymedia.com
 frli.net
 frs.ink
 fscu.net
-fstgo.to
 fstrk.cc
 fsu.ro
 fsv.tf
@@ -3600,13 +3595,11 @@ getlasso.co
 getlickd.com
 getlink.at
 getlink.space
-getmovie.vip
 getpcp.net
 getrecipe.pro
 getshort.in
 getshorter.com
 getsmallurl.com
-getsterlink.com
 getthot.com
 gettolink.net
 getus.at

@@ -2811,7 +2811,6 @@ agh.amber.edu.vn
 adblocker.institutobancario.edu.mx
 dns.tuna.tsinghua.edu.cn
 academi.edu.pl
-mathiscool.eemotors.uk
 adguard.ef67daisuki.club
 tor.eff.org
 dns.efficientdocuments.com
@@ -2821,7 +2820,6 @@ doh.eieidns.com
 adguard.eischmann.cz
 dd.elashri.net
 hole.elbschloss.xyz
-blog.electricpiano.xyz
 dns.electrotm.org
 pdns.elecura.net
 dns.elemental.software
@@ -2831,36 +2829,23 @@ ayosuproman.elmvp.cl
 adguard.elrobit.com
 nas.embraced.co
 coreenglish.emili.com
-learn-vcsa.emili.com
-im-poor-in.sab.eminescusm.ro
 101-history.eminescusm.ro
-67w9rudidjeieu.eminescusm.ro
 aaaaaaaaaaaa.eminescusm.ro
 amcgoogles-life.eminescusm.ro
 artistic-education.eminescusm.ro
 dingus-mcgoogle-learning.eminescusm.ro
-first-pie.eminescusm.ro
 galaxy.eminescusm.ro
 gogaurdian.eminescusm.ro
 history.eminescusm.ro
-keir8ridejeiconteleeper.eminescusm.ro
 kreekreekree.eminescusm.ro
 mcgoogle-days.eminescusm.ro
 r4ferntest.eminescusm.ro
 r4sele.eminescusm.ro
-r4yne-endis.eminescusm.ro
-r4yne-endis-2.eminescusm.ro
-r4yne-endis-auiscool.eminescusm.ro
-r4yne-endis-idk.eminescusm.ro
-r4yne-fern.eminescusm.ro
-r4yne-galaxy.eminescusm.ro
 ramm.eminescusm.ro
 rrrtytrtghytrfh.eminescusm.ro
 websiteiseasy.emtbiceland.is
 gdns.end.pub
 hk.end.pub
-cloaked.endis.cyou
-why.endis.cyou
 verify.endiseducation.com
 confess.endtimeassembly.org
 plant.smart.energysemi.com
@@ -2894,7 +2879,6 @@ dns.erkin.top
 agh.ero-sayhi.com
 sixseven67.errorrail.dev
 doh.ersei.net
-how-about-no.esal.cl
 dns.esegece.com
 dns-family.esegece.com
 dns.esnube.es
@@ -2950,11 +2934,9 @@ zexrctvjykiuln.evils.in
 exns1.exalto.nu
 garlandisd.exerciseandmind.com
 dns.exhome.pl
-drive.google.com.exid.me
 adguard.eximpius.xyz
 dns.exitstat.us
 adguard.exium.net
-do-not-block.exmec.cl
 dns.exonip.de
 rh4.ext.rocks
 proxy.extension.vn
@@ -3002,10 +2984,8 @@ dns.fancyorg.at
 dns.farakaft.ir
 dns.farshidhakimy.de
 dns.farshmc.ru
-i.friggin.farted.net
 nglbrowhatthesigiihakeohio.farted.net.farted.net
 cayden.farted.net
-gooogledotcomorsomethingjust.farted.net
 kendrickandpetezah.s81.fast-page.org
 asteroid.freetls.fastly.net
 f.freetls.fastly.net
@@ -3089,7 +3069,6 @@ dns.fehlsprache.de
 ag.felixf.eu
 home.fendya.com
 beacon.fengli.love
-bu-saeed.feversani.ar
 ag.ff0x.ca
 dnscrypt-cert.ffmuc.net
 doh.ffmuc.net
@@ -3129,7 +3108,6 @@ resolv.flokinet.net
 dns.floriantinney.de
 agh.fltn.us
 dns.flux24.net
-www-proxy.fluxis.xyz
 notdominospizzeria.fluxus.org
 dns.flwagners.com
 dns.flyer.vn
@@ -3145,7 +3123,6 @@ real.theory.footynews.info
 garland.isd.foresightgroup.pl
 rf4.forestberrypi.com
 www-rf4.forestberrypi.com
-thinggg.forever-20.com
 proxy.forkbomb.xyz
 www-proxy.formen.cc
 submit.formengineer.org
@@ -3170,7 +3147,6 @@ agent.frankutils.xyz
 know.orbit.frawst.com
 adguard.frece.de
 adguard2.frece.de
-welcome-to-learning.fredrikkivi.se
 jalexx.freeboxos.fr
 lilibox.freeboxos.fr
 pcornet.freeboxos.fr
@@ -3190,11 +3166,9 @@ tycoonisthebest.freeddns.uk
 hebe.freedynamicdns.org
 dns.freemyemail.com
 walhalla.freemyip.com
-wg-aghome.freemyip.com
 zuk.freemyip.com
 www-server.freewebsproxy.com
 dns.freopc.fr
-study.freude-macherei.ch
 vvv.freya.moe
 dns.freyja.pw
 dns.friezer.eu
@@ -3215,7 +3189,6 @@ dns.froth.zone
 dns.fsociety.club
 ychk.ft1991.top
 ilikehomework.ftp.sh
-lebron.ftp.sh
 ablock.fuckit.ovh
 dns.fulgore.fr
 live.fumcennis.org
@@ -3247,7 +3220,6 @@ dns.api.gandi.net
 dns.beta.gandi.net
 guide.terms.gatpp.com
 adguard.gattow.com
-easyliterature.gearenergy.com
 learnvcsa.gearenergy.com
 dns.gearworks.app
 bg.geek.nz
@@ -3341,7 +3313,6 @@ dns.gnb09.id
 moph.go.th
 roadesdyn.go.ro
 ux.go20.cf
-privacydns.go6lab.si
 tracks.empleosonora.gob.mx
 clever.issuesloggingin.hndifhidalgo.gob.mx
 ixl.loginalternative.hospitaldelninodif.gob.mx
@@ -3366,7 +3337,6 @@ phosphor-pa.googleapis.com
 tunnel.googlezip.net
 performance.gosami.xyz
 vpn.gosami.xyz
-education.gosdumamail.com
 dns.goshawk22.uk
 doh.fatucloud.gosprout.org
 rammermyhammer.goteeem.com
@@ -3475,7 +3445,6 @@ webrtc5.gvideo.co
 smile-smp-forever.gw.lt
 hkns.gzelvis.com
 agh.gzhong.tw
-schoologylearningedu.h-o-s-t.name
 dns.h0schi.cloud
 dns2.h0schi.cloud
 artiom.made.this.h0stname.net
@@ -3494,14 +3463,9 @@ yacd.haishan.me
 dns.haka.se
 dns.hakim.one
 dns.hakutakucn.com
-endis.halfwaythere.ca
 geo-learning.halfwaythere.ca
-gmail-education.halfwaythere.ca
 learnvcsa.halfwaythere.ca
 madebyconcon.halfwaythere.ca
-nowayhome.halfwaythere.ca
-road.halfwaythere.ca
-utopia.halfwaythere.ca
 dns.hanahira.dev
 adguard.haneulo.com
 dns.hanmey.de
@@ -5576,6 +5540,7 @@ sudo.rm-rf.cloud
 adguard.ro0t.us
 uc.robby.blue
 skibidirizz.robinhud.com
+vps.robotboard.de
 1.rock-review.ru
 dns2.rocksdns.ovh
 dns.roedel.cloud
@@ -9838,7 +9803,6 @@ faceless.me
 fairfieldps.org
 fakeip.org
 falais.com
-falconon.top
 fallin.app
 familyfirst.church
 famiroq.ru
@@ -10295,7 +10259,6 @@ frasfznl.com
 fravix.ru
 fraymova.ru
 fredic.us
-free-letsvpn.org
 free-onlineproxy.com
 free-planet-vpn.net
 free-planetvpn-ru.net
@@ -10615,7 +10578,6 @@ globalchatinc.com
 globalcloud.ir
 globalreject.com
 globalssh.net
-globaltri.eu
 globaltrx.com
 globalyun.cc
 glock.my
@@ -10656,7 +10618,6 @@ goj999.com
 gojcore.com
 gojlumxp.cc
 gokarel.xyz
-goldenearsvccc.space
 goldenfrog.com
 goldview.in
 goldvpn.info
@@ -10677,7 +10638,6 @@ googlevpn.help
 googo.us
 googo-appdns.top
 googohelps.top
-gooner.my
 gooningfor.life
 gooningforever.shop
 goooyun.top
@@ -10793,7 +10753,6 @@ gzyabio.cn
 h-vpn.org
 habd.me
 hackkcah.com
-hackkcah.xyz
 haffnetworkam.com
 haffnetworkat.com
 haffnetworkca.com
@@ -10829,7 +10788,6 @@ happykuailian.com
 happykuailian.net
 hardenglish.buzz
 hardmath.buzz
-haringinsuranc.website
 hartfordps.org
 harvestinflate.com
 haszwrwe.com
