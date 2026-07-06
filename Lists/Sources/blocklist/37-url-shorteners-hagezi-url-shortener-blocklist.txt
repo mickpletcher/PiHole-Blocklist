@@ -428,7 +428,6 @@ s.lalazodiac.com
 go.lamotte.fr
 bio.laormedia.com
 url.lcisd.net
-direct.learnspread.io
 go.liara.ir
 l.linforme.com
 app.linkpod.co
@@ -1122,6 +1121,7 @@ go.zordo.net
 3dsecure.org
 3ft.ca
 3ind.com
+3k.pe
 3kx.in
 3le.ru
 3lo.gy
@@ -3920,7 +3920,6 @@ hirummy.best
 hirummy.life
 hisc.app
 histori.ca
-hisweb.site
 hit.kg
 hitlap.com
 hiturl.at
@@ -4024,7 +4023,6 @@ hugeurl.com
 hulu.tv
 huma.na
 huntscreens.com
-hurirk.net
 hurl.it
 hurl.me
 hurl.ws
@@ -4350,7 +4348,6 @@ jcp.is
 jdem.cz
 jdev.uk
 jdp.am
-jeetbuzzlinks.com
 jek.it
 jelink.id
 jellylink.com
@@ -4404,7 +4401,6 @@ jos.bio
 joshbut.llc
 joskale.me
 joturl.com
-joy8.bond
 joyoflanguages.online
 jp22.net
 jpeg.ly
@@ -4709,7 +4705,6 @@ leonidea.com
 less.al
 lessnmore.net
 lesterchan.net
-letsconnect.fun
 letsharu.cc
 letx.be
 letz.kr
@@ -6162,6 +6157,7 @@ orlo.uk
 orp.io
 orst.io
 orts.link
+os.md
 osdb.link
 oshko.sh
 osku.jp
