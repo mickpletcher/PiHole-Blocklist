@@ -5204,6 +5204,7 @@ analytics.favcy.com
 analytics-fe.digital-cloud.medallia.ca
 analytics-fe.digital-cloud.medallia.com
 analytics-fe.digital-cloud-prem.medallia.com
+analytics-fe.digital-cloud-prem.medallia.eu
 analytics.ferguson.com
 analytics.firespring.com
 analytics.firstbankcardcenter.com
@@ -7303,6 +7304,7 @@ barbarousbase.com
 barbershirts.com
 b.arenum.games
 barium.cheezdev.com
+barkfactor.com
 barqueue.com
 barracuda.carte-gr.total.fr
 baseboosters.com
