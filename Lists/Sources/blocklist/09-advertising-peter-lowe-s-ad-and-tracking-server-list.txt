@@ -766,6 +766,7 @@ advertipros.com
 advertise.com
 advertiseireland.com
 advertiserurl.com
+advertising.amazon.de
 advertising.com
 advertisingbanners.com
 advertisingbox.com
@@ -885,6 +886,7 @@ annoyingacoustics.com
 anrdoezrs.net
 anstrex.com
 anxiousapples.com
+api-ext.bixbitemarketing.com
 api.affiliations.site
 api.amplitude.com
 api.appmetrica.yandex.ru

@@ -548,7 +548,6 @@ dbf.org.in
 gracepoint.org.au
 techcaresolution.org.in
 short.organicweb.top
-pay.osome.com
 go.osu.edu
 twirl.otee.dev
 k20.ou.edu
@@ -587,7 +586,6 @@ url.prepo.io
 y.prfd.aero
 lk.pro.br
 url.procreatebrushes.app
-l.prodtrackers.com
 short.profi.lv
 t2mio.pulsem.me
 a.qar.sa
@@ -6191,7 +6189,6 @@ oxo.us
 oyn.at
 oyo.net
 oyz.io
-oz.mk
 ozb.me
 ozz.kr
 p.asia
@@ -6247,7 +6244,6 @@ pathslab.com
 paut.to
 pavleka.com
 pawl.bio
-payfca.com
 paymash.io
 payskip.org
 payspot.pro
@@ -6276,7 +6272,6 @@ peachpoll.com
 peak.fan
 peak-prosperity.com
 pebley.uk
-pecurgoa.com
 pedalhub.store
 peek.link
 peekstory.com
@@ -6443,7 +6438,6 @@ premierbet.live
 preml.ge
 prendre-rendezvous.com
 prephe.ro
-prepostseo.tools
 pressthis.link
 prf.hn
 prfd.net
@@ -6501,7 +6495,6 @@ ptix.co
 ptm.id
 ptm.ro
 ptns.io
-ptolreco.com
 ptr.tw
 ptxt.io
 ptxt.me
@@ -6527,7 +6520,6 @@ puulp.it
 puxt.cc
 pwc.to
 pwgo.to
-pws1ooo.xyz
 pxgo.net
 pxl.fm
 pxlcrv.co
@@ -6731,7 +6723,6 @@ rayburn.link
 rayzershort.com
 razi-link.ir
 rb.gy
-rb-story.com
 rb6.me
 rbcz.io
 rbit.vision
@@ -6754,7 +6745,6 @@ rdcu.be
 rdee.us
 rdr.gr
 rdrclk.com
-rdrct.site
 rdre.me
 rdrt.cc
 rds.ovh
@@ -7034,7 +7024,6 @@ salo.li
 salone.it
 sam.am
 samcart.me
-samnill.com
 san.aq
 sangamtalks.com
 sanilac.gives
@@ -8190,6 +8179,7 @@ teenyfy.com
 teeplantage.de
 teil.cc
 tek.io
+tekan.in
 teknut.com
 telega.io
 teleko.me

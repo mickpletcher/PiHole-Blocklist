@@ -4894,13 +4894,10 @@ dns.ofdoom.net
 adguard.ohmhv57.org
 iamgpingtocrashoutifidontgetimagepermstodayigottayap.okcomputersolutions.ca
 adh.olesgroup.com
-dns.olimpya44.shop
 dns.oliverweinhold.de
 whydidtheydoitrosin.olneybaptist.org
-myjulain.ololow.com
 dns.olpploiopkuyhiopsfrt.info
 dns.omada.cafe
-baseball.school.omallysplayland.com
 dns.omee4.ru
 adguard.oms-ctr.ru
 fcgv4rovovvlixqc2a7qncvev40dbxsy.lambda-url.us-east-1.on.aws
@@ -4920,7 +4917,6 @@ adns.onlinetools.rocks
 adguard.onlyfriends.info
 d.onlyjsmylord.org
 info.onnemaa.ee
-learn-vcsa.onnemaa.ee
 learnvcsa.onnemaa.ee
 ojjccwjwov.onnemaa.ee
 playernation.onnemaa.ee
@@ -4933,7 +4929,6 @@ vpn-proxy-maot.onrender.com
 zatoga-learning.onrender.com
 andybunn.onthewifi.com
 nexus-is.onthewifi.com
-frog.oofer.lat
 g7y.ooguy.com
 hknat.ooguy.com
 rammernutsack.ooguy.com
@@ -4966,7 +4961,6 @@ dns.us-ashburn-1.oraclecloud.com
 dns.us-phoenix-1.oraclecloud.com
 proxy.ordentlichbreit.de
 securely.abbotsfordhallforhire.org.au
-trains.antrak.org.tr
 noads.api.org.pl
 ixl.shh.dont.tell.apocalypto.org.uk
 harshsmellsliketoes.fundacioncidea.org.ar
@@ -4977,18 +4971,14 @@ dnsprivacy.org.uk
 kuailianworld.org.cn
 mdpa.org.tw
 teslacoils.org.uk
-grammerhelper.organized-cloud.eu
 gov.orion-stella.com
 pn.orion-stella.com
-artemis.orionnexus.top
 dns.oryxlabs.com
 info.osiadaczabogados.cl
-learncsscode.osiadaczabogados.cl
 dns.osmenoga.com
 wireguard.osmenoga.com
 forms.osquiz.info
 dns.ostfriese.org
-thebelaxenir.ostrovska.sk
 adguard.ota.moe
 adguard2.ota.moe
 adguard3.ota.moe
@@ -5008,14 +4998,12 @@ vps-33e5a7f3.vps.ovh.us
 vps-d38e82a1.vps.ovh.us
 1a.ns.ozer.im
 1b.ns.ozer.im
-doh.p2cdn.cn
 www-proxy.p2pear.asia
 dns.p3k.sk
 dns.p55k.com
 topic.teach.pacbell.hk
 solve.write.pacificbellinternational.com
 dns.pacificmonster.com
-drive.google.com.pacl.us
 dns.paesa.es
 world.real.pagano.ch
 bd2b0c9e.intermath.pages.dev
@@ -5102,7 +5090,6 @@ shop.patf.net
 sci.grid.patlacroix.com
 nas.patrick-antoine.fr
 learning.about.college.paulkelly.org
-testing.paulsfamilyhistory.com
 dns.paxavemedia.com
 silentslab.pay-per-head-solutions.com
 vps-ovh.pb2004.pl
@@ -5114,7 +5101,6 @@ rpz-public-resolver1.rrdns.pch.net
 theory.edu.pcsmsnow.com
 dns.peb-schmidt.de
 check.peer2profit.site
-securly.com.pegle.com
 upon.pegle.com
 fuchur.pentament.de
 manwhyisschoolhard.pepikutan.net
@@ -5141,9 +5127,7 @@ dns.pieterdherde.com
 dns1.pietjacobs.be
 family.pietre-la-rinichi.ro
 dns.pine-home.de
-happynewdestenation.pintravel.ro
 dns.pizzari.me
-67dircen67.pjabbari.com
 doh.plaawan.uk
 door.plasmadancer.ru
 www.bhghhfhgffghfjh.152-53-136-204.plesk.page
@@ -5236,12 +5220,7 @@ class.bio.prettybirdserver.com
 dns2.prima-solusindo.com
 editor.primeent.in
 welcome.primeent.in
-canvas.com.primeflk.ch
-orange-rev.enge.primeflk.ch
-chris.lol.primeflk.ch
 crops.primeflk.ch
-virtualhistory.primeflk.ch
-wecanbebees.primeflk.ch
 agh.printk.info
 las-vegas.privacy-dns.pw
 luxembourg.privacy-dns.pw
@@ -5258,8 +5237,6 @@ dns.privateservices.pro
 de.dns.privex.io
 nl.dns.privex.io
 dns.valbatos.pro.vn
-lightalgebra.pro-house.cl
-virtualchem.pro-house.cl
 67-sucks.probac.cl
 rc-1140.probac.cl
 science.prole.info
@@ -5273,14 +5250,9 @@ vpn.protondownload.com
 vpncdn.protonweb.com
 webproxy.proxylite.com
 list.proxyloom.com
-corelogic.psamson.com
-science.psamson.com
 interstellar.nana.psgl.cl
 nana.rammer.psgl.cl
 ss.rammer.psgl.cl
-nana.utopia.psgl.cl
-dukbyte.psgl.cl
-scienceiethebeest.com.psicologicemos.com
 classes.psychology48.com
 health.psychology48.com
 science.psychoticgerbil.com
@@ -5316,7 +5288,6 @@ ns1.qquack.org
 dns.qrtz.club
 hostdare.qtxd.net
 moc.scinortele-ytilauq.quality-electronics.com
-notsuchagoodideabro.quality-electronics.com
 dns.quanhd.net
 pfft.questobjects.com
 dns.quickline.ch
@@ -5342,7 +5313,6 @@ we-are.ksf.qzz.io
 zouter.zhang3118.qzz.io
 661.qzz.io
 beanweb.qzz.io
-8383hcurfi33783ufhirfu8rf0rhfour67.r-o-o-t.net
 home.r01.fr
 resolver.r0cket.net
 tor.r0cket.net
@@ -5357,7 +5327,6 @@ h.ra3.in
 jpser.ra3.us
 water.rabbitforge.xyz
 ginnungagap.rabenhain.net
-adguard.rabmoor.cz
 d0904c68e362dce88371-d2dc096b53690d6d3857ec60c148f11c.ssl.cf1.rackcdn.com
 97fd9d2d2372c16421db-c82445aa74ed2d389b26a8a86fc26e69.ssl.cf4.rackcdn.com
 b0ac15e151420f6dc473-72e85853250626f809e7d6f166ccb9a7.ssl.cf6.rackcdn.com
@@ -5372,7 +5341,6 @@ luminalvcsa.ramalhais.com
 madeby-vcsa.ramalhais.com
 dns.ramansarda.com
 nana.ddx.v2.ramos90.ca
-drive.google.com.rapide.fi
 thiscopyofartclassisnotgenuine.rare1k.space
 doh.rasmusminde.dk
 emby.rasp.tv
@@ -5421,15 +5389,12 @@ helios-browser.rf.gd
 resolver.rferee.dev
 dns.rgnv.dev
 www-madcodg.rgserver.in
-al-malki-top.rhodec.rocks
-whendopilotsgotosleep.rhodec.rocks
 dns.rhscz.eu
 dns1.rhscz.eu
 dns2.rhscz.eu
 adguard.richardapplegate.io
 subscribevcsa.richreel.com
 dns.rin.sh
-school.learning.coding.easy.ixl.rinet.ai
 ddx.v2.nana.rinet.ai
 interstellar.nana.rinet.ai
 rammer.nana.rinet.ai
@@ -5463,7 +5428,6 @@ dns.rogpurs.com
 adg.rokh.biz
 dns.romain.tech
 dns.ronc.ru
-justjosh1.com.root.sx
 hvetemelisapotato123.root.sx
 vps1.rootax.org
 vps2.rootax.org
@@ -5490,7 +5454,6 @@ nl.rslvr.eu
 sg.rslvr.eu
 us.rslvr.eu
 adguard.ruby.ci
-soltsio.rude.li
 adg.rueiliu.space
 gw-px-le-4223-3w5hsuiikq-ey.a.run.app
 gw-px-le-4224-3w5hsuiikq-ey.a.run.app
@@ -6391,6 +6354,7 @@ webproxy.uk.com
 adguard.ulbricht.cloud
 rb750gr3.ulfhednar.ru
 debate.major.ulrik.net
+adguard-ironhide.ultima-thule.ru
 doh.ultradns.com
 webdevice.ultrapanel.us
 dns.umbrella.com
@@ -13235,7 +13199,6 @@ opsvpn.io
 optnl.com
 opwrt.org
 oqlindar.ru
-oqvpkylq.com
 or-milo.ru
 oraclevpn.com
 orangeproxy.net
@@ -13245,7 +13208,6 @@ orinexa.xyz
 oruru.ru
 oryabina.ru
 os4work.com
-oscnl.site
 osekvoya.ru
 oshipovnik.ru
 osobaka.ru
@@ -13293,7 +13255,6 @@ padermail.net
 paecvrvv.com
 paeey.com
 pafcaw.com
-pagecloud.space
 paimist.com
 paladinvpn.com
 paleoy.com
@@ -13446,7 +13407,6 @@ piro.live
 pirzjdlz.com
 pisk.loan
 pitertv24.ru
-pixelgorithm.com
 pixelprivacy.com
 pixolium.com
 pizdets.ca
@@ -13479,7 +13439,6 @@ planetfree-vpn.com
 planetvpn.app
 planetvpn.cloud
 planetvpn.club
-planetvpn-cdn.xyz
 planetvpn-free.net
 planetvpn-ru.com
 planetvpn-ru.net
@@ -13595,7 +13554,6 @@ pramiro.ru
 pranzor.ru
 prastin.ru
 praxelio.ru
-precisiontruck.space
 predecessor.info
 premium-vpn.app
 premium-vpn.store
@@ -13644,7 +13602,6 @@ proigor.com
 prointern.info
 project-cyber.com
 project-evoex.de
-projectorpoint.website
 projectsgoeasy.ru
 prontovpn.help
 pronyx.ru
@@ -13757,8 +13714,6 @@ proxycroxyid.id
 proxydb.net
 proxydrop.com
 proxydude.faith
-proxydude.red
-proxydude.xyz
 proxyelite.info
 proxyen.com
 proxyer.net
@@ -14109,7 +14064,6 @@ remotevpn.net
 renace-re.es
 renardbleu.dev
 reniac.su
-renvpn.lol
 renzhe.cloud
 renzhecloud.com
 repocket.co
@@ -14171,7 +14125,6 @@ rockwell.website
 rockwhisper.com
 rohex.xyz
 romanschrom.com
-ronald.run
 roodel.com
 roogen.com
 roomatic.net
@@ -14199,7 +14152,6 @@ rungame20.com
 runnervamp.net
 rusa.loan
 rushproxy.com
-rusnet-android.click
 rustynailspace.com
 rusuojiasu.net
 rusvpn.com
@@ -14226,7 +14178,6 @@ sabzipolobamahi.nl
 sacarino.es
 saetvsadf.website
 safe-inet.com
-safe-searches.net
 safebit.space
 safeclick.email
 safecloakvpn.com
@@ -14267,7 +14218,6 @@ sandvpn.online
 saoudiproxy.info
 sascha-rabold.de
 satnet.cv
-satori.top
 satoshivpn.help
 saturnvpn.com
 savrilo.ru
