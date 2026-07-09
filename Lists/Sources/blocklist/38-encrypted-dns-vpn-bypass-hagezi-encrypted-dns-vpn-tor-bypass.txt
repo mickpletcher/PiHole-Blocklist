@@ -5528,14 +5528,12 @@ vpn.satadru.dev
 dns.satellite226.cloud
 rodgerwhodidthistoyou.satucat.uk
 securedbyknox.satucat.uk
-cheap.fursuits.savenowclub.com
 www-proxy.sayed.page
 course.music.sbindy.com
 dns.sbstructure.ir
 ns1.sc-lezhi.com
 us.sc92.cn
 dns.scapetical.com
-sixseveendj82iiddududjdjeuei.ckm.scarboroughgymelites.ca
 dns.scarx.net
 dns.scayn.com
 hjkhnkhkldfg.dchjvkhdfhbnksdf.sceneco.re
@@ -5605,8 +5603,6 @@ please.sell-my-car.autos
 dns.sellan.fr
 korridor.semia-infra.net
 adguard.senthil.us
-dns.serdcebolit.ru
-dns1.serdcebolit.ru
 forzalaquila.servebeer.com
 privatnas.servebeer.com
 doh.serverhost.no
@@ -5635,7 +5631,6 @@ s1.s2.shahramv1.site
 purpose.shamanlanding.org
 tutor.idea.shand.org
 dns.shareworx.net
-wedgdh.wefds.sharptutor.net
 dns.shaw.ca
 dns.shecan.ir
 free.shecan.ir
@@ -5654,7 +5649,6 @@ bright-bear-630.shuttle.lol
 kind-wolf-912.shuttle.lol
 nl.dns.shx.su
 doh.sidnlabs.nl
-kendricklaminate.siggjen.eu
 dns.sildom.me
 dns.silen.org
 dns.silentlybren.com
@@ -5719,8 +5713,6 @@ api.smoz.me
 dns.sneakypanda.org
 home.snow-sugar.net
 ag.snrka.ru
-guard.sntrk.ru
-career.snwy.dev
 vpn.snxi.de
 dove.soapagent.com
 petezahpizza.omega.social-networking.me
@@ -5733,7 +5725,6 @@ imfroggingit.soloo.win
 wtbd02.solowalk.top
 ns.solutics.ec
 ns.solutionsbest.de
-thtghrabf.soon.it
 r.soraapp.gq
 sentry.soraapp.gq
 area.level.southtrestle.com
@@ -5754,7 +5745,6 @@ jashwin.is.wierd.spacejamhd.com
 wormhole.is.your-savior.spacejamhd.com
 sigmatic.spacejamhd.com
 threeproxy.spacejamhd.com
-turb0warp.spacenaught.us
 ilovemath.spacetechnology.net
 lousiana-history-careers-ixl-geoly-education.spacetechnology.net
 lomoff.spb.ru
@@ -5768,7 +5758,6 @@ www-proxy.spin.rip
 dns.spirio.fr
 soadfjrksf.lasdkfj.sportconceptmedia.ru
 physicaleducation.sportseducationinstructors.org
-chillenglish.spot.hk
 s1.srch.top
 adguard.sre.ovh
 dns.srijan.site
@@ -5844,10 +5833,7 @@ goguardianyouaremakingmemad.staglin.hr
 graph.train.stampsforfood.org
 use.star.is
 hk2.ss.startagegames.com
-freshgeo.startechcomputacion.com
-keenscience.startechcomputacion.com
 logical.startechcomputacion.com
-trueenglish.startechcomputacion.com
 ams1.startpage.com
 ams2.startpage.com
 browse.startpage.com
@@ -5890,21 +5876,15 @@ adguard.stoian.top
 dns.stormycloud.org
 adguard.strafer.dk
 alice.armani.strangled.net
-dwaekkiluvschngbin.com.strangled.net
 endis.org.discord.strangled.net
 ajh.his.strangled.net
-gavinsstudyhelp-study-math-science-ela.cloudflare.net.org.strangled.net
 1234589turtlepotato.strangled.net
 67818-bro.strangled.net
-abukar.strangled.net
 creativemathfun.strangled.net
 imgonnaticklefrank.strangled.net
 risdpublicdomain.strangled.net
 robertthefrost.strangled.net
-sixsevwnmanfosude.strangled.net
 squidward.strangled.net
-wspbaddies.strangled.net
-zhapeslearning.strangled.net
 konnektor.stratipharm.de
 adguard.streamlas.fr
 cdn.streamr.com
@@ -5960,7 +5940,6 @@ wiggly-owl.surge.sh
 dns.surobe.com
 core.atom.sv-italia.it
 dns.sv-zauner.at
-mirrors.svmblocker.com
 dns.svoi.dev
 iuewkgfbvakludg.swanndvr.net
 keito.swanndvr.net
@@ -5971,8 +5950,6 @@ science-making.swanndvr.net
 interstellar.nana.swift.cl
 rammer.nana.swift.cl
 nana.ddx.v2.swift.cl
-newdropper.swift.cl
-sharks.swift.cl
 sharp.swift.cl
 vpn.dev.swisscows.com
 vpn.swisscows.com
@@ -6018,7 +5995,6 @@ galaxy.tantrum.org
 glint.tantrum.org
 pizzaisfood.tantrum.org
 slinitie.tantrum.org
-smokerstale.tantrum.org
 dns.taoday.top
 dns.tapawan.ca
 vpns.taplink.ws
@@ -6049,7 +6025,6 @@ tcpghe.tcp64.de
 de51.tcpdoor.net
 adguard.tcpu.io
 teach.state.teachmetofish.net
-keeplearning.teachthinklearn.com
 learning.teamgaming.pw
 dns.teaminfo.fr
 dns-br.leonardo.tec.br
@@ -6096,8 +6071,6 @@ supported.testing4fun.xyz
 adguard.tetnet.net
 trade.my.texmotive.com
 cloud.tezoi.com
-foil.thanatos.com
-math.thanatos.com
 voidnettty.thanatos.com
 shark.thatguy.space
 www.3.theartieschaffer.com
@@ -6144,7 +6117,6 @@ class.skill.theo.mx
 explore.theoceanforest.com
 giggachad.thepotionsmaster.net
 by-playernation.thepresenttraveller.com
-gogurdianw9e7disjw3iehei.thepresenttraveller.com
 learnvcsa.thepresenttraveller.com
 mx1.therealauthority.com
 dns.therifleman.name
@@ -6205,15 +6177,11 @@ nsc.torgues.net
 center.k12.mo.us.tornotluk.in
 doh.totoro.pub
 cease.touchofpink.ca
-endismadebyevan.tovamiasto.com
-flashisthebestlinkdropper.tovamiasto.com
 khanacadamyregistry67.tovamiasto.com
-nasaforlifejoboptions.tovamiasto.com
 site.tovamiasto.com
 stellarwriting.tovamiasto.com
 truechem.tovamiasto.com
 vcsa.tovamiasto.com
-wiki-national-numbers.tovamiasto.com
 home.sso.toythieves.com
 chronicle14.tplinkdns.com
 ebpmc.tplinkdns.com
@@ -6290,7 +6258,6 @@ nebula.tru.io
 apps.truckbel.com
 yuno.truckbel.com
 smart.vocab.truckoccasion.ch
-abhub1134.truckstore.ch
 dns.truong.fi
 dns.trust404.win
 swe.try-dns.com
@@ -6313,21 +6280,15 @@ dadinoissus.tvjumbleanswers.com
 friedchimkensaurus.tvjumbleanswers.com
 itscauseiamblack.tvjumbleanswers.com
 littlepiggies571s.tvjumbleanswers.com
-dbqonline.com.login.a.twilightparadox.com
 biggerneverknown.com.twilightparadox.com
 ilovelearninggames.com.twilightparadox.com
-1922wutio.bt-a.g.p.qwe.cv-77.twilightparadox.com
 lightspeedisahh.edu.gov.education.twilightparadox.com
-toofuntoostudy-math-study.gavin.twilightparadox.com
 classroom.google.twilightparadox.com
 support.sghub.co.za.twilightparadox.com
 230704953-learn-maths-starters.twilightparadox.com
-278765434574.twilightparadox.com
 alearluvsruby.twilightparadox.com
 dagsonbanana.twilightparadox.com
 djsnsnsnsnn.twilightparadox.com
-goofygang.twilightparadox.com
-gtjschool.twilightparadox.com
 ifyournotfirstyourlast.twilightparadox.com
 iliasbetweaking.twilightparadox.com
 ismaelsstinkytimmytufknuckles.twilightparadox.com
@@ -6335,7 +6296,6 @@ ismellywiththebigbelly.twilightparadox.com
 mathgeometryalgebralearning.twilightparadox.com
 mathstudyhub.twilightparadox.com
 mathstudysplunger.twilightparadox.com
-maybe7667.twilightparadox.com
 meowkittehmeew.twilightparadox.com
 noahiscool.twilightparadox.com
 samual.twilightparadox.com
@@ -14224,7 +14184,6 @@ savrilo.ru
 savycrafter.com
 sawdmg.com
 sbdc3cw.click
-sbjct.xyz
 sbknvp.xyz
 sbnbgict.com
 sc-aff.cc
@@ -14328,7 +14287,6 @@ sevengain.com
 sf-helper.com
 sfasoftballcamps.com
 sfcxop.cc
-sflpc7kc.online
 sfmcut.com
 sfsso.cn
 sgwzoch.online
@@ -14410,7 +14368,6 @@ signsservers.ru
 signup-express-vpn.guru
 silenceisnot.fun
 sillygaming.org
-sillyy.lol
 silvaro.ru
 silvento.ru
 simiqbwa.com
@@ -14426,7 +14383,6 @@ sinovpn.com
 sipidwnt.com
 sir90hl.com
 sirqenio.ru
-sitdns.com
 site2unblock.com
 siteblockedbypass.com
 siteget.net
@@ -14478,7 +14434,6 @@ smartdnsproxy.com
 smartproxy.com
 smartydns.com
 smdpschool.org
-smeqczpl.online
 smfqhpw.cn
 smirnovfamily.ru
 sms8b04szwtm.online
@@ -14511,7 +14466,6 @@ sorvia.ru
 soso.loan
 sotavpn.com
 sotk.am
-soundsonas.com
 soundwaveearbuds.com
 sourceproxy.com
 sovpn.cc
@@ -14573,7 +14527,6 @@ srlvptke.com
 ss-cdn.com
 ssarea.com
 ssgreen.org
-ssh-free.com
 ssh-storage.ru
 sshagan.net
 sshdropbear.net
@@ -14628,7 +14581,6 @@ starvpn.help
 starvpnapp.com
 starwayvpn.com
 statemindpath.com
-statetestingstudies.com
 staticnetcontent.com
 staticrush.com
 staticstream.org
@@ -14694,7 +14646,6 @@ stun.su
 stunnel.cc
 stunnelvpn.id
 stupidproxy.com
-stupidstow.xyz
 su89-cdn.net
 suazwlmz.com
 subclsnet.com
@@ -14933,7 +14884,6 @@ thiscost1dollar.store
 thisthingrighthere.store
 threeproxy.net
 thriftychoice.space
-thrxdqtm.com
 thunder-vpn.help
 thundervpnwin.com
 thxvv.ru
@@ -15007,7 +14957,6 @@ togppqls.com
 tois.tech
 tokvpn.help
 tolveno.ru
-tommattinglyda.site
 tonvpn.com
 toolara.net
 toolcio.com
@@ -15074,7 +15023,6 @@ tproxy.ink
 tproxy.mom
 tproxy.monster
 tproxyru.live
-tq8izzzrqtktkdoarptl3u.online
 tqqzrbjd.com
 tqwrf6t2g.space
 tradeadspace.info
@@ -15140,7 +15088,6 @@ ttsw557.app
 tubeprox.com
 tubeunblock.me
 tubevpn.help
-tui5515.site
 tujdixrq.com
 tujenasnaszato.xyz
 tukinos.ru
@@ -16236,6 +16183,7 @@ wxxs290.com
 wycloudjs.com
 wyrhub.xyz
 wyx.cloud
+wzqy.shop
 x-cdn-static.com
 x-lets-vpn.com
 x-smm.com

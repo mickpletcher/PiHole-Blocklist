@@ -981,7 +981,6 @@ shopping.cr
 shopping.hn
 shortcm.li
 shorten.so
-shortenerword.com
 shorter.me
 shortest.link
 shortu.be

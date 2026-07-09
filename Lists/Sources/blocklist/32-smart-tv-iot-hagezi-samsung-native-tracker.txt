@@ -131,12 +131,10 @@ nmetrics.samsung.com
 images.partnersupport.samsung.com
 plbusiness.samsung.com
 api.runestone.samsung.com
-di.runestone.samsung.com
 dc.di.runestone.samsung.com
 dls.di.runestone.samsung.com
 orsdls.di.runestone.samsung.com
 orsfs.di.runestone.samsung.com
-orsplc.di.runestone.samsung.com
 sca.samsung.com
 gear.sca.samsung.com
 prd.sca.samsung.com
