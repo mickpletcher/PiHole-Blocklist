@@ -1372,6 +1372,7 @@ adaymag.co
 adbaw.com
 adbl.co
 adbly.co
+adcryp.to
 add.lat
 add-l.ink
 add2wallet.link
@@ -8689,7 +8690,6 @@ uafly.co
 ual.fyi
 ualam.com
 ub0.cc
-ubbk.xyz
 ubd.one
 ubidata.link
 ubm.io
@@ -8703,7 +8703,6 @@ ucla.in
 udight.com
 uepx.com
 ufai.app
-ufasofilmebi.one
 ufcqc.link
 ufflink.com
 ufg.to
@@ -8712,7 +8711,6 @@ ug.cz
 ugm.id
 ugp.io
 uh.ht
-uhishado.com
 ui.la
 ui8.ru
 uich.cc
@@ -8851,7 +8849,6 @@ url5xx.com
 url647.xyz
 url666x.com
 url69xx.com
-url6x.com
 url6xx.com
 url724.link
 url777x.com
@@ -8951,7 +8948,6 @@ urlme.ru
 urlme.us
 urlmini.io
 urlmkr.net
-urlmy.link
 urlno.com
 urlnova.com
 urlo.in
@@ -8993,7 +8989,6 @@ urlshorten.link
 urlshortener.at
 urlshortener.biz
 urlshortener.bnpparibas
-urlshortener.pro
 urlshortener.site
 urlshortenerking.com
 urlshortenertool.com
@@ -9150,7 +9145,6 @@ vefsupply.ca
 vegamoveis.link
 vehi.co
 veja.me
-vemna.bio
 vena.sh
 vendoagora.live
 venkateswaragases.com
@@ -9183,7 +9177,6 @@ vid.lu
 vid4u.net
 vidcy.co
 videopro.live
-videyx.fun
 vidzsb.com
 view.page
 vig.fit
@@ -9370,7 +9363,6 @@ webcataloger.com
 webdevtutor.net
 webi.li
 webinfos.info
-webixcard.me
 weblink.biz
 webmienphi.net
 webn.in
@@ -9707,7 +9699,6 @@ yoox.ly
 yoretube.net
 yorkpa.homes
 yorl.io
-yorl.to
 yors.io
 yorurl.com
 yotpoclicks.com

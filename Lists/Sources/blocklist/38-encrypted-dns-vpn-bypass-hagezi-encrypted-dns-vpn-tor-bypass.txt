@@ -662,6 +662,7 @@ domburg.beruys.com
 openvpnpptp.bese.info
 openvpnpptpserver.bese.info
 v2202510290637393088.bestsrv.de
+dns.bezmezhau.com
 dns.bgeneto.com
 dns.bibica.net
 dns.bibitos.cc
@@ -2476,7 +2477,6 @@ adguard2.dnsovertor.cc
 chuncheon.dnsovertor.cc
 japan.dnsovertor.cc
 seoul.dnsovertor.cc
-bilidon.dnsuser.info
 ns.dnsviewer.org
 keeper.do.am
 googolclasroom.dob.jp
@@ -6306,7 +6306,6 @@ dns.txq.life
 ad.tzockt.beer
 edu.ucecom-craiova.ro
 v1.ufamax.eu
-vless-service.ufodns.com
 study.howto.ugo.si
 blokuj.ujwie.co
 nitter.ujwie.co
@@ -6323,14 +6322,6 @@ anycast.uncensoreddns.dk
 unicast.uncensoreddns.dk
 block.undo.cl
 cheesepizza.undo.it
-diddywasinnocent.undo.it
-farthaanfartedtoohardandnowhecant.undo.it
-pms-ssd.undo.it
-galaxykeepthisasecret.undoanarchy.rocks
-glintkeepthisasecret.undoanarchy.rocks
-interstellerkeepthisasecret.undoanarchy.rocks
-quasarkeepthisasecret.undoanarchy.rocks
-selenitekeepthisasecret.undoanarchy.rocks
 voidkeepthisasecret.undoanarchy.rocks
 dns.unerror.network
 ines.zfn.uni-bremen.de
@@ -6352,11 +6343,6 @@ mcore.us.to
 webproxy.us.com
 dns.usualposts.xyz
 coolguy.uzhi.ru
-algebra-math.v119.com
-clever-math.v119.com
-hamburger.v119.com
-prodigy-learning.v119.com
-sssdfg.v119.com
 cc2.v8er.net
 luminal.vacte.org
 dns.vaguthu.mv
@@ -6433,14 +6419,8 @@ vercel-is-cool.vercel.app
 vpn-dlya-tg.vercel.app
 zatoga-three.vercel.app
 nwea.veriler.com
-virtualenglish.verolook.com
 jahyussif.verymad.net
 ohttp.prod.via.google
-cludenxenibyte.viar3d.com
-ilovenirb.viar3d.com
-mathteacher.viar3d.com
-sampanei.viar3d.com
-tubmledxeni.viar3d.com
 ad.viet.date
 dns.vietdns.vn
 kids.vietdns.vn
@@ -6496,7 +6476,6 @@ darkness.is.my.waifu.cz
 megumin.is.my.waifu.cz
 yunyun.is.my.waifu.cz
 44c.wakemeup.ru
-damianlikesjulie.wakemeup.ru
 kailovefurries.wakemeup.ru
 dns.walker.id
 adguard.wallura.eu
@@ -6578,7 +6557,6 @@ dns.weibo.cn
 home.weisbrod.me
 dns.wellstsai.com
 zhang.wenru.xyz
-drive.google.com.wesp.fi
 math.westkis.com
 doh.wewitro.net
 doh-rs.whalebone.io
@@ -6604,7 +6582,6 @@ tls.windyvale.net
 solve.piano.wirich.com
 adguard.wirimij.nl
 dns3.wistarip.com
-fi.wjcload.tech
 vserv.wkind.de
 dns.wns.watch
 dnsbk.wns.watch
@@ -6667,7 +6644,6 @@ dns.xinwujiang.cn
 dns.xiumu.org
 dns.xivilay.dev
 dns.xlion.tw
-frogstudioslearning.xlntsolutions.com
 cloud.xn--4gq62f52gdss.asia
 gw-1.xn--ehqx7tcnnope.com
 sazsp.xn--ekervarna-37a.com
@@ -6692,7 +6668,6 @@ email.yan.ch
 2.dnscrypt-cert.browser.yandex.net
 dns.yandex.net
 dns.yandex.ru
-shawtagramma.yao.cl
 adguard.yare.hk
 phew.yasantala.com
 agh-hetzner.yasirafique.com
@@ -6717,11 +6692,9 @@ com.you-seen.fr
 net01.youcef.io
 adguard.youler.com
 dns.youni.win
-www.itrsa.home.next.youradbyus.com
 v22013121930515853.yourvserver.net
 guard.yps.tw
 dus.ysbs.uk
-doh.yspv.ru
 op.yt47v.cfd
 dns.ytpom.ru
 dns2.ytpom.ru
@@ -6746,19 +6719,10 @@ madeinchina1987.zapto.org
 nexuss.zapto.org
 schoolwebsite.zapto.org
 dns.zarchbox.fr
-al-malki-top.zavoj.ch
 classroom.zaydkrunz.com
 register.zedzander.com
 dns.zemows.industries
 doh.zephyrus.id
-brainpop.zeptoinitiative.org
-drive.zeptoinitiative.org
-education.zeptoinitiative.org
-imcrine.zeptoinitiative.org
-madebynathan.zeptoinitiative.org
-madebynathan1.zeptoinitiative.org
-mastergotmeworkin.zeptoinitiative.org
-reading.zeptoinitiative.org
 adguard-kartoffel.zernico.de
 oraclejp01.zerotorez.com
 dns.zfsystem.tech
@@ -15166,10 +15130,8 @@ udussmiw.com
 ueeftvvc.cc
 ues-letsvpn.com
 ufovpn.io
-ufreevpn.com
 ugdsoft.com
 ughhhhcuminmedaddypleaseimsofuckingwetaughhh.cfd
-uhgnzr44.online
 uhzuran.win
 uisujhks.com
 ujrmdtrq.cc
@@ -15227,7 +15189,6 @@ unblocked.biz
 unblocked.buzz
 unblocked.cloud
 unblocked.foo
-unblocked.help
 unblocked.how
 unblocked.id
 unblocked.me
@@ -15447,7 +15408,6 @@ v4freedom.com
 v4speed.com
 v4trojn.xyz
 v6.wiki
-vacrxakv.com
 vadim.online
 vaipn.app
 valarre.com
@@ -15653,8 +15613,6 @@ vpn-bebra.info
 vpn-byen.dk
 vpn-edge.help
 vpn-fastest.com
-vpn-free.com
-vpn-free.download
 vpn-free.pro
 vpn-kostenlos.com
 vpn-kuailianapp.com
@@ -16010,7 +15968,6 @@ web-kuailian.net
 web-letsvpn.org
 web-proxy.org
 web-proxy.site
-web-rated.ie
 web3jsq.com
 web3jsq.pro
 web3jsq.vip
@@ -16067,7 +16024,6 @@ wgetcloud.win
 wgetcloud6.org
 wgetcloud9.org
 wgflfolu.cc
-wgnngvoo.com
 wgy0.com
 wh-letsvpn.com
 whatcaniplay.com
@@ -16094,7 +16050,6 @@ wikimedia-dns.org
 wikimediadns.org
 wikivpn.org
 wiksa.com
-william.tienda
 wilway.christmas
 wilway.today
 wimorala.ru
@@ -16384,7 +16339,6 @@ xvbelink.com
 xvhquwjv.com
 xvless.site
 xvmess.online
-xvmess.site
 xvpn.io
 xvpnsecurity.com
 xwkpmbnez.com
@@ -16422,7 +16376,6 @@ yaoyaolingxianclash.com
 yapend.com
 yapwxciu.com
 yarvio.ru
-yasharteam.com
 yavdvcrs.com
 yawdg.net
 yawtt.net
@@ -16431,7 +16384,6 @@ yazaebalsyadelatproxy.uk
 ybmtkbiq.com
 ybqjaguuii0obex4w.online
 ybqlymsu.com
-ybstbrpb.com
 ychen.cf
 ychen.gq
 ycuaoflx.com
@@ -16519,7 +16471,6 @@ youyun688.net
 yovbak.com
 yoygstbx.com
 yoyovpn.org
-yplsambm.com
 ypork.com
 yqchonhx.com
 yrikse.com
@@ -16557,7 +16508,6 @@ z11g.com
 z1j9ortoc.online
 z2l8ae5mv83sgzkutimxp.online
 z3d9.com
-z4qczlf.online
 zabolotskikh.dev
 zaborona.help
 zacebookpk.com
@@ -16649,7 +16599,6 @@ zgcon.online
 zgcvpn.com
 zgfree.info
 zgproxy.org
-zgsjhdzb.com
 zgvpn.net
 zgvpn.org
 zh-klvpn.com

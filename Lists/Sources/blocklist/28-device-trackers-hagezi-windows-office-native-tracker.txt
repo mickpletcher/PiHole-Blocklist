@@ -91,6 +91,7 @@ ukwest-0.in.applicationinsights.azure.com
 usgovarizona-0.in.applicationinsights.azure.us
 usgovvirginia-0.in.applicationinsights.azure.us
 usgovvirginia-1.in.applicationinsights.azure.us
+usgovvirginia-global.in.applicationinsights.azure.us
 westeurope.in.applicationinsights.azure.com
 westeurope-0.in.applicationinsights.azure.com
 westeurope-1.in.applicationinsights.azure.com
@@ -675,7 +676,6 @@ ssp-prod-eastus-nonmutt.trafficmanager.net
 stats-partner.trafficmanager.net
 teams-events-data.trafficmanager.net
 telemetry-lcp.trafficmanager.net
-tenmax-ads.trafficmanager.net
 tm-analytics-pr.trafficmanager.net
 tm-enrollment-telemetry-datacore.trafficmanager.net
 us-mesh-events-data-leafs.trafficmanager.net
