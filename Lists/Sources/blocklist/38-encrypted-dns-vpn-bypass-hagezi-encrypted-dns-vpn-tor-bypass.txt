@@ -479,6 +479,7 @@ keenbio.artmuseum.org
 blog.artweb.website
 buy.artweb.website
 resolver.as203038.net
+dns.as212683.net
 doh.asagiri.moe
 doh.asecdns.com
 dot.asecdns.com
@@ -6253,6 +6254,7 @@ geovpn.trendmicro.com
 adguard.trevorpease.me
 sq.trin.icu
 doh.tritan-bb.net
+ext.troywell.io
 ext.troywell.org
 nebula.tru.io
 apps.truckbel.com
