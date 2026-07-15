@@ -804,6 +804,7 @@ dns.brembeck.cloud
 newyears.brg2.xyz
 dns.briac-mlb.fr
 dns.system.brianhong.kr
+ag.brianlee.fun
 vacation.briaquaticcabinets.com
 dns.brionesserver.net
 r.britannica.cf
@@ -2172,6 +2173,7 @@ smartpn.creographix.at
 tromp.creographix.at
 vcsa.creographix.at
 adguard.crestfallen.de
+dns.criena.net
 dns.itsec.crolla.net
 fern.crosbreaker.dev
 bx3.cdn.gh-pages.cryodome.com
@@ -2438,7 +2440,6 @@ dns.dlinders.nl
 home.dlinkddns.com
 edulearnisgood.dmtr.ru
 fargos2.dns.army
-guigu.dns.army
 homec92.dns.army
 dns.dns-53.com
 dns.dns-53.uk
@@ -3077,7 +3078,6 @@ dns.fifux.be
 dns.filipccz.eu
 collegeprep.fin-tech.com
 learngeometryfr.fin-tech.com
-testplease.fin-tech.com
 nf-is-a-good-artist-you-should-listen-to-his-music.finxstudio.fi
 canvas-math-tools.firebaseapp.com
 infamous-scram-test.firebaseapp.com
@@ -4052,6 +4052,7 @@ supposing.kaiak.top
 toe.kaiak.top
 adguard.kalyanmudumby.com
 dns.kamilszczepanski.com
+adguard.kantinyoyok.xyz
 dns.kapite.in
 dns.kapoww.tk
 dns.karadag.me
@@ -6713,6 +6714,7 @@ doh.ywhost.com
 httpdns.gslb.yy.com
 dns.yyaan.com
 dns.yyaan.top
+adg.yybyy.wiki
 dns.daemon.za.net
 adguard.zachitect.com
 akylah.zapto.org
@@ -6759,6 +6761,7 @@ online.zotio.ru
 vpn.zotus.ru
 d.zscale.gq
 dns.zui.lol
+1dollarmeathod.zunbaoyule123.com
 httpdns.zybang.com
 ams.core.access.zznet.fun
 hkg.core.access.zznet.fun
@@ -6792,6 +6795,7 @@ dns.zzuhacker.cn
 112112789.xyz
 1145145.com
 123-proxy.net
+123-proxy.org
 123000123.xyz
 123417.xyz
 123adsas.store
@@ -6804,10 +6808,12 @@ dns.zzuhacker.cn
 123down.org
 123fr.info
 123free.info
+123goproxy.com
 123hideip.com
 123inside.net
 123jsq.top
 123li.me
+123me.net
 123music.app
 123proxy.app
 123proxy.biz
@@ -6932,6 +6938,7 @@ dns.zzuhacker.cn
 3kh0.org
 3nkh5crxol.ch
 3proxy.de
+3proxy.us
 3qguvtvrpyzkatp2.online
 3x.nz
 40920604.xyz
@@ -6968,6 +6975,7 @@ dns.zzuhacker.cn
 55780358.xyz
 55aktnolkvuoctxitm.online
 55gms.com
+55gms.me
 55laomao.com
 57824.com
 583838.xyz

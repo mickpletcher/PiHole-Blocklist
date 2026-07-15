@@ -119,6 +119,7 @@ links.nivbook.co.il
 go.sbws.co.uk
 go.thamrin.co.id
 w.webicon.co.za
+1a.co.nz
 1url.co.uk
 acsafrica.co.za
 aptly.co.za
@@ -910,6 +911,7 @@ go.zordo.net
 0ln.eu
 0mjgn0m.site
 0o.lv
+0oj.cn
 0rl.cc
 0rz.tw
 0s0.com
@@ -934,6 +936,7 @@ go.zordo.net
 123.ge
 123415.xyz
 123link.co
+123lnk.xyz
 126.am
 128.pl
 12ne.ws
@@ -1000,6 +1003,7 @@ go.zordo.net
 1tk.us
 1tn.se
 1ty.me
+1u.fi
 1u2.ru
 1un.fr
 1url.com
@@ -1074,6 +1078,7 @@ go.zordo.net
 2tiny.in
 2to.info
 2tu.us
+2ty.in
 2u.gg
 2u.lc
 2u.pw
@@ -1127,6 +1132,7 @@ go.zordo.net
 3q3.de
 3qzr.com
 3ra.be
+3tj.cc
 3v3.run
 3w.pm
 3x.si
@@ -1233,6 +1239,7 @@ go.zordo.net
 7i.nu
 7i.se
 7kts.com
+7li.in
 7link.info
 7link.pro
 7links.co
@@ -1265,11 +1272,13 @@ go.zordo.net
 93.link
 98.to
 985.so
+98pro.cc
 999.sh
 99forward.com
 99fw.in
 99links.in
 99vpn.pro
+9fx.org
 9g9.org
 9h.dk
 9k.gg
@@ -1450,6 +1459,7 @@ ai6.net
 aiecj2.com
 aighy.com
 aim2.cc
+aimetath.com
 aimqr.com
 aintok.com
 ainurl.pro
