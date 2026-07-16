@@ -427,6 +427,8 @@ dns.jp.anitelecom.org
 dns.ru.anitelekom.ru
 dns.anitelekom.ru
 sanns.aniuo.com
+cliffbayschools.anjumanallana.in
+dontbelocked.anjumanallana.in
 dns.anne-pierre.fr
 dns.anon.no
 a-regist.anondns.net
@@ -634,6 +636,7 @@ thorn.barneysaurous.net
 archlinuxisthebestlol.baselinux.net
 dashboardd.baselinux.net
 aphistorytutoring.bastaff.ru
+aqua.bastaff.ru
 tacobelljobs.bastaff.ru
 we-hate-school.bastaff.ru
 home.basthorst.eu
@@ -810,6 +813,7 @@ dns.brionesserver.net
 r.britannica.cf
 agh.broaddy.com
 dns.brono.cloud
+blooket.broomleigh.org
 classroom.broomleigh.org
 home.bruckmoser.it
 81.brudnowski.eu
@@ -2173,7 +2177,6 @@ smartpn.creographix.at
 tromp.creographix.at
 vcsa.creographix.at
 adguard.crestfallen.de
-dns.criena.net
 dns.itsec.crolla.net
 fern.crosbreaker.dev
 bx3.cdn.gh-pages.cryodome.com
@@ -3036,6 +3039,7 @@ hence.fatdiary.org
 api.fatibara.com
 adguardhome.favrep.ovh
 dns2.fawz.de
+dns.faze.dev
 ns0.fdn.fr
 ns1.fdn.fr
 vpn.fdn.fr
@@ -4207,6 +4211,7 @@ proxysocket.learntechnologyapp.com
 wiselines.lebrija.org
 adblock.leenit.kr
 directory.leeschoolsk12.org
+externalmobiel.lekdijk.online
 skill.vocab.lekovic.ca
 sndkcuf.lekun.me
 dns.lepilleur.com
@@ -5090,6 +5095,7 @@ myapps.classlink.pastrypowered.com
 securley.patelmortgage.com
 buy.patf.net
 shop.patf.net
+doh.gcp.pathofgrace.com
 sci.grid.patlacroix.com
 nas.patrick-antoine.fr
 learning.about.college.paulkelly.org
@@ -5132,6 +5138,7 @@ family.pietre-la-rinichi.ro
 dns.pine-home.de
 dns.pizzari.me
 doh.plaawan.uk
+draco.plan9-ns2.com
 door.plasmadancer.ru
 www.bhghhfhgffghfjh.152-53-136-204.plesk.page
 sdtfghjbnm.152-53-136-204.plesk.page
@@ -5343,6 +5350,7 @@ ns.ral9005.org
 luminalvcsa.ramalhais.com
 madeby-vcsa.ramalhais.com
 dns.ramansarda.com
+drpepperisbetter.ramonmedina.net
 nana.ddx.v2.ramos90.ca
 thiscopyofartclassisnotgenuine.rare1k.space
 doh.rasmusminde.dk
@@ -6009,6 +6017,7 @@ httpdns.danuoyi.tbcache.com
 92.38.177.16.dyn.tcadmin.net
 galaxy.is.cool.tcloud.my
 dms.dms.dms.tcloud.my
+baablu.tcloud.my
 galaxy.tcloud.my
 galaxyisthebest.tcloud.my
 home.tcloud.my
@@ -6030,6 +6039,7 @@ adguard.tcpu.io
 teach.state.teachmetofish.net
 learning.teamgaming.pw
 dns.teaminfo.fr
+arab.is.goated.teamradicus.com
 dns-br.leonardo.tec.br
 dns.techcpu.net
 dns1.techeasy.org
@@ -6565,6 +6575,7 @@ math.westkis.com
 doh.wewitro.net
 doh-rs.whalebone.io
 bwh.why4free.top
+dns.wibenson.cloud
 dns1-secure.wifire.it
 hammerhead-shark.wifizone.org
 adguard.wifri.space
@@ -6662,6 +6673,7 @@ dns.xuming.studio
 dns.xusqui.com
 dns.xv.fi
 app.xvpncdn.com
+dns.xwdmw.xyz
 dns.xwu.us
 v2.xx3210766.live
 dns.xydustc.me
@@ -7427,6 +7439,7 @@ anker-beton.ru
 annual2025.uk
 ano404.top
 anol.loan
+anomivpn.com
 anonine.com
 anonto.pw
 anonvpn.io
@@ -7486,7 +7499,6 @@ aoxvpn.net
 aoxvpn666.com
 aoxvpnapp.com
 apache-iv.com
-apfgexfusion.com
 api-gogles.com
 api-tel.xyz
 api999.com
@@ -7635,6 +7647,7 @@ award-vpn.com
 awardztq.com
 awebproxy.com
 awhoer.net
+axaxa.fun
 axistechsupport.com
 axyno.xyz
 ayako.cc
@@ -7671,6 +7684,7 @@ badrsgpr.com
 baikalvpn.ru
 bailey.today
 bajie.la
+bajiess.com
 ballbang.com
 banana-vpn.com
 bananaspeed.site
@@ -8245,6 +8259,7 @@ browserling.com
 browservpn.online
 brsjk.cn
 brsueykh.com
+brunycraft.xyz
 brunysixl.work
 brwczgvk.com
 bsbollbn.com
@@ -8710,6 +8725,7 @@ crash1ytics.com
 cratesg.top
 crawlbase.com
 crawler.mobi
+crazycattle3d.lol
 crazysurfer.info
 crbtqxdu.com
 createssh.com
@@ -8820,6 +8836,7 @@ dabache.top
 dabai.in
 dabmix.com
 daddyproxy.com
+dagecloud.com
 dageyun.com
 dageyun.info
 dageyun.net
@@ -8880,8 +8897,10 @@ deep-henchman-excuse.cfd
 deeper.network
 deepstateplatypus.com
 deepwebvpn.net
+default2024.uk
 defencevpn.com
 defendfrienddns.fyi
+defilter.us
 defined.pics
 definitechaos.org
 defyxvpn.com
@@ -8904,6 +8923,7 @@ dev-ngrok.com
 devotesodium.com
 dewassh.net
 dexira.ru
+dfa-appointment.com
 dft-cdn42.net
 dfwdlitu.cc
 dg6.me
@@ -8935,6 +8955,7 @@ dirproxy.net
 dirproxy.xyz
 disbish.com
 disconnect.me
+discord.tattoo
 discordvpn.com
 districtnewyork.com
 diuwdkjf.cc
@@ -8951,6 +8972,7 @@ dns.google
 dns.pub
 dns.sb
 dns.watch
+dns-free.link
 dns-savage.com
 dns0.eu
 dns4all.eu
@@ -9469,6 +9491,8 @@ ednovas.org
 ednovas.tech
 ednovas.world
 ednovas.xyz
+ednovasyunclash.com
+edpuzzle.space
 edpxzc8w5jqk.online
 edsqevwp.com
 edublue.org
@@ -9775,6 +9799,7 @@ fastningmengjing.com
 fastniuniu.com
 fastnixes.net
 fastnod.com
+fastnodegw.com
 fastnpv.com
 fasto2.com
 fastonion.net
@@ -10093,6 +10118,7 @@ free-vpn.club
 free-vpn.cn
 free-vpn.mom
 free-vpn.pro
+free-vpn.xyz
 free-vpn-planet.net
 free-vpnapp.com
 free-vpnplanet.net
@@ -10134,6 +10160,7 @@ freeproxy.top
 freeproxy.win
 freeproxyaccess.com
 freeproxydb.com
+freeproxylist.online
 freeproxylist.ru
 freeproxyserver.co
 freeproxysites.co
@@ -10474,6 +10501,7 @@ gossr.pw
 gostarlight.xyz
 gotoproxy.com
 gotrusted.com
+gougoujiasu.com
 gougouvpn.info
 goujijiasu.com
 gouzicloud.com
@@ -11220,6 +11248,7 @@ ionprox.com
 iopgn.com
 iopl.xyz
 iosedge.com
+iosequence.online
 iosjiasu.net
 iossync.com
 ioxy.de
@@ -11469,6 +11498,7 @@ jumpjump.io
 jumpjumpvpn.help
 jumpvpn.homes
 jumpvpn.mom
+jupitrdns.com
 juproxy.com
 juranel.my
 juratet.baby

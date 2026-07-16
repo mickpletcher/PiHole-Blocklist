@@ -74,6 +74,7 @@ r.bioinfweb.info
 go.bitcomma.com
 url.nafi.biz.id
 aje.biz.id
+dnl.biz.id
 opetsalman.biz.id
 artist.blanchtrap.com
 ai.blendnow.com
@@ -1602,6 +1603,7 @@ annabelparr.com
 annah.ar
 annoyingnightmareedit.com
 anon.to
+anonme.net
 anonshort.com
 anp.su
 answ.xyz
@@ -1617,6 +1619,7 @@ aon.io
 aorracer.com
 aosconnect.net
 ap.lc
+aparca.app
 apb2.de
 apbiosuccess.com
 apcargocourier.com
@@ -1677,6 +1680,7 @@ arshorten.com
 arsn.al
 arurl.us
 arus.cc
+aryenmotors.com
 as1ansl0t88.site
 asap.to
 asc.cool
@@ -1766,6 +1770,7 @@ ayt.fr
 ayuk.link
 ayzyu.com
 az6.ir
+azali.fr
 azc.cc
 azipurl.app
 azipurl.com
@@ -1794,6 +1799,7 @@ b2u.io
 b33.fr
 b4y.net
 b51.tw
+b54.in
 b7.tel
 b808.bet
 b9d.me
@@ -1858,6 +1864,7 @@ becakrcg.xyz
 becsn.net
 bee-kz.life
 bee1s.com
+bee4.biz
 beeb.us
 beelnk.com
 beepurl.com
@@ -1913,6 +1920,7 @@ bigfi.sh
 bigfk.com
 biggiris.link
 biggo.tw
+bigolink.com
 bigurl.io
 bigwinjiliwin63.online
 biibly.com
@@ -1927,7 +1935,9 @@ biocardpro.com
 bioclick.net
 biofy.ai
 biofy.bio
+biohoster.com
 biohub.me
+bioku.my
 biolink.blog
 biolink.cloud
 biolink.page
@@ -1981,6 +1991,7 @@ bitly.best
 bitly.bz
 bitly.com
 bitly.cx
+bitly.gold
 bitly.im
 bitly.is
 bitly.kr
@@ -2058,6 +2069,7 @@ blizz.ly
 blkstats.com
 blltly.com
 blnk.in
+bloat.me
 blogshare.cfd
 bloom.bg
 bloop.to
@@ -2090,6 +2102,7 @@ bola.mx
 bolagroup.vip
 bolagroup.xyz
 bolahiu.vip
+boldphoto.link
 bolstr.online
 boltsly.com
 bom.so
@@ -2108,6 +2121,7 @@ bookstw.link
 booplink.com
 boost.ink
 bose.life
+boshoki.biz
 bosi.me
 boskale.me
 bosslinks.ai
@@ -2224,6 +2238,7 @@ buybitcoinsworldwide.com
 bw.care
 bwlf.us
 bwnews.pr
+bx.ms
 bxl.me
 by1.eu
 by2.io
@@ -2241,6 +2256,7 @@ bytr.ee
 byuroscope.com
 bz9.com
 bzfd.it
+bzh.me
 c-o.in
 c1.to
 c11.kr
@@ -2422,6 +2438,7 @@ cit.to
 citi.asia
 citly.me
 cityreach.in
+cius.in
 civ.link
 cix.bz
 cixi.bio
@@ -2444,6 +2461,7 @@ cleanhockinghills.com
 cleanuri.com
 clearstream.io
 cleverlink.pro
+cleverurls.com
 cli.fm
 cli.gs
 cli.re
@@ -2686,6 +2704,7 @@ customers.my
 customurlshortener.com
 cut.by
 cut.gl
+cut.live
 cut.lu
 cut.ovh
 cut.pe
@@ -2728,6 +2747,7 @@ cutt.lol
 cutt.ly
 cutt.pk
 cutt.us
+cutt4.me
 cuttgoo.com
 cutth.com
 cutthis.link
@@ -2912,6 +2932,7 @@ djurl.com
 dkng.co
 dky.bz
 dl.gl
+dl-protect.info
 dl-protect.link
 dl100.cc
 dld.bz
@@ -3065,9 +3086,11 @@ e9e.ir
 eaash.co
 earl.sh
 earn4link.in
+earn4url.com
 earnesst.website
 earnestwiles.com
 earnfly.net
+earnpays.com
 earnshort.site
 earnshorter.com
 earnshortly.com
@@ -3083,6 +3106,7 @@ easyurl.net
 easyurl.site
 easyurlshortener.com
 eazify.net
+eb.do
 ebarata.com
 ebay.to
 ebbco.ir
@@ -3119,6 +3143,7 @@ ee9.ir
 eeb.me
 eepurl.com
 efie.co
+eflick.me
 efraising.org
 efs.link
 efshop.tw
@@ -3245,6 +3270,7 @@ expl.scot
 exploreosv.com
 exx.us
 eyemakeu.com
+eyq.me
 eys.li
 ez1.cc
 ezbio.me
@@ -3278,6 +3304,7 @@ f4d.uk
 f5i.org
 f5url.com
 f5yo.com
+f6x.cn
 fa.by
 fa.gd
 fa-st.co
@@ -3682,6 +3709,7 @@ go1.day
 go2.do
 go2.me
 go2ct.pro
+go2cut.com
 go2l.ir
 go2ln.com
 go2my.info
@@ -3830,6 +3858,7 @@ gym.sh
 gyntekbusiness.com
 h-ref.com
 h1.nu
+h2mhridayff.com
 h3x.ir
 h5bio.com
 ha4l.com
