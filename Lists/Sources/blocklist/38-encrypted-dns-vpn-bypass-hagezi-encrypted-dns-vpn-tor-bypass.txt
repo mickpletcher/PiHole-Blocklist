@@ -121,6 +121,7 @@ agh.710523.xyz
 ayman-dns.731my.com
 dns.73zls.com
 ns.77ll.ru
+idk.7btech.com
 hopethishelps.7geo7.ru
 noad.800216.xyz
 ad.800801.xyz
@@ -410,6 +411,7 @@ xv-client-json-configuration.s3.us-east-1.amazonaws.com
 dsl-app.s3.us-east-2.amazonaws.com
 innov-windows.s3.us-east-2.amazonaws.com
 commandedurchin.amber-cypress.com
+jobixtetoyuri.ames.website
 dns.amigo-mgn.ru
 adguard.aminetwork.biz
 blog2.amlegion.org
@@ -427,8 +429,15 @@ dns.jp.anitelecom.org
 dns.ru.anitelekom.ru
 dns.anitelekom.ru
 sanns.aniuo.com
+made.by-void.anjumanallana.in
 cliffbayschools.anjumanallana.in
 dontbelocked.anjumanallana.in
+jormawo.anjumanallana.in
+learnvcsa.anjumanallana.in
+mabelnice.anjumanallana.in
+player-nation.anjumanallana.in
+playernation.anjumanallana.in
+pto.anjumanallana.in
 dns.anne-pierre.fr
 dns.anon.no
 a-regist.anondns.net
@@ -637,6 +646,8 @@ archlinuxisthebestlol.baselinux.net
 dashboardd.baselinux.net
 aphistorytutoring.bastaff.ru
 aqua.bastaff.ru
+hackedsites.bastaff.ru
+powerschoolportal.bastaff.ru
 tacobelljobs.bastaff.ru
 we-hate-school.bastaff.ru
 home.basthorst.eu
@@ -665,6 +676,9 @@ over.bernhard-rau.de
 domburg.beruys.com
 openvpnpptp.bese.info
 openvpnpptpserver.bese.info
+mathforfun.firstgrad.bestprogramsforkids.com
+learnvcsa.bestprogramsforkids.com
+officialcepheusx.bestprogramsforkids.com
 v2202510290637393088.bestsrv.de
 dns.bezmezhau.com
 dns.bgeneto.com
@@ -815,6 +829,7 @@ agh.broaddy.com
 dns.brono.cloud
 blooket.broomleigh.org
 classroom.broomleigh.org
+linewize.broomleigh.org
 home.bruckmoser.it
 81.brudnowski.eu
 81xyz.brudnowski.eu
@@ -2177,6 +2192,7 @@ smartpn.creographix.at
 tromp.creographix.at
 vcsa.creographix.at
 adguard.crestfallen.de
+dns.criena.net
 dns.itsec.crolla.net
 fern.crosbreaker.dev
 bx3.cdn.gh-pages.cryodome.com
@@ -3572,6 +3588,7 @@ v1552270.hosted-by-vdsina.ru
 making-more-kids-from-ur-mother.hosteriafutaleufu.cl
 noah1.hosteriafutaleufu.cl
 weloveyounoah.hosteriafutaleufu.cl
+doh.hosterra.tech
 resolver1.hosting-cloud.net
 resolver2.hosting-cloud.net
 adg.hostingab.ru
@@ -4871,6 +4888,7 @@ xpen.ns01.info
 x.ns1net.com
 dnscache0.ns71.net
 garlandisd.nseuropa.org
+nljkjfdssdf.ckejlsd.nshosting.xyz
 dns.ntccloud.vn
 dns.ntr.lol
 dns1.ntus.io
@@ -10560,6 +10578,7 @@ gsouyou.space
 gsyvipaff.cc
 gtag.club
 gtdqambjtl3.online
+gtkpw.com
 gtmenbrs.com
 gtoyes.com
 guanmengkai.com
@@ -10599,6 +10618,7 @@ gyrfalconvpn.mom
 gztech.me
 gzyabio.cn
 h-vpn.org
+h0w.cc
 habd.me
 hackkcah.com
 haffnetworkam.com
@@ -10759,6 +10779,7 @@ hibchr.com
 hichiji.com
 hicyberghost.com
 hidaxiang.com
+hidden.nu
 hiddendigital.info
 hiddendragon.site
 hiddify.help
@@ -11023,6 +11044,7 @@ holyunblocker.org
 home-kuailian.com
 home-server.store
 home34.su
+homemail.info
 homeproxy.com
 homeproxy.net
 homes999.com
@@ -11084,6 +11106,7 @@ html.cafe
 httpdns.pro
 httpinjector.com
 huarenjsq.top
+huayunss.com
 hubdhl.com
 hubebay.com
 hubgoogle.com
@@ -11274,9 +11297,11 @@ iprovpn.com
 iprovpn.dev
 iproxy.blog
 iproxy.lol
+iproxy.nl
 iproxyvpn.mom
 iproyal.com
 ipsec-vpn.help
+ipservers.xyz
 ipsharkk.com
 ipunblock.com
 ipunblocker.com
@@ -11359,6 +11384,7 @@ jaxpulse.com
 jbmcxmpx.cc
 jcbb.cc
 jcbm-mc.uk
+jcdns.fun
 jego.club
 jego.pro
 jegocloud.com
@@ -11398,6 +11424,8 @@ jif637.net
 jifengcloud.info
 jifengcloud.net
 jifengcloud.org
+jifengjc.com
+jifengwangluo.com
 jike.ph
 jike0.net
 jike0001.net
@@ -11574,6 +11602,7 @@ karnuvia.ru
 karo-vpn.xyz
 kastino.ru
 katakanachart.com
+katonetwork.com
 kavkaz.monster
 kaydeolib.io
 kayqyahz.com
@@ -12052,6 +12081,7 @@ legaladvisor.us
 legalweb.info
 lei-su.com
 leidian.uk
+leidian123.com
 leidian123.org
 leidian365.cc
 leidian88.com
@@ -12427,6 +12457,7 @@ mikewaddick.com
 mikezhang.xyz
 mikrotikvpn.help
 miku.hair
+miku.lat
 milanavpn.com
 milanopuma.ir
 milou.cc
@@ -12647,6 +12678,7 @@ mtproxier.com
 mtviewbaptist.org
 muchproxy.com
 mudfish.net
+mukuyunjc.com
 mullvad.net
 multiplydose.com
 mupingbee.com
@@ -12763,6 +12795,7 @@ naiunet.com
 naiunet.net
 naiunet.pro
 naiunet.xyz
+naiyougw.com
 naiyun.info
 naizi.vip
 najiakeji.top
@@ -13109,6 +13142,7 @@ onecat02-03lkvnye.top
 onedns.net
 onelight.cc
 oneproxy.biz
+oneproxy.xyz
 onestreaming.org
 onesy.top
 onevpn.com
@@ -13306,6 +13340,7 @@ peekproxy.com
 peekvpn.online
 peer2profit.in
 peets.pro
+peiqianjc.com
 peltrax.ru
 pendrawer.com
 penphone92.com
@@ -13351,6 +13386,7 @@ phongg.vn
 photonsecure.com
 phpatewiw.online
 phpbido.com
+phproxysite.com
 phyi.loan
 physicsbutfun.com
 pi-dns.com
@@ -13472,6 +13508,7 @@ polaris.cx
 policlone.pro
 policyedunet.com
 polisitogel.beauty
+polisitogel.contractors
 polisitogel.hair
 polisitogel.show
 polisitogel.webcam
@@ -14209,7 +14246,6 @@ schoolnewsletter.us
 schoology.college
 schoology123.org
 schoolooks.com
-schoolooks.net
 schoolsprepared.org
 schoolwebproxy.com
 schulhelfer-mathe-deutsch.de
