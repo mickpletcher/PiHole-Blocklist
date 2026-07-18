@@ -5,7 +5,6 @@ afaprrnbzl1.alphonso.tv
 aknbxhzyd1.alphonso.tv
 alb-ais-prod-lb.alphonso.tv
 aqvqsekdpw89.alphonso.tv
-asbdwc6.alphonso.tv
 atzcxw9.alphonso.tv
 bbhobjaopy4.alphonso.tv
 behilbct57.alphonso.tv
@@ -24,11 +23,13 @@ budwoc80.alphonso.tv
 burmsde90.alphonso.tv
 bwezic7.alphonso.tv
 bzgjx81.alphonso.tv
+cawjjp71.alphonso.tv
 ccxspcacy49.alphonso.tv
 cdgzrfrcrk9.alphonso.tv
 cdn-aas-campaigns.alphonso.tv
 cdn-aas-ssai.alphonso.tv
 cekftfosrg84.alphonso.tv
+cgpyzb8.alphonso.tv
 ckbjtnu46.alphonso.tv
 clockskew.alphonso.tv
 config-overlay-ads.alphonso.tv
@@ -57,6 +58,7 @@ ebgyjue7.alphonso.tv
 ecbmtltfbu47.alphonso.tv
 edqsadx4.alphonso.tv
 egmfuqki23.alphonso.tv
+ejhztuvfcb3.alphonso.tv
 ennef96.alphonso.tv
 eoydhe10.alphonso.tv
 eqdrews7.alphonso.tv
@@ -239,6 +241,7 @@ hoekqq1.alphonso.tv
 hooftnl76.alphonso.tv
 hrnwnuobza7.alphonso.tv
 hsfhfh95.alphonso.tv
+hsmjvjlu4.alphonso.tv
 hvqjcycemh5.alphonso.tv
 hzcjehtc7.alphonso.tv
 ibniwvetq1.alphonso.tv
@@ -288,7 +291,6 @@ krishnaw263.alphonso.tv
 krishnaw268.alphonso.tv
 krishnaw270.alphonso.tv
 krishnaw271.alphonso.tv
-krishnaw272.alphonso.tv
 krishnaw273.alphonso.tv
 krishnaw274.alphonso.tv
 krishnaw275.alphonso.tv
@@ -385,7 +387,6 @@ krishnaw370.alphonso.tv
 krishnaw371.alphonso.tv
 krishnaw374.alphonso.tv
 krishnaw375.alphonso.tv
-krishnaw377.alphonso.tv
 krishnaw380.alphonso.tv
 krishnaw381.alphonso.tv
 krishnaw382.alphonso.tv
@@ -429,7 +430,6 @@ krishnaw439.alphonso.tv
 krishnaw441.alphonso.tv
 krishnaw445.alphonso.tv
 krishnaw446.alphonso.tv
-krishnaw447.alphonso.tv
 krishnaw448.alphonso.tv
 krishnaw449.alphonso.tv
 krishnaw450.alphonso.tv
@@ -482,6 +482,7 @@ krishnaw501.alphonso.tv
 krishnaw502.alphonso.tv
 krishnaw503.alphonso.tv
 krishnaw504.alphonso.tv
+kzjcbzwsof9.alphonso.tv
 lbrgfl89.alphonso.tv
 lcrrqcz39.alphonso.tv
 lditca63.alphonso.tv
@@ -555,6 +556,7 @@ prov-geo.alphonso.tv
 prov-geo-aws.alphonso.tv
 prov-lb.alphonso.tv
 prov-lg.alphonso.tv
+pwjke9.alphonso.tv
 pwojexjma1.alphonso.tv
 qarawx1.alphonso.tv
 qcduuw89.alphonso.tv
@@ -570,6 +572,7 @@ rgmlwyv40.alphonso.tv
 rhdpmaamx36.alphonso.tv
 rldmdjb95.alphonso.tv
 rlhfiwgg16.alphonso.tv
+rrmunf5.alphonso.tv
 rvahs48.alphonso.tv
 rxcxlnkoij6.alphonso.tv
 rymckhd6.alphonso.tv
@@ -1085,7 +1088,6 @@ tyftsjph74.alphonso.tv
 ubescyza51.alphonso.tv
 ugelxexv9.alphonso.tv
 ugiys71.alphonso.tv
-ujdcipvr0.alphonso.tv
 ujuyhix2.alphonso.tv
 ujzkkj8.alphonso.tv
 uk-ad-inserter.alphonso.tv

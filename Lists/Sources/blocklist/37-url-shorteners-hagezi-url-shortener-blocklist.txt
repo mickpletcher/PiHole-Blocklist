@@ -718,6 +718,7 @@ link.tomalvarez.com
 go.tomary.de
 a.trp.red
 go.trtmn.io
+sc.ts460.com
 lnk.tu-bs.de
 link.tubi.tv
 s.tunpok.com
@@ -3081,6 +3082,7 @@ e2s.in
 e2share.in
 e37.eu
 e49.us
+e6ui.shop
 e7.al
 e78installers.com
 e9e.ir
@@ -6436,6 +6438,7 @@ polamax.win
 polbb.eu
 politi.co
 polrproject.org
+popden.link
 popfeed.co
 popm.ch
 poprl.com
@@ -6622,6 +6625,7 @@ qr-codes.io
 qr-in.com
 qr-man.com
 qr-th.com
+qr-url.com
 qr1.be
 qr1.jp
 qr123reg.click
@@ -6693,6 +6697,7 @@ qry.kr
 qrybaan.com
 qs1.it
 qt.ke
+qti.ai
 qton.top
 qtr.sh
 qty3e.pro
@@ -6723,6 +6728,7 @@ qutt.me
 qutt.us
 quurls.com
 qvc.co
+qxa.me
 qxp.cz
 qxp.sk
 qzr2.com
@@ -6738,6 +6744,7 @@ r2c.ovh
 r2links.com
 r303.de
 r4u.in
+r8z.cn
 rabetak.me
 rabit.ae
 raceclip.com
@@ -6772,10 +6779,12 @@ rblx.co
 rbm.li
 rbrandly.com
 rbtly.com
+rbtxt.com
 rbxurl.pro
 rch.lt
 rcknr.io
 rckstr.bz
+rcl.ink
 rcld.io
 rd.gt
 rd-client.com
@@ -6986,6 +6995,8 @@ rtube.nl
 rtvote.com
 rtxt.co
 rubyurl.com
+rumahlink.com
+runi.surf
 runty.link
 rupilinks.com
 ruplink.com
@@ -6994,6 +7005,7 @@ rushgiving.com
 rushivili.com
 rusuhkali.xyz
 rutgon.top
+ruvi.me
 rvpaste.com
 rvr.link
 rvrsd.org
@@ -7296,6 +7308,7 @@ short.tips
 short.to
 short-belink.com
 short-bio.com
+short-fact.com
 short-gg.org
 short-it.cc
 short-link.co
@@ -7563,8 +7576,10 @@ shrinkin.xyz
 shrinkl.com
 shrinklinx.com
 shrinkme.app
+shrinkme.cc
 shrinkme.click
 shrinkme.dev
+shrinkme.in
 shrinkme.info
 shrinkme.ink
 shrinkme.io
@@ -7775,9 +7790,11 @@ smashed.by
 smdisc.com
 smilytech.in
 smiurl.com
+smixtools.com
 smkt.app
 smlfy.com
 smlk.es
+smll.cc
 smlnk.us
 smlr.nu
 smo.do
@@ -7812,6 +7829,7 @@ snappyshort.com
 snappyurl.com
 snapt.io
 snapurl.org
+snapurl.to
 snapurl.xyz
 snapybio.com
 snapylink.com
@@ -7999,6 +8017,7 @@ stor.ee
 stor.live
 storagesch.com
 storals.com
+storeman.online
 storiediviaggio.com
 stormurl.com
 storycor.ps
@@ -8036,10 +8055,12 @@ sunrabike.com
 suo.fyi
 suo.im
 suo.su
+suoc.me
 suolink.cn
 suolinks.com
 supaqr.com
 supbgn.at
+superbl.ink
 superboltz.com
 supercool.marketing
 supershort.to
@@ -8116,6 +8137,7 @@ t-bi.link
 t-iny.com
 t-mo.co
 t-short.top
+t111.pro
 t1p.de
 t2k.in
 t2m.ca
@@ -8138,6 +8160,7 @@ tabzi.com
 taedy.com
 tagbuilder.io
 taggpro.me
+tagli.net
 tagly.us
 tahmil.net
 tailurl.com
@@ -8189,6 +8212,7 @@ tdi2u.com
 tdotly.com
 tdrive.li
 tdv-adm.live
+tdy.lol
 tdy.sg
 teachselfgov.com
 teamenoch.co
@@ -8203,6 +8227,7 @@ tecn.in
 tecn.me
 teeeny.com
 teeny.in
+teeny.life
 teenyfy.com
 teeplantage.de
 teil.cc
@@ -8210,6 +8235,7 @@ tek.io
 tekan.in
 teknut.com
 telega.io
+telegramviral.com
 teleko.me
 tellurl.com
 tempfind.app
@@ -8267,6 +8293,7 @@ thejoekuskie.com
 thekrew.net
 thekreww.com
 thelegends.land
+thelinkmaster.com
 themestub.com
 theorist.media
 theposhed.com
@@ -8362,6 +8389,7 @@ tiny-link.co
 tiny-link.org
 tiny-links.com
 tiny-links.net
+tiny123.com
 tiny1z.com
 tiny4t.com
 tinyard.co
@@ -8500,6 +8528,7 @@ to24r.com
 to8.cc
 toclick.link
 tog.li
+togoto.us
 tohle.de
 toi.in
 tokogenie.online
@@ -8724,6 +8753,7 @@ txpl.us
 txtpass.com
 txul.cn
 ty.gy
+tyasd.com
 tyns.me
 tyny.me
 typit.in
@@ -8909,6 +8939,7 @@ url4.eu
 url4.uk
 url5.eu
 url5.org
+url50.com
 url56x.com
 url5xx.com
 url647.xyz
@@ -8962,6 +8993,7 @@ urlers.com
 urles.us
 urless.com
 urlex.org
+urlexpander.org
 urlf.cc
 urlfile.xyz
 urlfirm.com
@@ -8996,6 +9028,7 @@ urlist.net
 urlkai.com
 urlki.com
 urlkit.site
+urlklix.com
 urlkr.com
 urlkw.com
 urlky.com
@@ -9025,6 +9058,7 @@ urlq.com
 urlr.me
 urlra.com
 urlro.com
+urlroot.com
 urlrox.com
 urlroxx.com
 urlrw.com
@@ -9056,6 +9090,7 @@ urlshortener.biz
 urlshortener.bnpparibas
 urlshortener.site
 urlshortenerking.com
+urlshortenerr.live
 urlshortenertool.com
 urlshortenervip.com
 urlshortenerx.com
@@ -9085,6 +9120,7 @@ urltiny.one
 urltiny.xyz
 urlto.me
 urltools.com
+urltoshort.com
 urltrax.com
 urltronic.com
 urltta.top
@@ -9114,6 +9150,7 @@ urlz.com
 urlz.fr
 urlz.gr
 urlz.li
+urlz.my
 urlzen.com
 urlzip.io
 urlzly.com
@@ -9122,6 +9159,7 @@ urlzones.com
 urlzs.com
 urstoron.com
 urt.io
+urub.us
 urwebs.it
 usanet.tv
 usat.ly
@@ -9140,6 +9178,7 @@ usf.services
 usglife.com
 usheethe.com
 ushort.my
+ushort.xyz
 usite.jp
 usreviewers.com
 ut9.cc
@@ -9184,6 +9223,7 @@ vai.la
 vai.li
 vai.onl
 vaila.me
+valv.im
 vampyrejibmen.com
 vancedshorts.com
 vanderbi.lt
@@ -9193,6 +9233,7 @@ vars.us
 vast.link
 vats.im
 vav.li
+vaza.me
 vbegn.com
 vbg-spezial.de
 vbly.us
@@ -9287,6 +9328,7 @@ visiyta.com
 vivir.pro
 vivo.tl
 vivoldi.com
+vix.cx
 vk.cc
 vk.sv
 vkei.eu
@@ -9387,6 +9429,7 @@ wal.ee
 walk.sc
 walkjc.org
 wall.sh
+wallets.my
 waltersauto.net
 wangzhanzhubo.com
 wapo.st
