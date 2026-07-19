@@ -636,6 +636,7 @@ shop.scghome.com
 smaba.sch.id
 vita.sch.id
 kutt.schantli.cloud
+yourls.sci.io
 go.scify.org
 surl.scrapc.com
 go.screbo.com
@@ -9644,6 +9645,7 @@ x2c.eu
 x2l.ir
 x2t.com
 x2y.me
+x5n.cn
 x7.lv
 x89.us
 xaddr.com
@@ -9853,6 +9855,7 @@ yukibio.com
 yul.is
 yulllu01.online
 yun.ir
+yurl.bio
 yweb.com
 yww.uy
 yx.si
@@ -9864,6 +9867,7 @@ z20.su
 z23.ru
 z2h.it
 z4sh.com
+z5h.cn
 z6c.de
 z9.fr
 z9n.net
@@ -9895,6 +9899,7 @@ zenlinkit.com
 zensus.io
 zenurl.in
 zephb.com
+zeroshort.xyz
 zetir.com
 zeurl.net
 zeus4d.mom
