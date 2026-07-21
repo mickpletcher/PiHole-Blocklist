@@ -2201,6 +2201,7 @@ smartpn.creographix.at
 tromp.creographix.at
 vcsa.creographix.at
 adguard.crestfallen.de
+dns.criena.net
 dns.itsec.crolla.net
 fern.crosbreaker.dev
 bx3.cdn.gh-pages.cryodome.com
