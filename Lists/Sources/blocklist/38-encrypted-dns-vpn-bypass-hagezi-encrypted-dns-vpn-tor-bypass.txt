@@ -2239,6 +2239,7 @@ smartpn.creographix.at
 tromp.creographix.at
 vcsa.creographix.at
 adguard.crestfallen.de
+dns.criena.net
 dns.itsec.crolla.net
 fern.crosbreaker.dev
 bx3.cdn.gh-pages.cryodome.com
@@ -13108,6 +13109,7 @@ nekobox.tools
 nekoray.help
 nekoray.org
 nelsonleung.org
+neo-vpn.ink
 neodon-vpn.com
 neonos.me
 nerbix.xyz
@@ -16353,6 +16355,7 @@ vpnteam.store
 vpntelegram.info
 vpntoggle.com
 vpntraffic.com
+vpntrustway.online
 vpntun.site
 vpntunnel.com
 vpntunnel.se
