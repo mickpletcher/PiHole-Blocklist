@@ -73,6 +73,7 @@ northeurope-4.in.applicationinsights.azure.com
 northeurope-5.in.applicationinsights.azure.com
 northeurope-global.in.applicationinsights.azure.com
 norwayeast-0.in.applicationinsights.azure.com
+polandcentral-0.in.applicationinsights.azure.com
 qatarcentral-0.in.applicationinsights.azure.com
 southafricanorth-0.in.applicationinsights.azure.com
 southafricanorth-1.in.applicationinsights.azure.com
@@ -106,7 +107,6 @@ westus2-2.in.applicationinsights.azure.com
 westus2-4.in.applicationinsights.azure.com
 westus2-5.in.applicationinsights.azure.com
 westus2-global.in.applicationinsights.azure.com
-westus3.in.applicationinsights.azure.com
 westus3-1.in.applicationinsights.azure.com
 live.applicationinsights.azure.com
 inference-app-gateway.eastus2.cloudapp.azure.com
@@ -381,7 +381,6 @@ uk-mobile.events.data.microsoft.com
 uk-v20.events.data.microsoft.com
 umwatson.events.data.microsoft.com
 umwatsonc.events.data.microsoft.com
-us-ic3.events.data.microsoft.com
 us-mesh.events.data.microsoft.com
 us-mobile.events.data.microsoft.com
 us-teams.events.data.microsoft.com

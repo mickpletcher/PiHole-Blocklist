@@ -5,6 +5,7 @@ free.bizhat.com
 all.co.uk
 blogspot.co.at
 blogspot.co.uk
+dothome.co.kr
 surfblocked.co.cc
 thamboli.co.za
 blogspot.com.au
@@ -250,6 +251,7 @@ blinkweb.com
 blltly.com
 blog.lc
 blog-online.eu
+blog5.net
 blogcheese.com
 bloggt.de
 blogmonster.de
@@ -604,6 +606,7 @@ h.gp
 han.gl
 hanefra7bikiemta.com
 hase.in
+hashnode.dev
 healthyemployee.me
 herobo.com
 hexe.in
