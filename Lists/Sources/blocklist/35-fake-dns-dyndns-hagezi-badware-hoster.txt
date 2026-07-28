@@ -10,6 +10,7 @@ surfblocked.co.cc
 thamboli.co.za
 blogspot.com.au
 blogspot.com.br
+blogspot.com.cy
 blogspot.com.es
 cableonline.com.mx
 encurtador.com.br
@@ -579,7 +580,6 @@ game.lc
 gamer.gd
 gaming.lc
 genblogger.com
-gerentebr.com
 getenjoyment.net
 getresponsesite.com
 gg123.vip
