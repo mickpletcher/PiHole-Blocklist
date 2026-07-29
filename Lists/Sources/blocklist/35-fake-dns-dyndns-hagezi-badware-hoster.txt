@@ -27,7 +27,6 @@ mightyurl.mightyscripts.xyz
 vpn.net.br
 qr.nikastic.com
 24.org.es
-goo-gl.ru.com
 citybios.sa.com
 ftp.totallyanonymous.com
 url.usacomment.com
@@ -565,7 +564,6 @@ freewebsitehosting.com
 freewebspace.com
 freewebtools.com
 freewha.com
-freezoka.net
 freightinternationalservices.com
 friendcircles.com
 fuer-alle.de
@@ -644,7 +642,6 @@ hyip.com
 hyperphp.com
 i.gp
 i8.ae
-ibiz.cc
 iblogger.org
 ic0.app
 iceiy.com
@@ -917,7 +914,6 @@ pk.gp
 pktriot.net
 pl.de
 pl.gp
-pl-oferta-id2387942371.top
 planet.tl
 plu.sh
 portal.lc

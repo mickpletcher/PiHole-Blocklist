@@ -341,6 +341,7 @@ view.helpline-app.com
 shorrtener.herokuapp.com
 link.hexlet.io
 url.hilberg.eu
+cdn.hilltopads.net
 blink.hirebiz.com
 analytics.hitsmedia.org
 dl.hitxgh.com
@@ -397,9 +398,6 @@ links.iona.ai
 t.iotex.me
 url.is4k.com
 kutt.isesaki.in
-videy.isuaceh.com
-videyfour.isuaceh.com
-videytwo.isuaceh.com
 clubhouse.it.com
 linkbio.it.com
 yewfjsdi.it.com
@@ -619,7 +617,6 @@ s.rlp.de
 view.robothumb.com
 bio.rocketapps.pro
 lets.rok.biz
-goo-gl.ru.com
 bio.rub3n.io
 short.ruksk.com
 s.sachiniyer.com
@@ -1012,7 +1009,6 @@ go.zordo.net
 1un.fr
 1url.com
 1url.cz
-1url.info
 1url.it
 1url.my
 1url.re
@@ -1183,7 +1179,6 @@ go.zordo.net
 4t.gg
 4ton.com
 4ty.me
-4uid.com
 4url.cc
 4x.si
 5.gp
@@ -1203,7 +1198,6 @@ go.zordo.net
 5o.io
 5or.cc
 5qzr.com
-5rwv.info
 5url.net
 5v-v.com
 5w.fit
@@ -1235,10 +1229,8 @@ go.zordo.net
 74i.de
 77.ai
 777online.life
-7894.xyz
 7a.ink
 7c34.com
-7clik.com
 7fth.cc
 7g7.ir
 7i.nu
@@ -1680,7 +1672,6 @@ arolinks.com
 arpressllc.com
 arpy.in
 arrabet.link
-arshorten.com
 arsn.al
 arurl.us
 arus.cc
@@ -1867,7 +1858,6 @@ bec.ltd
 becakrcg.xyz
 becsn.net
 bee-kz.life
-bee1s.com
 bee4.biz
 beeb.us
 beelnk.com
@@ -1915,7 +1905,6 @@ biaotee.top
 biastonu.com
 bibl.es
 bidiurl.com
-bidly.cc
 bidsforkids.org
 bie.to
 bigbigwinjiliwin63.online
@@ -2141,7 +2130,6 @@ bp.cool
 bp-gc.in
 bpjames.com
 bpk.id
-bpkrlinks.com
 bpl.kr
 bpo.cloud
 br4.in
@@ -2389,7 +2377,6 @@ chatg.pt
 cheap-bitcoin.online
 cheap-stocks.biz
 checkbill.biz
-chekc.life
 chem.sg
 cherrykiss.club
 chew88.com
@@ -2465,7 +2452,6 @@ cleanhockinghills.com
 cleanuri.com
 clearstream.io
 cleverlink.pro
-cleverurls.com
 cli.fm
 cli.gs
 cli.re
@@ -2551,7 +2537,6 @@ clsks.space
 clvr.rocks
 clybi.us
 cme.sh
-cml.lol
 cmmr.me
 cmon.co
 cmpct.xyz
@@ -2630,7 +2615,6 @@ cpnl.ink
 cptl.me
 cq.al
 cqma.info
-cr.ma
 cr-adt.com
 cr8.lv
 crackm.ag
@@ -2761,7 +2745,6 @@ cuttly.io
 cuttly.pro
 cutto.io
 cutts.in
-cutur.link
 cuturl.cloud
 cuturl.com
 cuturl.net
@@ -3311,7 +3294,6 @@ f4d.uk
 f5i.org
 f5url.com
 f5yo.com
-f6x.cn
 fa.by
 fa.gd
 fa-st.co
@@ -4161,7 +4143,6 @@ ikwer.com
 iky.fr
 ilang.in
 ild.info
-iligstein.com
 ilink-to.net
 ilix.in
 ilk.ir
@@ -4241,7 +4222,6 @@ intuit.me
 intwitspin.motorcycles
 intx.ltd
 inui.in
-invata-acum.ro
 invent.ge
 invest.tr
 invisioncode.com
@@ -4284,13 +4264,11 @@ is.gd
 is-gd.link
 is3.co
 isabi.click
-isang.click
 isc-vn.com
 isc-vn.org
 iscool.net
 ishort.in
 ishortie.com
-ishortify.com
 ishortn.ink
 ishorturl.com
 ishorturl.net
@@ -4376,7 +4354,6 @@ jasn.ca
 javadocs.org
 jaw.gg
 jayan-uvl.com
-jaygo.xyz
 jb.gg
 jbiv.com
 jcp.is
@@ -4512,7 +4489,6 @@ keepo.bio
 keepo.io
 keetl.com
 kem.lu
-kerang.life
 keraskale.me
 keremozgit.org
 ketli.net
@@ -4619,7 +4595,6 @@ kp.org
 kpmg.ch
 kr.pe
 kr3w.de
-kratsi.cz
 krazy.la
 krazylinks.com
 krdit.be
@@ -4667,7 +4642,6 @@ kxb.me
 kyaa.info
 kyb101.link
 kyk.it
-kylynk.com
 l.tl
 l-i-nk.me
 l-ink.me
@@ -4810,7 +4784,6 @@ lillink.net
 lillink.xyz
 lilllil.ru
 lilnk.to
-liltext.com
 lilurl.run
 lin.cr
 lin.ee
@@ -4926,7 +4899,6 @@ linkexpander.com
 linkezurl.com
 linkf.su
 linkfast.me
-linkfat.com
 linkfly.app
 linkfly.me
 linkfly.to
@@ -5387,7 +5359,6 @@ m7p.ir
 maac.io
 mable.bio
 macanplay.click
-macau123.link
 machess.org
 maejo.link
 maga.lu
@@ -5428,7 +5399,6 @@ marketinghelperpro.com
 markholtz.info
 marktive.com
 martshort.com
-marveliness.com
 mas.si
 mas.so
 masklink.org
@@ -5853,7 +5823,6 @@ n28.it
 n2l.me
 n3y.ir
 n66d.com
-n7i.cn
 n7s.xyz
 n9.cl
 n9x.co
@@ -5900,7 +5869,6 @@ ne1.net
 nearurl.com
 nectarios.info
 neexulro.net
-nefeli.live
 nefix.de
 neflixenomovies.com
 nej.md
@@ -5914,7 +5882,6 @@ netbrandly.com
 neti.cc
 netizen303.org
 nev.lt
-neweden.live
 newhotlink.com
 newpowerlink.com
 newpro.io
@@ -6383,7 +6350,6 @@ pigmyurl.com
 pikr.me
 pin.it
 pin.onl
-pin.st
 pinball.click
 ping.fm
 pino.link
@@ -6409,7 +6375,6 @@ placesunknown.art
 pladollmo.com
 plahxt.com
 plannery.app
-play-app.site
 playbokep.to
 playsolaire.com
 playtr.games
@@ -6866,7 +6831,6 @@ ref.li
 ref.so
 ref11.top
 refer.is
-referer.us
 refertowin.net
 refini.tv
 reflectoring.io
@@ -7243,7 +7207,6 @@ sh.studio
 sh-ort.app
 sh7.ch
 shadyurl.com
-shahiurl.com
 shakelchat.net
 shar.as
 share.al
@@ -7330,7 +7293,6 @@ short-url.org
 short1.link
 short1.org
 short24.pw
-short4fly.com
 short4me.io
 shortaro.com
 shortaz.com
@@ -7853,7 +7815,6 @@ snhjsbs.shop
 sni.ps
 snifferip.com
 snip.im
-snip.link
 snip.ly
 snip.ng
 snipi.io
@@ -7868,7 +7829,6 @@ sniply.io
 sniply.me
 snipmojo.com
 snipp.dev
-snipqr.com
 snipr.com
 snipurl.com
 snipurl.dev
@@ -7927,7 +7887,6 @@ spgrp.sg
 spicc.io
 spid.io
 spidyurl.com
-spidz.xyz
 spify.co
 spigen.co
 spk.st
@@ -8121,7 +8080,6 @@ swox.me
 swr1.cc
 swsig.com
 swsig.de
-swsupt.com
 swtt.cc
 sy.pe
 sy.to
@@ -8400,7 +8358,6 @@ tiny-links.com
 tiny-links.net
 tiny123.com
 tiny1z.com
-tiny4t.com
 tinyard.co
 tinyarro.ws
 tinybit.cc
@@ -8574,7 +8531,6 @@ totheapp.com
 toto.pe
 totopecah.site
 toui.cc
-touraboutworld.org
 tourefly.com
 tourl.in
 tov1.net
@@ -8641,7 +8597,6 @@ trims.me
 trimuly.com
 trimurl.co
 trimurls.com
-trisula88short.xyz
 tritri.my
 trizlink.com
 trk24.com
@@ -8973,7 +8928,6 @@ urlbee.site
 urlbind.com
 urlbit.co
 urlbit.io
-urlbit.online
 urlbit.pro
 urlbity.com
 urlbox.cc
@@ -9329,7 +9283,6 @@ virl.me
 visionia.site
 visit.my
 visit.st
-visit2earn.com
 visitmy.link
 visitmylinks.com
 visitsitenow.com
@@ -9533,7 +9486,6 @@ whr.tn
 whr.to
 whs.link
 whstlr.us
-whts.cc
 whyiwu.com
 wi.sa
 wi.se
@@ -9545,7 +9497,6 @@ wildc.at
 wildflowerlinks.org
 willgo.link
 win.gs
-win7.life
 winc.shop
 wingsy.org
 winlynk.com
