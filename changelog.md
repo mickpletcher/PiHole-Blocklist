@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-07-29
+
+- Added `assessment.md` with the current repository condition, source audit results, risks, and recommended next work.
+- Added root `AGENTS.md` requiring every repository change to review and update `assessment.md`, `README.md`, and `changelog.md`.
+- Updated `README.md` with the assessment and repository instruction files and the required documentation maintenance process.
+- Documented the current source audit: all 46 URLs are reachable, while parser, overlap, policy-list, and third-party whitelist concerns remain.
+- Added an update workflow status badge to `README.md`.
+- Added a 15-minute timeout to the scheduled list-update job.
+- Pinned `actions/checkout` to the v5 commit in the list-update workflow.
+
 ## 2026-06-04
 
 - Added `LISTS.md` as a user-facing review page for blocklist and whitelist sources.

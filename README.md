@@ -1,5 +1,7 @@
 # Pi-hole Blocklist Builder
 
+[![Update Pi-hole lists](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml/badge.svg)](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml)
+
 Curated Pi-hole blocklist and whitelist builder with source validation and automated list generation.
 
 This project downloads trusted source lists, normalizes them into plain domains, writes per-source files, and generates two curated outputs:
@@ -48,6 +50,8 @@ Do not use the normal GitHub page URL. Use the `raw.githubusercontent.com` URL o
 | `pihole-blocklist-sources.csv` | Source inventory used by scripts |
 | `pihole-list-sources.md` | Human-readable source index |
 | `LISTS.md` | User-facing review page for all blocklist and whitelist sources |
+| `assessment.md` | Current repository condition, risks, findings, and recommended work |
+| `AGENTS.md` | Required repository maintenance instructions |
 | `Validate-BlocklistSources.ps1` | Source validation |
 | `Merge-PiholeBlocklists.ps1` | Source download and list build |
 | `Update-ListSourceMarkdown.ps1` | Regenerates markdown source review files from the CSV |
@@ -138,6 +142,16 @@ The markdown source review files are generated from the CSV:
 
 Users who want to review every source before using the curated outputs can read [LISTS.md](LISTS.md).
 
+## Documentation Maintenance
+
+Every repository change must include a review of:
+
+- `assessment.md`
+- `README.md`
+- `changelog.md`
+
+Update all three files in the same change set so the current condition, user instructions, and project history remain aligned with the implementation. The detailed requirement is stored in `AGENTS.md`.
+
 ## Troubleshooting
 
 If validation reports `ParityDifferences`, CSV and markdown sources are out of sync.
@@ -148,4 +162,4 @@ If the curated blocklist is very large, that is expected for combined security, 
 
 ## Project History
 
-See [changelog.md](changelog.md) and [completed-upgrades.md](completed-upgrades.md).
+See [assessment.md](assessment.md), [changelog.md](changelog.md), and [completed-upgrades.md](completed-upgrades.md).
