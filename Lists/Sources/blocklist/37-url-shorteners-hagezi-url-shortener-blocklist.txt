@@ -341,7 +341,6 @@ view.helpline-app.com
 shorrtener.herokuapp.com
 link.hexlet.io
 url.hilberg.eu
-cdn.hilltopads.net
 blink.hirebiz.com
 analytics.hitsmedia.org
 dl.hitxgh.com

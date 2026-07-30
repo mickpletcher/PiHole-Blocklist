@@ -92,6 +92,7 @@ ukwest-0.in.applicationinsights.azure.com
 usgovarizona-0.in.applicationinsights.azure.us
 usgovvirginia-0.in.applicationinsights.azure.us
 usgovvirginia-1.in.applicationinsights.azure.us
+usgovvirginia-global.in.applicationinsights.azure.us
 westeurope.in.applicationinsights.azure.com
 westeurope-0.in.applicationinsights.azure.com
 westeurope-1.in.applicationinsights.azure.com
@@ -230,6 +231,7 @@ ppc-word-telemetry.officeapps.live.com
 sgtus1-excel-telemetry-vip.officeapps.live.com
 sgtus1-powerpoint-telemetry-vip.officeapps.live.com
 sgtus1-word-telemetry-vip.officeapps.live.com
+telemetry.officeapps.live.com
 tgtus1-excel-telemetry-vip.officeapps.live.com
 tgtus1-powerpoint-telemetry-vip.officeapps.live.com
 tgtus1-word-telemetry-vip.officeapps.live.com
