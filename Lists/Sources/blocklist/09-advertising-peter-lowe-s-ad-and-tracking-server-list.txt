@@ -761,6 +761,7 @@ advert.bayarea.com
 advert.dyna.ultraweb.hu
 adverticum.com
 adverticum.net
+advertipros.com
 advertise.com
 advertiseireland.com
 advertiserurl.com
@@ -841,8 +842,10 @@ alphonso.tv
 als-svc.nytimes.com
 amazingcounters.com
 amazon-adsystem.com
+amcnreil.pro
 americash.com
 amidsttruly.com
+ampscamp.net
 amung.us
 analytics-fe.digital-cloud-prem.medallia.eu
 analytics-production.hapyak.com
@@ -870,6 +873,7 @@ analytics.poolshool.com
 analytics.posttv.com
 analytics.santander.co.uk
 analytics.swiggy.com
+analytics.tempy.email
 analytics.tiktok.com
 analytics.xelondigital.com
 analytics.yahoo.com
@@ -1129,6 +1133,7 @@ buzzonclick.com
 bwp.download.com
 c.apple.com
 c.bigmir.net
+c.trkn.it
 c1exchange.com
 c212.net
 cakesdrum.com
@@ -1276,6 +1281,7 @@ clicks.monzo.com
 clicks.njuskalo.hr
 clickserve.cc-dt.com
 clicksinfo.thefork.co.uk
+clicktag.de
 clickthruserver.com
 clickthrutraffic.com
 clicktrack.pubmatic.com
@@ -1834,6 +1840,7 @@ hocgeese.com
 hollowafterthought.com
 homelycrown.com
 homepageking.de
+honeybutterbliss.com
 honorableland.com
 hostedads.realitykings.com
 hotjar.com
@@ -1890,7 +1897,6 @@ imonomy.com
 imp.i312864.net
 impossibleexpansion.com
 imprese.cz
-impressionmedia.cz
 impressionmonster.com
 improvedigital.com
 imrworldwide.com
@@ -2049,7 +2055,6 @@ lightspeedcash.com
 lightstep.medium.systems
 lijit.com
 limecodesign.com
-link-booster.de
 link.axios.com
 link.beelivery.com
 link.email.davidlloydclubs.co.uk
@@ -2439,7 +2444,6 @@ owlsr.us
 owneriq.net
 oxado.com
 oxcash.com
-oxen.hillcountrytexas.com
 p-n.io
 p7cloud.net
 paa-reporting-advertising.amazon
@@ -2518,6 +2522,7 @@ pltraffic8.com
 pluckypocket.com
 plugrush.com
 pocketfaucet.com
+pocustrack.com
 poemprompt.com
 pointlessprofit.com
 pointroll.com
@@ -2530,7 +2535,6 @@ popmixradio.com
 popmyads.com
 popplantation.com
 popub.com
-popunder.ru
 popunhot1.blogspot.com
 popup.msn.com
 popupmoney.com
@@ -2586,6 +2590,7 @@ proton-tm.com
 protraffic.com
 provenpixel.com
 prpops.com
+prsitecheck.com
 prufenzo.xyz
 pstmrk.it
 pub.chez.com
@@ -2603,6 +2608,7 @@ puffyloss.com
 puffypaste.com
 puffypull.com
 puffypurpose.com
+pulse.genki.world
 pureclarity.net
 pushengage.com
 pushno.com
@@ -2766,6 +2772,7 @@ ru4.com
 rubiconproject.com
 rum-http-intake.logs.datadoghq.com
 rum-http-intake.logs.datadoghq.eu
+rum.aliyuncs.com
 runads.com
 rundsp.com
 ruralrobin.com
@@ -2774,6 +2781,7 @@ s.dmmew.com
 s20dh7e9dh.com
 s2d6.com
 sabio.us
+sadloaf.com
 safeoffers.pro
 sail-horizon.com
 samplesamba.com
@@ -3053,6 +3061,7 @@ t.firstpromoter.com
 t.insigit.com
 t.irtyd.com
 t.leady.com
+t.marketing.goindigo.in
 t.mmtrkr.com
 t.news.browns-restaurants.co.uk
 t.notif-colissimo-laposte.info
@@ -3340,7 +3349,6 @@ vanfireworks.com
 vcommission.com
 veille-referencement.com
 velismedia.com
-venetrigni.com
 vengefulgrass.com
 ventivmedia.com
 venturead.com
