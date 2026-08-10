@@ -7,6 +7,7 @@
 - Updated `assessment.md` to reflect the URL migration and current reachability status.
 - Reviewed `README.md`; setup, commands, outputs, and limitations remain accurate because only source URLs changed.
 - Regenerated both source indexes, validated all 46 URLs, and completed a full list build with all 46 sources succeeding.
+- Manually verified the merged fix with GitHub Actions run `31413013230`; all steps passed and the workflow committed refreshed lists to `main`.
 
 ## 2026-07-29
 

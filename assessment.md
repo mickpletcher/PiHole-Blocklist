@@ -8,7 +8,7 @@ The repository has a working PowerShell pipeline for validating source URLs, nor
 
 The source inventory currently contains 45 blocklist sources and one whitelist source. On 2026-08-10 five hagezi source URLs that previously used `raw.githubusercontent.com/hagezi/dns-blocklists/main/` began returning HTTP 404. All five were migrated to the equivalent `cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/` URLs, which are already used by the other hagezi sources in the list. Post-migration, all 46 source URLs are reachable.
 
-The generated blocklist combines broad aggregate lists with many smaller lists that overlap those aggregates. The 2026-08-10 validation build produced 3,644,678 unique blocklist domains and 191 whitelist domains.
+The generated blocklist combines broad aggregate lists with many smaller lists that overlap those aggregates. The verified GitHub Actions build on 2026-08-10 produced 3,644,676 unique blocklist domains and 191 whitelist domains.
 
 ## Findings
 
@@ -42,7 +42,7 @@ The generated blocklist combines broad aggregate lists with many smaller lists t
 
 ## Validation Results
 
-Validation run on 2026-08-10:
+Verified GitHub Actions run `31413013230` on 2026-08-10:
 
 ```text
 MarkdownRows=46
@@ -54,7 +54,7 @@ DuplicateSources=0
 FailedHttp=0
 Redirects=0
 SourcesOK=46/46
-BlocklistDomains=3644678
+BlocklistDomains=3644676
 WhitelistDomains=191
 WhitelistCollisionsRemoved=16
 ```
