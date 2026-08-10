@@ -58,8 +58,8 @@ Full index of curated blocklist and whitelist sources organized by category. The
 | RPiList Apple iCloud | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud |
 | RPiList Apple iTunes | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iTunes |
 | RPiList MS Office Telemetry | https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry |
-| Hagezi Windows / Office Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/native.winoffice.txt |
-| Hagezi TikTok Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/native.tiktok.txt |
+| Hagezi Windows / Office Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.winoffice.txt |
+| Hagezi TikTok Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.tiktok.txt |
 | RPiList Microsoft Office 365 | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft%20Office%20365 |
 
 ## Smart TV / IoT
@@ -67,8 +67,8 @@ Full index of curated blocklist and whitelist sources organized by category. The
 | Source | URL |
 |---|---|
 | Perflyst SmartTV | https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt |
-| Hagezi Samsung Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/native.samsung.txt |
-| Hagezi LG WebOS Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/native.lgwebos.txt |
+| Hagezi Samsung Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.samsung.txt |
+| Hagezi LG WebOS Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.lgwebos.txt |
 
 ## Fake DNS / DynDNS
 
@@ -99,7 +99,7 @@ Full index of curated blocklist and whitelist sources organized by category. The
 
 | Source | URL |
 |---|---|
-| Hagezi Pro | https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt |
+| Hagezi Pro | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt |
 | Hagezi Fake DNS Blocklist | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt |
 | Hagezi Pop-Up Ads | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt |
 | Hagezi SafeSearch Not Supported | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt |
