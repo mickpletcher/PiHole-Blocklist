@@ -5,6 +5,8 @@
 - Fixed CI failure in "Build and commit generated lists" job: five hagezi blocklist source URLs using `raw.githubusercontent.com/hagezi/dns-blocklists/main/` began returning HTTP 404 (`native.winoffice.txt`, `native.tiktok.txt`, `native.samsung.txt`, `native.lgwebos.txt`, `adblock/pro.txt`).
 - Replaced all five with equivalent `cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/` URLs, consistent with the other hagezi entries already in the source list.
 - Updated `assessment.md` to reflect the URL migration and current reachability status.
+- Reviewed `README.md`; setup, commands, outputs, and limitations remain accurate because only source URLs changed.
+- Regenerated both source indexes, validated all 46 URLs, and completed a full list build with all 46 sources succeeding.
 
 ## 2026-07-29
 

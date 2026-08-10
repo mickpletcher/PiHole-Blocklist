@@ -152,6 +152,8 @@ Every repository change must include a review of:
 
 Update all three files in the same change set so the current condition, user instructions, and project history remain aligned with the implementation. The detailed requirement is stored in `AGENTS.md`.
 
+Last reviewed: 2026-08-10. The HaGeZi source URL migration does not change setup, commands, outputs, or limitations.
+
 ## Troubleshooting
 
 If validation reports `ParityDifferences`, CSV and markdown sources are out of sync.
