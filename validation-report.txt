@@ -1,7 +1,7 @@
 === SUMMARY ===
 MarkdownRows=45
 CsvRows=45
-EnabledRows=19
+EnabledRows=44
 ParityDifferences=0
 MetadataProblems=0
 InvalidUrls=0
@@ -14,10 +14,10 @@ Redirects=0
 
 Profile  Sources
 -------  -------
-Balanced       2
-Strict         3
+Balanced      23
+Strict        24
 Device        11
-Policy         5
+Policy         9
 
 === METADATA PROBLEMS ===
 None

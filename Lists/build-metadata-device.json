@@ -1,11 +1,11 @@
 {
-  "generatedAtUtc": "2026-08-12T03:08:07.6518493Z",
+  "generatedAtUtc": "2026-08-12T04:31:21.8776506Z",
   "profile": "Device",
   "sourceCount": 11,
   "blocklistDomains": 3396,
   "allowlistDomains": 0,
   "allowlistCollisionsRemoved": 0,
-  "elapsedSeconds": 1.21,
+  "elapsedSeconds": 2.97,
   "outputFile": "curated-blocklist-device.txt",
   "outputSha256": "3AB81E13D84A672A6BBACE276AB5FC1DBBBFF0577A55E14537663202806806AA",
   "sources": [

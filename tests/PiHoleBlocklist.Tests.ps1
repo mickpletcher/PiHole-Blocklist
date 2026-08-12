@@ -65,8 +65,8 @@ Describe 'Invoke-PiHoleListBuild' {
         $script:output = Join-Path $TestDrive ([guid]::NewGuid().ToString('N'))
         Set-Content -LiteralPath $script:allowlist -Value 'b.example' -Encoding utf8NoBOM
         @'
-Category,Source,URL,Enabled,Profiles,Format,Risk,ExpectedDomains,MaxChangePercent
-Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,10
+Category,Source,URL,Enabled,Profiles,Format,Risk,ExpectedDomains,MaxChangePercent,DisabledReason
+Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,10,
 '@ | Set-Content -LiteralPath $script:sourceCsv -Encoding utf8NoBOM
     }
 
@@ -123,5 +123,19 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
 
         Should -Invoke -ModuleName PiHoleBlocklist Invoke-WebRequest -Times 3 -Exactly
         Test-Path -LiteralPath $script:output | Should -BeFalse
+    }
+
+    It 'requires the DisabledReason source column' {
+        @'
+Category,Source,URL,Enabled,Profiles,Format,Risk,ExpectedDomains,MaxChangePercent
+Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,10
+'@ | Set-Content -LiteralPath $script:sourceCsv -Encoding utf8NoBOM
+
+        {
+            Invoke-PiHoleListBuild `
+                -SourceCsv $script:sourceCsv `
+                -ProjectAllowlistPath $script:allowlist `
+                -OutputDirectory $script:output
+        } | Should -Throw '*Source CSV is missing required column: DisabledReason*'
     }
 }

@@ -127,7 +127,7 @@ function Get-SourceInventory {
 
     $requiredColumns = @(
         'Category', 'Source', 'URL', 'Enabled', 'Profiles', 'Format', 'Risk',
-        'ExpectedDomains', 'MaxChangePercent'
+        'ExpectedDomains', 'MaxChangePercent', 'DisabledReason'
     )
     foreach ($column in $requiredColumns) {
         if ($column -notin $rows[0].PSObject.Properties.Name) {

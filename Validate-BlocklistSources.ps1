@@ -25,7 +25,7 @@ function Get-MarkdownSource {
             continue
         }
 
-        if ($line -match '^\|\s*(?:true|false)\s*\|.*?\|.*?\|.*?\|\s*(.+?)\s*\|\s*(https://.+?)\s*\|\s*$') {
+        if ($line -match '^\|\s*(?:true|false)\s*\|.*?\|.*?\|.*?\|.*?\|\s*(.+?)\s*\|\s*(https://.+?)\s*\|\s*$') {
             [pscustomobject]@{
                 Category = $category
                 Source = $Matches[1].Trim()
@@ -82,9 +82,9 @@ if ($csvRows.Count -eq 0) {
     Write-Error "CSV has no rows: $CsvPath"
 }
 
-$requiredColumns = @(
-    'Category', 'Source', 'URL', 'Enabled', 'Profiles', 'Format', 'Risk',
-    'ExpectedDomains', 'MaxChangePercent'
+    $requiredColumns = @(
+        'Category', 'Source', 'URL', 'Enabled', 'Profiles', 'Format', 'Risk',
+        'ExpectedDomains', 'MaxChangePercent', 'DisabledReason'
 )
 $missingColumns = @($requiredColumns | Where-Object { $_ -notin $csvRows[0].PSObject.Properties.Name })
 if ($missingColumns.Count -gt 0) {
@@ -123,6 +123,8 @@ foreach ($row in $csvRows) {
     if (-not $maxChangeValid -or $maxChange -le 0 -or $maxChange -gt 1000) { $issues.Add('MaxChangePercent must be greater than 0 and no more than 1000') }
     if ($enabledValid -and $enabled -and $profiles.Count -eq 0) { $issues.Add('Enabled sources require at least one profile') }
     if ($enabledValid -and -not $enabled -and $profiles.Count -gt 0) { $issues.Add('Disabled sources cannot be assigned to a profile') }
+    if ($enabledValid -and $enabled -and -not [string]::IsNullOrWhiteSpace($row.DisabledReason)) { $issues.Add('Enabled sources cannot have DisabledReason') }
+    if ($enabledValid -and -not $enabled -and [string]::IsNullOrWhiteSpace($row.DisabledReason)) { $issues.Add('Disabled sources require DisabledReason') }
     if ($enabledValid -and $enabled -and $expected -le 0) { $issues.Add('Enabled sources require ExpectedDomains greater than zero') }
     if ($enabledValid -and $enabled -and $row.Format -eq 'AdblockTld') { $issues.Add('AdblockTld cannot be enabled for plain-domain output') }
 
