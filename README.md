@@ -61,7 +61,21 @@ Device contains opt-in Apple, Microsoft, TikTok, Smart TV, and similar service r
 
 Policy contains opt-in anti-piracy, URL-shortener, encrypted DNS or VPN bypass, fake-news, and unsupported SafeSearch restrictions.
 
-Source assignments, risk labels, formats, expected parsed counts, and change thresholds are stored in `pihole-blocklist-sources.csv`. Disabled overlapping sources remain in the catalog for review but are not published.
+## Source Inventory
+
+Review the complete source inventory before subscribing or changing profiles.
+
+| Inventory status | Count |
+|---|---:|
+| Total sources | 45 |
+| Enabled sources | 19 |
+| Disabled sources | 26 |
+
+- [View the complete human-readable source catalog](LISTS.md), including enabled status, assigned profiles, risk, format, and upstream URL.
+- [Open the CSV source of truth](pihole-blocklist-sources.csv) used by validation and list generation.
+- [View the generated technical source catalog](pihole-list-sources.md).
+
+The CSV `Enabled` and `Profiles` fields control publication. Disabled overlapping sources remain documented for review but are not published.
 
 ## Requirements
 
