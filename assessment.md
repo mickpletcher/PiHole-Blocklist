@@ -10,7 +10,7 @@ The source catalog contains 45 blocklist rows. Nineteen rows are enabled in at l
 
 The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
 
-Generated feeds are no longer tracked on `main`. The daily workflow publishes only final outputs, validation results, and JSON build metadata to a history-limited orphan `generated` branch. Existing generated Git history remains, but daily source churn no longer grows `main`.
+A generated publication snapshot is tracked on `main` again to restore the legacy raw subscription URLs. The daily workflow continues publishing final outputs, validation results, and JSON build metadata to the history-limited orphan `generated` branch. It does not refresh the `main` snapshot.
 
 ## Resolved Findings
 
@@ -24,6 +24,7 @@ Generated feeds are no longer tracked on `main`. The daily workflow publishes on
 - The broad, stale third-party whitelist no longer overrides intentional blocking.
 - Pester, PSScriptAnalyzer, generated-documentation, inventory, Markdown, and live URL checks now run in pull requests.
 - The publication workflow uses lease-protected replacement of the generated branch and retains the previous publication when a build fails.
+- The generated branch snapshot was squash integrated into `main` without replacing the source repository README or source files.
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
 
 ## Source Profiles
@@ -71,12 +72,14 @@ All four outputs had zero invalid domains, duplicates, or out-of-order lines. Th
 - The repository still contains old generated-feed objects in Git history. Removing them requires a separate coordinated history rewrite and force push.
 - Broad aggregate lists can create false positives even with the safer default profile.
 - Expected-count baselines require manual review when a legitimate upstream change exceeds its threshold.
+- Legacy `main` subscription URLs now resolve, but their compatibility snapshot becomes stale when the next generated-branch publication succeeds.
 - Balanced and Strict currently download their shared sources separately during the multi-profile workflow. A reviewed cache could reduce build time.
 - Plain-domain outputs cannot implement TLD-wide or regex rules.
 
 ## Recommended Next Work
 
-1. Monitor the first scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
-2. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
-3. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
-4. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.
+1. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
+2. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
+3. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
+4. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
+5. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.

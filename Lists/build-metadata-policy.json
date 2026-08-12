@@ -1,0 +1,48 @@
+{
+  "generatedAtUtc": "2026-08-12T03:08:09.4729989Z",
+  "profile": "Policy",
+  "sourceCount": 5,
+  "blocklistDomains": 68986,
+  "allowlistDomains": 0,
+  "allowlistCollisionsRemoved": 0,
+  "elapsedSeconds": 1.82,
+  "outputFile": "curated-blocklist-policy.txt",
+  "outputSha256": "F6E87AF9D9FE50111FD8F4ED90B604A8432ADC0DE6468A60C260AC387FC7DFE1",
+  "sources": [
+    {
+      "source": "StevenBlack Fake News",
+      "parsedDomains": 2187,
+      "exclusiveDomains": 2187,
+      "expectedDomains": 2187,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "Hagezi Anti-Piracy",
+      "parsedDomains": 39740,
+      "exclusiveDomains": 39740,
+      "expectedDomains": 39740,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Hagezi URL Shortener Blocklist",
+      "parsedDomains": 9904,
+      "exclusiveDomains": 9904,
+      "expectedDomains": 9904,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Hagezi Encrypted DNS/VPN/TOR Bypass",
+      "parsedDomains": 16965,
+      "exclusiveDomains": 16949,
+      "expectedDomains": 16965,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Hagezi SafeSearch Not Supported",
+      "parsedDomains": 206,
+      "exclusiveDomains": 206,
+      "expectedDomains": 206,
+      "maxChangePercent": 100.0
+    }
+  ]
+}

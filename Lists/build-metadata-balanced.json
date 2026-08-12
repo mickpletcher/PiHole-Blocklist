@@ -1,0 +1,27 @@
+{
+  "generatedAtUtc": "2026-08-12T03:07:05.7244213Z",
+  "profile": "Balanced",
+  "sourceCount": 2,
+  "blocklistDomains": 2360773,
+  "allowlistDomains": 0,
+  "allowlistCollisionsRemoved": 0,
+  "elapsedSeconds": 55.15,
+  "outputFile": "curated-blocklist.txt",
+  "outputSha256": "233184AF8843A78C2FC7F0B1118F7A2BB4AC4C863B99675C3DCD1866DEB426C0",
+  "sources": [
+    {
+      "source": "Threat Intelligence Feeds",
+      "parsedDomains": 2224519,
+      "exclusiveDomains": 2224519,
+      "expectedDomains": 2224519,
+      "maxChangePercent": 50.0
+    },
+    {
+      "source": "Hagezi Pro",
+      "parsedDomains": 215439,
+      "exclusiveDomains": 136254,
+      "expectedDomains": 215439,
+      "maxChangePercent": 50.0
+    }
+  ]
+}
