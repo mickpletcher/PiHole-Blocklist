@@ -1,167 +1,165 @@
 # Pi-hole Blocklist Builder
 
+[![Validate](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/validate.yml/badge.svg)](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/validate.yml)
 [![Update Pi-hole lists](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml/badge.svg)](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml)
 
-Curated Pi-hole blocklist and whitelist builder with source validation and automated list generation.
+PowerShell 7 tooling for validated, profile-based Pi-hole blocklists.
 
-This project downloads trusted source lists, normalizes them into plain domains, writes per-source files, and generates two curated outputs:
+The default list is intentionally small in scope. Device and policy restrictions are separate opt-in subscriptions.
 
-- `Lists/curated-blocklist.txt`
-- `Lists/curated-whitelist.txt`
+## Hosted Lists
 
-## Hosted Curated Lists For Pi-hole
+Use the raw URLs from the history-limited `generated` branch.
 
-Use these raw GitHub URLs in Pi-hole:
+| Profile | Raw URL | Scope |
+|---|---|---|
+| Balanced | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist.txt` | Default security, privacy, advertising, and tracking protection |
+| Strict | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-strict.txt` | Balanced plus OISD Big |
+| Device | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-device.txt` | Device and service-specific restrictions |
+| Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
+| Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
 
-```text
-https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-blocklist.txt
-https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/main/Lists/curated-whitelist.txt
-```
+Start with Balanced. Add Device or Policy only when those restrictions are wanted.
 
 Pi-hole setup:
 
-1. Add the blocklist URL in the adlist or subscribed denylist section.
-2. Add the whitelist URL in the subscribed allowlist section (Pi-hole v6+).
-3. Run gravity update.
+1. Add the selected blocklist URL as a subscribed denylist.
+2. Add the project allowlist URL as a subscribed allowlist if needed.
+3. Run a gravity update.
 
 ```bash
 pihole -g
 ```
 
-Do not use the normal GitHub page URL. Use the `raw.githubusercontent.com` URL only.
+## Profiles
 
-## What This Project Does
+### Balanced
 
-- Tracks blocklist and whitelist sources in one CSV file.
-- Validates CSV and markdown parity.
-- Detects duplicate source names and duplicate URLs.
-- Checks source URL health.
-- Downloads each source list.
-- Normalizes mixed list formats into plain domains.
-- Writes one cleaned output file per source.
-- Merges blocklist sources and whitelist sources into separate curated files.
-- Deduplicates final outputs.
-- Removes whitelist domains from the final blocklist when overlap exists.
+Balanced is the hosted default. It uses:
+
+- HaGeZi Threat Intelligence Feeds
+- HaGeZi Pro
+
+### Strict
+
+Strict includes the Balanced sources plus OISD Big. It is broader and more likely to require local exceptions.
+
+### Device
+
+Device contains opt-in Apple, Microsoft, TikTok, Smart TV, and similar service restrictions. It is not a general advertising list.
+
+### Policy
+
+Policy contains opt-in anti-piracy, URL-shortener, encrypted DNS or VPN bypass, fake-news, and unsupported SafeSearch restrictions.
+
+Source assignments, risk labels, formats, expected parsed counts, and change thresholds are stored in `pihole-blocklist-sources.csv`. Disabled overlapping sources remain in the catalog for review but are not published.
+
+## Requirements
+
+- PowerShell 7.4 or later
+- Internet access for URL validation and list builds
+- Git only when publishing repository changes
+
+Windows PowerShell 5.1 is not supported.
+
+## Local Validation
+
+Regenerate the source documentation and validate metadata:
+
+```powershell
+.\Update-ListSourceMarkdown.ps1
+.\Validate-BlocklistSources.ps1 -SkipUrlChecks
+```
+
+Run live URL checks:
+
+```powershell
+.\Validate-BlocklistSources.ps1 -TimeoutSeconds 20
+```
+
+Build a profile outside the repository:
+
+```powershell
+$output = Join-Path $env:TEMP 'PiHole-Blocklist-build'
+.\Merge-PiholeBlocklists.ps1 `
+    -SourceCsv .\pihole-blocklist-sources.csv `
+    -ProjectAllowlistPath .\project-allowlist.txt `
+    -BuildProfile Balanced `
+    -OutputDirectory $output
+```
+
+Supported profile names are `Balanced`, `Strict`, `Device`, and `Policy`.
+
+## Build Safety
+
+The builder:
+
+- Retries transient downloads three times.
+- Decodes byte responses using the declared charset or UTF-8 fallback.
+- Accepts hosts, AdBlock, and plain-domain input formats.
+- Rejects invalid DNS hostnames, including underscore labels.
+- Deduplicates with ordinal, case-insensitive matching.
+- Fails when a selected source parses zero domains.
+- Fails when a parsed count leaves its reviewed baseline range.
+- Fails when a response or final profile exceeds configured safety limits.
+- Writes final files atomically only after every selected source succeeds.
+- Applies only the repository-owned `project-allowlist.txt`.
+- Writes a JSON build report with counts, exclusive contribution, elapsed time, and output SHA-256.
+
+Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-domain list. The HaGeZi Spam TLD source remains documented but disabled.
 
 ## Main Files
 
 | File | Purpose |
 |---|---|
-| `pihole-blocklist-sources.csv` | Source inventory used by scripts |
-| `pihole-list-sources.md` | Human-readable source index |
-| `LISTS.md` | User-facing review page for all blocklist and whitelist sources |
-| `assessment.md` | Current repository condition, risks, findings, and recommended work |
-| `AGENTS.md` | Required repository maintenance instructions |
-| `Validate-BlocklistSources.ps1` | Source validation |
-| `Merge-PiholeBlocklists.ps1` | Source download and list build |
-| `Update-ListSourceMarkdown.ps1` | Regenerates markdown source review files from the CSV |
-| `validation-report.txt` | Latest validator output |
-| `Lists/Sources/blocklist/*.txt` | Per-source normalized blocklist files |
-| `Lists/Sources/whitelist/*.txt` | Per-source normalized whitelist files |
-| `Lists/curated-blocklist.txt` | Final curated blocklist |
-| `Lists/curated-whitelist.txt` | Final curated whitelist |
+| `pihole-blocklist-sources.csv` | Source of truth for metadata, profiles, baselines, and enablement |
+| `pihole-list-sources.md` | Generated complete source catalog |
+| `LISTS.md` | User-facing profile and source review page |
+| `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
+| `PiHoleBlocklist.psm1` | Parser and fail-closed build implementation |
+| `Merge-PiholeBlocklists.ps1` | Profile build command |
+| `Validate-BlocklistSources.ps1` | Inventory, metadata, parity, duplicate, and live URL validation |
+| `Update-ListSourceMarkdown.ps1` | Regenerates both source review files |
+| `Test-Markdown.ps1` | Repository Markdown checks |
+| `tests/PiHoleBlocklist.Tests.ps1` | Pester parser and fail-closed build tests |
+| `.github/workflows/validate.yml` | Pull request and main validation |
+| `.github/workflows/update-lists.yml` | Daily history-limited list publication |
 
-## Requirements
+## Adding or Changing Sources
 
-- PowerShell 7 or Windows PowerShell
-- Internet access
-- Pi-hole
-- Git (optional, only needed for repo sync)
+1. Edit `pihole-blocklist-sources.csv`.
+2. Set `Enabled`, `Profiles`, `Format`, `Risk`, `ExpectedDomains`, and `MaxChangePercent` deliberately.
+3. Run the source documentation generator.
+4. Run local metadata validation.
+5. Run live URL validation.
+6. Build every affected profile.
+7. Update `assessment.md`, `README.md`, and `changelog.md`.
 
-No extra PowerShell modules are required.
+Do not enable a source with `Format=AdblockTld`. Create a separate Pi-hole regex design first.
 
-## Quick Start
+## Automation
 
-Validate sources:
+The `Validate` workflow runs on pull requests and pushes to `main`. It checks generated documentation, inventory metadata, Pester tests, PowerShell analysis, Markdown formatting, and live source URLs.
 
-```powershell
-.\Validate-BlocklistSources.ps1
-```
+The daily update workflow builds every profile in a temporary directory. A successful run replaces the orphan `generated` branch using a lease-protected force push. Generated feed history is not retained on `main`.
 
-Build curated outputs:
+The update workflow never publishes partial output. Failed downloads, unexpected parsed counts, invalid content, or safety-limit violations stop publication and leave the previous generated branch intact.
 
-```powershell
-.\Merge-PiholeBlocklists.ps1 -SourceCsv .\pihole-blocklist-sources.csv
-```
+## Known Limitations
 
-Fast validation only:
+- Plain-domain outputs cannot express TLD-wide or regex rules.
+- Source baselines require manual review when a legitimate upstream change exceeds the configured threshold.
+- Broad upstream aggregates can still produce false positives. Use local Pi-hole allowlisting for site-specific exceptions.
+- Old generated commits remain in the existing Git history. The new publication model stops future daily feed growth but does not rewrite past history.
 
-```powershell
-.\Validate-BlocklistSources.ps1 -SkipUrlChecks
-```
+## Repository Maintenance
 
-Refresh saved report:
-
-```powershell
-.\Validate-BlocklistSources.ps1 *> .\validation-report.txt
-```
-
-## Build Behavior
-
-The merge script:
-
-1. Reads `pihole-blocklist-sources.csv`.
-2. Downloads each source URL.
-3. Parses hosts, AdBlock, and plain domain formats.
-4. Writes one normalized file per source under `Lists/Sources`.
-5. Builds `Lists/curated-blocklist.txt`.
-6. Builds `Lists/curated-whitelist.txt`.
-7. Removes duplicates.
-8. Applies whitelist override when the same domain appears in both outputs.
-
-## Automatic GitHub Updates
-
-Workflow file:
-
-```text
-.github/workflows/update-lists.yml
-```
-
-The workflow runs daily and can run manually. It validates sources, rebuilds `Lists`, refreshes `validation-report.txt`, and commits generated changes.
-
-For automated commits to work, enable write permissions for workflows:
-
-```text
-Settings > Actions > General > Workflow permissions > Read and write permissions
-```
-
-## Add Or Remove Sources
-
-Update `pihole-blocklist-sources.csv`, then run validation and merge:
-
-```powershell
-.\Update-ListSourceMarkdown.ps1
-.\Validate-BlocklistSources.ps1
-.\Merge-PiholeBlocklists.ps1 -SourceCsv .\pihole-blocklist-sources.csv
-```
-
-The markdown source review files are generated from the CSV:
-
-- [LISTS.md](LISTS.md)
-- [pihole-list-sources.md](pihole-list-sources.md)
-
-Users who want to review every source before using the curated outputs can read [LISTS.md](LISTS.md).
-
-## Documentation Maintenance
-
-Every repository change must include a review of:
+Every source-code or configuration change must review and update:
 
 - `assessment.md`
 - `README.md`
 - `changelog.md`
 
-Update all three files in the same change set so the current condition, user instructions, and project history remain aligned with the implementation. The detailed requirement is stored in `AGENTS.md`.
-
-Last reviewed: 2026-08-10. The HaGeZi source URL migration and successful workflow verification do not change setup, commands, outputs, or limitations.
-
-## Troubleshooting
-
-If validation reports `ParityDifferences`, CSV and markdown sources are out of sync.
-
-If validation reports `FailedHttp`, one or more URLs are dead or unreachable.
-
-If the curated blocklist is very large, that is expected for combined security, ad, and tracking sources.
-
-## Project History
+Generated deployments on the `generated` branch are publication artifacts. Changes to their behavior or structure still require the documentation updates above on `main`.
 
 See [assessment.md](assessment.md), [changelog.md](changelog.md), and [completed-upgrades.md](completed-upgrades.md).

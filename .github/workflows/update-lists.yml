@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   update-lists:
-    name: Build and commit generated lists
+    name: Build and publish generated lists
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -24,42 +24,86 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Prepare publication directory
+        shell: pwsh
+        run: |
+          $publicationRoot = Join-Path $env:RUNNER_TEMP 'pihole-publication'
+          New-Item -Path (Join-Path $publicationRoot 'Lists') -ItemType Directory -Force | Out-Null
+          "PUBLICATION_ROOT=$publicationRoot" >> $env:GITHUB_ENV
+
       - name: Validate source inventory
         shell: pwsh
         run: |
           ./Update-ListSourceMarkdown.ps1
+          git diff --exit-code -- LISTS.md pihole-list-sources.md
           ./Validate-BlocklistSources.ps1 -SkipUrlChecks
 
-      - name: Rebuild Lists directory
+      - name: Build all profiles
         shell: pwsh
         run: |
-          if (Test-Path ./Lists) {
-            Remove-Item -LiteralPath ./Lists -Recurse -Force
+          $outputDirectory = Join-Path $env:PUBLICATION_ROOT 'Lists'
+          foreach ($profileName in @('Balanced', 'Strict', 'Device', 'Policy')) {
+            ./Merge-PiholeBlocklists.ps1 `
+              -SourceCsv ./pihole-blocklist-sources.csv `
+              -ProjectAllowlistPath ./project-allowlist.txt `
+              -OutputDirectory $outputDirectory `
+              -BuildProfile $profileName `
+              -TimeoutSeconds 60 `
+              -MaxAttempts 3
+            if ($LASTEXITCODE -ne 0) {
+              throw "Profile build failed: $profileName"
+            }
           }
 
-          ./Merge-PiholeBlocklists.ps1 `
-            -SourceCsv ./pihole-blocklist-sources.csv `
-            -OutputDirectory ./Lists `
-            -TimeoutSeconds 60
-
-      - name: Refresh validation report
+      - name: Create publication metadata
         shell: pwsh
         run: |
-          ./Validate-BlocklistSources.ps1 *> ./validation-report.txt
-
-      - name: Commit list updates
-        shell: pwsh
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add Lists LISTS.md pihole-list-sources.md validation-report.txt
-
-          $changes = git status --porcelain
-          if (-not $changes) {
-            Write-Host "No generated list changes to commit."
-            exit 0
+          $validationReportPath = Join-Path $env:PUBLICATION_ROOT 'validation-report.txt'
+          ./Validate-BlocklistSources.ps1 -TimeoutSeconds 20 *> $validationReportPath
+          if ($LASTEXITCODE -ne 0) {
+            throw 'Live source validation failed.'
           }
 
-          git commit -m "Update generated Pi-hole lists"
-          git push
+          $generatedAt = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd HH:mm:ss UTC')
+          $readme = @(
+            '# Generated Pi-hole Lists'
+            ''
+            "Generated from commit ``$env:GITHUB_SHA`` at $generatedAt."
+            ''
+            'This branch is replaced on each successful build and intentionally has no retained generated history.'
+            ''
+            '| File | Profile |'
+            '|---|---|'
+            '| `Lists/curated-blocklist.txt` | Balanced default |'
+            '| `Lists/curated-blocklist-strict.txt` | Strict opt-in |'
+            '| `Lists/curated-blocklist-device.txt` | Device opt-in |'
+            '| `Lists/curated-blocklist-policy.txt` | Policy opt-in |'
+            '| `Lists/curated-whitelist.txt` | Project-owned reviewed allowlist |'
+          )
+          Set-Content -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'README.md') -Value $readme -Encoding utf8NoBOM
+
+      - name: Publish history-limited generated branch
+        shell: pwsh
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          $remoteLine = git ls-remote --heads origin refs/heads/generated
+          $expectedSha = if ($remoteLine) { ($remoteLine -split '\s+')[0] } else { $null }
+
+          git switch --orphan generated-build
+          Get-ChildItem -Force |
+            Where-Object Name -ne '.git' |
+            Remove-Item -Recurse -Force
+          Copy-Item -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'README.md') -Destination ./README.md
+          Copy-Item -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'validation-report.txt') -Destination ./validation-report.txt
+          Copy-Item -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'Lists') -Destination ./Lists -Recurse
+          git add README.md validation-report.txt Lists
+          git commit -m 'Publish generated Pi-hole lists'
+
+          if ($expectedSha) {
+            git push origin HEAD:generated "--force-with-lease=generated:$expectedSha"
+          }
+          else {
+            git push origin HEAD:generated
+          }

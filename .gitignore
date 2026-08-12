@@ -1,4 +1,8 @@
 Blocklists/*.csv
 Blocklists/*.txt
+Lists/
+validation-report.txt
+.tools/
+TestResults/
 *.code-workspace
 future-upgrades.md

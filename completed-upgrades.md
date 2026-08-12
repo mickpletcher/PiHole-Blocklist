@@ -1,5 +1,19 @@
 # Completed Upgrades
 
+## 2026-08-11
+
+- Added Balanced, Strict, Device, and Policy profiles.
+- Added reviewed source enablement, format, risk, count baseline, and change-threshold metadata.
+- Replaced the third-party whitelist with an empty project-owned allowlist.
+- Added byte-response decoding and strict DNS-name parsing.
+- Added retry, size, count, anomaly, and atomic-publication safeguards.
+- Added Pester tests, PSScriptAnalyzer checks, Markdown checks, and pull request validation.
+- Moved generated output to a history-limited `generated` branch.
+- Removed tracked per-source and final feed churn from `main`.
+- Reduced observed large-build memory use from about 3.5 GiB to about 718 MiB.
+- Added JSON build reports and SHA-256 output verification.
+- Added branch protection and required validation for `main`.
+
 ## 2026-06-04
 
 - Added `LISTS.md` for user review of blocklist and whitelist sources.

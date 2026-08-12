@@ -1,60 +1,82 @@
 # Repository Assessment
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-08-11
 
 ## Current Condition
 
-The repository has a working PowerShell pipeline for validating source URLs, normalizing supported list formats, and generating separate Pi-hole blocklist and whitelist outputs.
+The repository now has a fail-closed PowerShell 7 pipeline with explicit Balanced, Strict, Device, and Policy profiles.
 
-The source inventory currently contains 45 blocklist sources and one whitelist source. On 2026-08-10 five hagezi source URLs that previously used `raw.githubusercontent.com/hagezi/dns-blocklists/main/` began returning HTTP 404. All five were migrated to the equivalent `cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/` URLs, which are already used by the other hagezi sources in the list. Post-migration, all 46 source URLs are reachable.
+The source catalog contains 45 blocklist rows. Nineteen rows are enabled in at least one published profile. Disabled overlapping sources remain visible for review but are not downloaded during publication.
 
-The generated blocklist combines broad aggregate lists with many smaller lists that overlap those aggregates. The verified GitHub Actions build on 2026-08-10 produced 3,644,676 unique blocklist domains and 191 whitelist domains.
+The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
 
-## Findings
+Generated feeds are no longer tracked on `main`. The daily workflow publishes only final outputs, validation results, and JSON build metadata to a history-limited orphan `generated` branch. Existing generated Git history remains, but daily source churn no longer grows `main`.
 
-### High Priority
+## Resolved Findings
 
-- `Disconnect.me Simple Tracking` produces zero parsed domains. URL health checks pass, but the downloaded response is not converted into usable text by the current merge process.
-- `Hagezi Spam TLDs` uses dotless TLD rules such as `||actor^`. The current parser requires a dotted domain and only captured a small subset of the upstream rules.
-- `Validate-BlocklistSources.ps1` verifies reachability but does not verify source content, parsed domain count, staleness, or unexpected format changes.
-- The default whitelist comes from `anudeepND/whitelist`, which was last pushed in March 2024 and contains broad hosting, redirect, tracking, advertising, and dynamic DNS domains. Automatically allowing the entire list can override intentional blocking.
+- Byte-array HTTP responses are decoded using the declared charset, strict UTF-8, or Latin-1 fallback. Disconnect.me Simple Tracking now parses 34 domains when tested, though it remains disabled because it overlaps the default aggregates.
+- Selected downloads retry three times and any final failure stops the build.
+- Enabled sources must parse within a reviewed expected-count range. Zero-domain and anomalous-count results fail publication.
+- Output files are written atomically only after all selected sources succeed.
+- The parser rejects invalid DNS labels, including underscore labels accepted by the previous implementation.
+- The HaGeZi Spam TLD source remains documented but disabled because dotless TLD rules cannot be represented in a plain-domain Pi-hole list.
+- Device and policy-enforcement sources are separate opt-in outputs.
+- The broad, stale third-party whitelist no longer overrides intentional blocking.
+- Pester, PSScriptAnalyzer, generated-documentation, inventory, Markdown, and live URL checks now run in pull requests.
+- The publication workflow uses lease-protected replacement of the generated branch and retains the previous publication when a build fails.
+- PowerShell support is accurately documented as PowerShell 7.4 or later.
 
-### Source Selection
+## Source Profiles
 
-- HaGeZi Pro, HaGeZi Threat Intelligence Feeds, OISD Big, StevenBlack Unified, RPiList, Firebog-derived sources, and smaller component lists substantially overlap.
-- Several smaller lists add no exclusive domains to the saved combined output.
-- Policy lists for piracy, URL shorteners, unsupported SafeSearch providers, encrypted DNS or VPN bypass, fake news, and device-specific services can cause deliberate service restrictions. They should not be part of a general-purpose default without clear labeling.
+| Profile | Enabled sources | Purpose |
+|---|---:|---|
+| Balanced | 2 | HaGeZi Threat Intelligence Feeds plus HaGeZi Pro |
+| Strict | 3 | Balanced plus OISD Big |
+| Device | 11 | Device and service-specific restrictions |
+| Policy | 5 | Piracy, shortener, bypass, fake-news, and SafeSearch restrictions |
 
-### Repository Maintenance
+## Verified Results
 
-- `README.md` and `.github/workflows/update-lists.yml` had existing uncommitted changes when this assessment was created. Those changes add a workflow badge, pin `actions/checkout` to a commit, and add a workflow timeout.
-- Root `AGENTS.md` now requires every repository change to review and update this assessment, the README, and the changelog.
-
-## Recommendations
-
-1. Make HaGeZi Pro plus HaGeZi Threat Intelligence Feeds the balanced default, or use OISD Big plus HaGeZi Threat Intelligence Feeds as a simpler alternative.
-2. Move device-specific and policy-enforcement lists into opt-in profiles.
-3. Replace the automatic third-party whitelist with an empty or tightly reviewed project-owned whitelist.
-4. Add source metadata such as enabled state, profile, format, risk, maintainer, and last successful parsed count.
-5. Fail validation when an enabled source unexpectedly parses zero domains.
-6. Add content-type and encoding handling before parsing source responses.
-7. Add overlap and exclusive-domain reporting so source removal decisions are evidence based.
-
-## Validation Results
-
-Verified GitHub Actions run `31413013230` on 2026-08-10:
+Local validation on 2026-08-11:
 
 ```text
-MarkdownRows=46
-CsvRows=46
+MarkdownRows=45
+CsvRows=45
+EnabledRows=19
 ParityDifferences=0
+MetadataProblems=0
 InvalidUrls=0
 DuplicateUrls=0
 DuplicateSources=0
 FailedHttp=0
 Redirects=0
-SourcesOK=46/46
-BlocklistDomains=3644676
-WhitelistDomains=191
-WhitelistCollisionsRemoved=16
+PesterTests=18 passed, 0 failed
+PSScriptAnalyzerFindings=0
+MarkdownProblems=0
 ```
+
+Production-equivalent isolated builds:
+
+| Profile | Sources | Domains | Build seconds |
+|---|---:|---:|---:|
+| Balanced | 2 | 2,360,773 | 189.04 |
+| Strict | 3 | 2,420,078 | 186.81 |
+| Device | 11 | 3,396 | 1.35 |
+| Policy | 5 | 68,986 | 4.49 |
+
+All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. Peak observed working memory during the large build was about 718 MiB, compared with about 3.5 GiB during the previous implementation.
+
+## Remaining Risks
+
+- The repository still contains old generated-feed objects in Git history. Removing them requires a separate coordinated history rewrite and force push.
+- Broad aggregate lists can create false positives even with the safer default profile.
+- Expected-count baselines require manual review when a legitimate upstream change exceeds its threshold.
+- Balanced and Strict currently download their shared sources separately during the multi-profile workflow. A reviewed cache could reduce build time.
+- Plain-domain outputs cannot implement TLD-wide or regex rules.
+
+## Recommended Next Work
+
+1. Monitor the first scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
+2. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
+3. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
+4. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.

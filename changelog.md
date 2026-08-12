@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-08-11
+
+- Replaced the monolithic all-source build with Balanced, Strict, Device, and Policy profiles.
+- Made Balanced the default using HaGeZi Threat Intelligence Feeds and HaGeZi Pro.
+- Moved device and policy-enforcement sources into separate opt-in outputs.
+- Added source enablement, profile, format, risk, expected-domain, and maximum-change metadata to the CSV source of truth.
+- Removed the stale third-party whitelist source and added an empty project-owned `project-allowlist.txt`.
+- Fixed byte-array response decoding. Disconnect.me Simple Tracking now yields 34 domains when parsed correctly.
+- Disabled HaGeZi Spam TLDs because its dotless rules cannot be represented as plain Pi-hole domains.
+- Added retries, response-size limits, profile-size limits, strict DNS validation, count baselines, and fail-closed exit behavior.
+- Changed output writes to atomic replacement after every selected source succeeds.
+- Replaced PowerShell `Sort-Object` over millions of domains with .NET hash-set and array sorting, reducing observed large-build memory from about 3.5 GiB to about 718 MiB.
+- Added JSON build metadata with per-source counts, exclusive contribution, elapsed time, and output SHA-256.
+- Added 18 Pester tests for decoding, byte-order marks, domain and IP validation, parsing, retries, baseline failures, atomic publication, sorting, and allowlist behavior.
+- Added PSScriptAnalyzer, generated-documentation, inventory, Markdown, and live URL checks for pull requests and `main`.
+- Moved generated outputs off `main` to a history-limited orphan `generated` branch with lease-protected publication.
+- Removed tracked per-source files, curated outputs, the saved root validation report, and the duplicate legacy README from `main`.
+- Updated generated source documentation to show profile, enablement, risk, and format metadata.
+- Updated `AGENTS.md`, `README.md`, `assessment.md`, and `completed-upgrades.md` for the new maintenance and publication model.
+- Verified all 45 URLs and all four profile builds. Outputs contained zero invalid domains, duplicates, or sort-order errors.
+
 ## 2026-08-10
 
 - Fixed CI failure in "Build and commit generated lists" job: five hagezi blocklist source URLs using `raw.githubusercontent.com/hagezi/dns-blocklists/main/` began returning HTTP 404 (`native.winoffice.txt`, `native.tiktok.txt`, `native.samsung.txt`, `native.lgwebos.txt`, `adblock/pro.txt`).

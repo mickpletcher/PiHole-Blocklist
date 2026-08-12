@@ -1,0 +1,76 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Install test tools
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module Pester -RequiredVersion 5.7.1 -Scope CurrentUser -Force
+          Install-Module PSScriptAnalyzer -RequiredVersion 1.24.0 -Scope CurrentUser -Force
+
+      - name: Verify generated documentation
+        shell: pwsh
+        run: |
+          ./Update-ListSourceMarkdown.ps1
+          git diff --exit-code -- LISTS.md pihole-list-sources.md
+
+      - name: Validate inventory
+        shell: pwsh
+        run: ./Validate-BlocklistSources.ps1 -SkipUrlChecks
+
+      - name: Run tests
+        shell: pwsh
+        run: |
+          $result = Invoke-Pester -Path ./tests -Output Detailed -PassThru
+          if ($result.FailedCount -gt 0) {
+            throw "$($result.FailedCount) Pester tests failed."
+          }
+
+      - name: Analyze PowerShell
+        shell: pwsh
+        run: |
+          $results = Invoke-ScriptAnalyzer `
+            -Path . `
+            -Recurse `
+            -Severity Error,Warning `
+            -ExcludeRule PSAvoidUsingWriteHost
+          $results | Format-Table -Wrap -AutoSize
+          if ($results) {
+            throw 'PSScriptAnalyzer found errors or warnings.'
+          }
+
+      - name: Lint Markdown
+        shell: pwsh
+        run: ./Test-Markdown.ps1
+
+  live-source-check:
+    name: Live source validation
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Check all source URLs
+        shell: pwsh
+        run: ./Validate-BlocklistSources.ps1 -TimeoutSeconds 20

@@ -1,47 +1,46 @@
-Category,Source,URL
-Suspicious / Spam,KADhosts,https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
-Suspicious / Spam,FadeMind Spam Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
-Suspicious / Spam,w3kbl,https://v.firebog.net/hosts/static/w3kbl.txt
-Suspicious / Spam,Matomo Referrer Spam Blacklist,https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
-Suspicious / Spam,Someone Who Cares Hosts Zero,https://someonewhocares.org/hosts/zero/hosts
-Suspicious / Spam,RooneyMcNibNug SNAFU,https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt
-Advertising,AdAway,https://adaway.org/hosts.txt
-Advertising,HoSTS AdBlock,https://v.firebog.net/hosts/AdguardDNS.txt
-Advertising,Peter Lowe's Ad and tracking server list,https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
-Advertising,FadeMind Ad Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
-Advertising,Disconnect.me Simple Ad,https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
-Tracking,Disconnect.me Simple Tracking,https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
-Tracking,EasyPrivacy,https://v.firebog.net/hosts/Easyprivacy.txt
-Tracking,FadeMind Tracking Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
-Tracking,CNAME Cloaking Blocklist,https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
-Malicious,Threat Intelligence Feeds,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
-Malicious,Phishing URL Blocklist,https://phishing.army/download/phishing_army_blocklist_extended.txt
-Malicious,URLhaus,https://urlhaus.abuse.ch/downloads/hostfile/
-Malicious,ThreatFox,https://threatfox.abuse.ch/downloads/hostfile/
-Malicious,RPiList Phishing,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
-Malicious,RPiList Malware,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
-Fake News,StevenBlack Fake News,https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts
-Device Trackers,RPiList Amazon Video,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Amazon-Video
-Device Trackers,RPiList Apple Music,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-Music
-Device Trackers,RPiList Apple iCloud,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud
-Device Trackers,RPiList Apple iTunes,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iTunes
-Device Trackers,RPiList MS Office Telemetry,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry
-Device Trackers,Hagezi Windows / Office Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.winoffice.txt
-Device Trackers,Hagezi TikTok Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.tiktok.txt
-Device Trackers,RPiList Microsoft Office 365,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft%20Office%20365
-Smart TV / IoT,Perflyst SmartTV,https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
-Smart TV / IoT,Hagezi Samsung Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.samsung.txt
-Smart TV / IoT,Hagezi LG WebOS Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.lgwebos.txt
-Fake DNS / DynDNS,Hagezi DynDNS Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
-Fake DNS / DynDNS,Hagezi Badware Hoster,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
-Piracy,Hagezi Anti-Piracy,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt
-URL Shorteners,Hagezi URL Shortener Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
-Encrypted DNS / VPN Bypass,Hagezi Encrypted DNS/VPN/TOR Bypass,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt
-Hagezi DNS Blocklists (Multi-category),Hagezi Pro,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
-Hagezi DNS Blocklists (Multi-category),Hagezi Fake DNS Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt
-Hagezi DNS Blocklists (Multi-category),Hagezi Pop-Up Ads,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt
-Hagezi DNS Blocklists (Multi-category),Hagezi SafeSearch Not Supported,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt
-Hagezi DNS Blocklists (Multi-category),Hagezi Spam TLDs,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt
-OISD,OISD Big,https://big.oisd.nl/
-Other / Unified,StevenBlack Unified Hosts,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-Whitelist,anudeepND Whitelist,https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+Category,Source,URL,Enabled,Profiles,Format,Risk,ExpectedDomains,MaxChangePercent
+Suspicious / Spam,KADhosts,https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt,false,,Auto,Moderate,61184,75
+Suspicious / Spam,FadeMind Spam Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts,false,,Auto,Moderate,57,100
+Suspicious / Spam,w3kbl,https://v.firebog.net/hosts/static/w3kbl.txt,false,,Auto,Moderate,355,100
+Suspicious / Spam,Matomo Referrer Spam Blacklist,https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt,false,,Domains,Moderate,2303,100
+Suspicious / Spam,Someone Who Cares Hosts Zero,https://someonewhocares.org/hosts/zero/hosts,false,,Hosts,Moderate,12992,75
+Suspicious / Spam,RooneyMcNibNug SNAFU,https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt,false,,Auto,Moderate,74788,75
+Advertising,AdAway,https://adaway.org/hosts.txt,false,,Hosts,Moderate,6540,75
+Advertising,HoSTS AdBlock,https://v.firebog.net/hosts/AdguardDNS.txt,false,,Auto,Moderate,153356,75
+Advertising,Peter Lowe's Ad and tracking server list,https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext,false,,Hosts,Moderate,3521,75
+Advertising,FadeMind Ad Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts,false,,Hosts,Moderate,9,200
+Advertising,Disconnect.me Simple Ad,https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt,false,,Domains,Moderate,2700,100
+Tracking,Disconnect.me Simple Tracking,https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt,false,,Domains,Moderate,34,100
+Tracking,EasyPrivacy,https://v.firebog.net/hosts/Easyprivacy.txt,false,,Auto,Moderate,42728,75
+Tracking,FadeMind Tracking Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts,false,,Hosts,Moderate,2030,100
+Tracking,CNAME Cloaking Blocklist,https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains,false,,Domains,Moderate,35,200
+Malicious,Threat Intelligence Feeds,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt,true,Balanced;Strict,Adblock,Moderate,2224519,50
+Malicious,Phishing URL Blocklist,https://phishing.army/download/phishing_army_blocklist_extended.txt,false,,Domains,Moderate,156067,75
+Malicious,URLhaus,https://urlhaus.abuse.ch/downloads/hostfile/,false,,Hosts,Moderate,363,200
+Malicious,ThreatFox,https://threatfox.abuse.ch/downloads/hostfile/,false,,Hosts,Moderate,49957,75
+Malicious,RPiList Phishing,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe,false,,Auto,Moderate,157313,75
+Malicious,RPiList Malware,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware,false,,Auto,Moderate,1077116,75
+Fake News,StevenBlack Fake News,https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts,true,Policy,Hosts,High,2187,100
+Device Trackers,RPiList Amazon Video,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Amazon-Video,true,Device,Auto,High,15,500
+Device Trackers,RPiList Apple Music,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-Music,true,Device,Auto,High,2,1000
+Device Trackers,RPiList Apple iCloud,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud,true,Device,Auto,High,19,500
+Device Trackers,RPiList Apple iTunes,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iTunes,true,Device,Auto,High,5,1000
+Device Trackers,RPiList MS Office Telemetry,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry,true,Device,Auto,High,3,1000
+Device Trackers,Hagezi Windows / Office Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.winoffice.txt,true,Device,Hosts,High,748,200
+Device Trackers,Hagezi TikTok Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.tiktok.txt,true,Device,Hosts,High,427,200
+Device Trackers,RPiList Microsoft Office 365,https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft%20Office%20365,true,Device,Auto,High,1,1000
+Smart TV / IoT,Perflyst SmartTV,https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt,true,Device,Auto,High,240,300
+Smart TV / IoT,Hagezi Samsung Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.samsung.txt,true,Device,Hosts,High,271,200
+Smart TV / IoT,Hagezi LG WebOS Native Tracker,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/native.lgwebos.txt,true,Device,Hosts,High,1692,200
+Fake DNS / DynDNS,Hagezi DynDNS Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt,false,,Adblock,High,1524,100
+Fake DNS / DynDNS,Hagezi Badware Hoster,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt,false,,Adblock,High,1258,100
+Piracy,Hagezi Anti-Piracy,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt,true,Policy,Adblock,High,39740,75
+URL Shorteners,Hagezi URL Shortener Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt,true,Policy,Adblock,High,9904,75
+Encrypted DNS / VPN Bypass,Hagezi Encrypted DNS/VPN/TOR Bypass,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt,true,Policy,Adblock,High,16965,75
+Hagezi DNS Blocklists (Multi-category),Hagezi Pro,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt,true,Balanced;Strict,Adblock,Moderate,215439,50
+Hagezi DNS Blocklists (Multi-category),Hagezi Fake DNS Blocklist,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt,false,,Adblock,High,16764,75
+Hagezi DNS Blocklists (Multi-category),Hagezi Pop-Up Ads,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt,false,,Adblock,High,53391,75
+Hagezi DNS Blocklists (Multi-category),Hagezi SafeSearch Not Supported,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt,true,Policy,Adblock,High,206,100
+Hagezi DNS Blocklists (Multi-category),Hagezi Spam TLDs,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt,false,,AdblockTld,High,129,100
+OISD,OISD Big,https://big.oisd.nl/,true,Strict,Auto,Moderate,251327,50
+Other / Unified,StevenBlack Unified Hosts,https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts,false,,Hosts,Moderate,99558,75
