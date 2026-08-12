@@ -2,6 +2,7 @@
 
 ## 2026-08-11
 
+- Added a prominent README source inventory with total, enabled, and disabled counts plus direct links to the CSV source of truth and both human-readable catalogs.
 - Squash integrated the current `generated` branch publication into `main` to restore the legacy raw blocklist and allowlist URLs.
 - Preserved the source repository README and source files while adding the generated profile lists, JSON build metadata, and validation report.
 - Documented that the `main` artifacts are compatibility snapshots and the daily workflow continues refreshing only the canonical `generated` branch.

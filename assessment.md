@@ -25,6 +25,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - Pester, PSScriptAnalyzer, generated-documentation, inventory, Markdown, and live URL checks now run in pull requests.
 - The publication workflow uses lease-protected replacement of the generated branch and retains the previous publication when a build fails.
 - The generated branch snapshot was squash integrated into `main` without replacing the source repository README or source files.
+- The README now presents source inventory counts and prominent links to the human-readable catalog, generated technical catalog, and CSV source of truth.
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
 
 ## Source Profiles
