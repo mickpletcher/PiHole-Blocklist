@@ -2,6 +2,9 @@
 
 ## 2026-08-11
 
+- Squash integrated the current `generated` branch publication into `main` to restore the legacy raw blocklist and allowlist URLs.
+- Preserved the source repository README and source files while adding the generated profile lists, JSON build metadata, and validation report.
+- Documented that the `main` artifacts are compatibility snapshots and the daily workflow continues refreshing only the canonical `generated` branch.
 - Replaced the monolithic all-source build with Balanced, Strict, Device, and Policy profiles.
 - Made Balanced the default using HaGeZi Threat Intelligence Feeds and HaGeZi Pro.
 - Moved device and policy-enforcement sources into separate opt-in outputs.

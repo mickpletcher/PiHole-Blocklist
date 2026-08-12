@@ -19,6 +19,15 @@ Use the raw URLs from the history-limited `generated` branch.
 | Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
 | Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
 
+The generated snapshot is also tracked on `main` to restore these legacy subscription URLs:
+
+```text
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/refs/heads/main/Lists/curated-blocklist.txt
+https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/refs/heads/main/Lists/curated-whitelist.txt
+```
+
+The daily workflow refreshes the `generated` branch. The `main` copies remain compatibility snapshots until publication to `main` is automated or subscribers migrate to the canonical URLs above.
+
 Start with Balanced. Add Device or Policy only when those restrictions are wanted.
 
 Pi-hole setup:
@@ -122,6 +131,9 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 | `Update-ListSourceMarkdown.ps1` | Regenerates both source review files |
 | `Test-Markdown.ps1` | Repository Markdown checks |
 | `tests/PiHoleBlocklist.Tests.ps1` | Pester parser and fail-closed build tests |
+| `Lists/*.txt` | Generated profile and allowlist compatibility snapshots tracked on `main` |
+| `Lists/build-metadata-*.json` | Build metadata for the compatibility snapshots |
+| `validation-report.txt` | Live source validation captured with the compatibility snapshots |
 | `.github/workflows/validate.yml` | Pull request and main validation |
 | `.github/workflows/update-lists.yml` | Daily history-limited list publication |
 
@@ -141,7 +153,7 @@ Do not enable a source with `Format=AdblockTld`. Create a separate Pi-hole regex
 
 The `Validate` workflow runs on pull requests and pushes to `main`. It checks generated documentation, inventory metadata, Pester tests, PowerShell analysis, Markdown formatting, and live source URLs.
 
-The daily update workflow builds every profile in a temporary directory. A successful run replaces the orphan `generated` branch using a lease-protected force push. Generated feed history is not retained on `main`.
+The daily update workflow builds every profile in a temporary directory. A successful run replaces the orphan `generated` branch using a lease-protected force push. A generated snapshot is also tracked on `main` for legacy URL compatibility, but the workflow does not refresh that snapshot.
 
 The update workflow never publishes partial output. Failed downloads, unexpected parsed counts, invalid content, or safety-limit violations stop publication and leave the previous generated branch intact.
 
@@ -150,6 +162,7 @@ The update workflow never publishes partial output. Failed downloads, unexpected
 - Plain-domain outputs cannot express TLD-wide or regex rules.
 - Source baselines require manual review when a legitimate upstream change exceeds the configured threshold.
 - Broad upstream aggregates can still produce false positives. Use local Pi-hole allowlisting for site-specific exceptions.
+- Legacy `main` URLs point to a compatibility snapshot and can become stale after the next successful `generated` branch publication.
 - Old generated commits remain in the existing Git history. The new publication model stops future daily feed growth but does not rewrite past history.
 
 ## Repository Maintenance
