@@ -44,11 +44,12 @@ function Add-SourceSection {
         $Lines.Add('')
         $Lines.Add("## $category")
         $Lines.Add('')
-        $Lines.Add('| Enabled | Profiles | Risk | Format | Source | URL |')
-        $Lines.Add('|---|---|---|---|---|---|')
+        $Lines.Add('| Enabled | Profiles | Disabled reason | Risk | Format | Source | URL |')
+        $Lines.Add('|---|---|---|---|---|---|---|')
         foreach ($row in @($rows | Where-Object Category -eq $category)) {
             $profiles = if ($row.Profiles) { $row.Profiles -replace ';', ', ' } else { 'None' }
-            $Lines.Add("| $($row.Enabled) | $profiles | $($row.Risk) | $($row.Format) | $($row.Source) | $($row.URL) |")
+            $disabledReason = if ($row.DisabledReason) { $row.DisabledReason } else { 'N/A' }
+            $Lines.Add("| $($row.Enabled) | $profiles | $disabledReason | $($row.Risk) | $($row.Format) | $($row.Source) | $($row.URL) |")
         }
     }
 }

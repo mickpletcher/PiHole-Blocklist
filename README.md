@@ -5,7 +5,7 @@
 
 PowerShell 7 tooling for validated, profile-based Pi-hole blocklists.
 
-The default list is intentionally small in scope. Device and policy restrictions are separate opt-in subscriptions.
+The Balanced list includes every supported moderate-risk source. Device and high-risk policy restrictions remain separate opt-in subscriptions.
 
 ## Hosted Lists
 
@@ -44,10 +44,7 @@ pihole -g
 
 ### Balanced
 
-Balanced is the hosted default. It uses:
-
-- HaGeZi Threat Intelligence Feeds
-- HaGeZi Pro
+Balanced is the hosted default. It combines 23 moderate-risk spam, advertising, tracking, malicious-domain, and aggregate sources.
 
 ### Strict
 
@@ -59,7 +56,7 @@ Device contains opt-in Apple, Microsoft, TikTok, Smart TV, and similar service r
 
 ### Policy
 
-Policy contains opt-in anti-piracy, URL-shortener, encrypted DNS or VPN bypass, fake-news, and unsupported SafeSearch restrictions.
+Policy contains nine opt-in high-risk sources for piracy, URL shorteners, encrypted DNS or VPN bypass, fake news, unsupported SafeSearch, DynDNS, badware hosting, fake DNS, and pop-up ads.
 
 ## Source Inventory
 
@@ -68,14 +65,14 @@ Review the complete source inventory before subscribing or changing profiles.
 | Inventory status | Count |
 |---|---:|
 | Total sources | 45 |
-| Enabled sources | 19 |
-| Disabled sources | 26 |
+| Enabled sources | 44 |
+| Disabled sources | 1 |
 
 - [View the complete human-readable source catalog](LISTS.md), including enabled status, assigned profiles, risk, format, and upstream URL.
 - [Open the CSV source of truth](pihole-blocklist-sources.csv) used by validation and list generation.
 - [View the generated technical source catalog](pihole-list-sources.md).
 
-The CSV `Enabled` and `Profiles` fields control publication. Disabled overlapping sources remain documented for review but are not published.
+The CSV `Enabled` and `Profiles` fields control publication. `DisabledReason` is required when a row is disabled and must be blank when it is enabled. HaGeZi Spam TLDs is the only disabled source because TLD-wide rules cannot be represented in the plain-domain outputs.
 
 ## Requirements
 
@@ -125,6 +122,7 @@ The builder:
 - Fails when a selected source parses zero domains.
 - Fails when a parsed count leaves its reviewed baseline range.
 - Fails when a response or final profile exceeds configured safety limits.
+- Requires every disabled source to record `DisabledReason` and rejects reasons on enabled sources.
 - Writes final files atomically only after every selected source succeeds.
 - Applies only the repository-owned `project-allowlist.txt`.
 - Writes a JSON build report with counts, exclusive contribution, elapsed time, and output SHA-256.
@@ -135,7 +133,7 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 
 | File | Purpose |
 |---|---|
-| `pihole-blocklist-sources.csv` | Source of truth for metadata, profiles, baselines, and enablement |
+| `pihole-blocklist-sources.csv` | Source of truth for metadata, profiles, baselines, enablement, and disabled reasons |
 | `pihole-list-sources.md` | Generated complete source catalog |
 | `LISTS.md` | User-facing profile and source review page |
 | `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
@@ -154,7 +152,7 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 ## Adding or Changing Sources
 
 1. Edit `pihole-blocklist-sources.csv`.
-2. Set `Enabled`, `Profiles`, `Format`, `Risk`, `ExpectedDomains`, and `MaxChangePercent` deliberately.
+2. Set `Enabled`, `Profiles`, `Format`, `Risk`, `ExpectedDomains`, `MaxChangePercent`, and `DisabledReason` deliberately.
 3. Run the source documentation generator.
 4. Run local metadata validation.
 5. Run live URL validation.

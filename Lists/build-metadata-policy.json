@@ -1,13 +1,13 @@
 {
-  "generatedAtUtc": "2026-08-12T03:08:09.4729989Z",
+  "generatedAtUtc": "2026-08-12T04:31:41.4056276Z",
   "profile": "Policy",
-  "sourceCount": 5,
-  "blocklistDomains": 68986,
+  "sourceCount": 9,
+  "blocklistDomains": 141669,
   "allowlistDomains": 0,
   "allowlistCollisionsRemoved": 0,
-  "elapsedSeconds": 1.82,
+  "elapsedSeconds": 18.56,
   "outputFile": "curated-blocklist-policy.txt",
-  "outputSha256": "F6E87AF9D9FE50111FD8F4ED90B604A8432ADC0DE6468A60C260AC387FC7DFE1",
+  "outputSha256": "9550D5A24BD499985463C5A0CF371FAFCD72F95FAFFBCD72F3D16073E3DE834D",
   "sources": [
     {
       "source": "StevenBlack Fake News",
@@ -17,24 +17,52 @@
       "maxChangePercent": 100.0
     },
     {
+      "source": "Hagezi DynDNS Blocklist",
+      "parsedDomains": 1524,
+      "exclusiveDomains": 1524,
+      "expectedDomains": 1524,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "Hagezi Badware Hoster",
+      "parsedDomains": 1258,
+      "exclusiveDomains": 1256,
+      "expectedDomains": 1258,
+      "maxChangePercent": 100.0
+    },
+    {
       "source": "Hagezi Anti-Piracy",
       "parsedDomains": 39740,
-      "exclusiveDomains": 39740,
+      "exclusiveDomains": 39734,
       "expectedDomains": 39740,
       "maxChangePercent": 75.0
     },
     {
       "source": "Hagezi URL Shortener Blocklist",
       "parsedDomains": 9904,
-      "exclusiveDomains": 9904,
+      "exclusiveDomains": 9799,
       "expectedDomains": 9904,
       "maxChangePercent": 75.0
     },
     {
       "source": "Hagezi Encrypted DNS/VPN/TOR Bypass",
       "parsedDomains": 16965,
-      "exclusiveDomains": 16949,
+      "exclusiveDomains": 16948,
       "expectedDomains": 16965,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Hagezi Fake DNS Blocklist",
+      "parsedDomains": 16764,
+      "exclusiveDomains": 16763,
+      "expectedDomains": 16764,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Hagezi Pop-Up Ads",
+      "parsedDomains": 53391,
+      "exclusiveDomains": 53252,
+      "expectedDomains": 53391,
       "maxChangePercent": 75.0
     },
     {

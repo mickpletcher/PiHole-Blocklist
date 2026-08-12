@@ -6,7 +6,7 @@ Last reviewed: 2026-08-11
 
 The repository now has a fail-closed PowerShell 7 pipeline with explicit Balanced, Strict, Device, and Policy profiles.
 
-The source catalog contains 45 blocklist rows. Nineteen rows are enabled in at least one published profile. Disabled overlapping sources remain visible for review but are not downloaded during publication.
+The source catalog contains 45 blocklist rows. Forty-four rows are enabled in at least one published profile. HaGeZi Spam TLDs is the sole disabled row because its TLD-wide rules cannot be represented in a plain-domain output.
 
 The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
 
@@ -14,7 +14,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 
 ## Resolved Findings
 
-- Byte-array HTTP responses are decoded using the declared charset, strict UTF-8, or Latin-1 fallback. Disconnect.me Simple Tracking now parses 34 domains when tested, though it remains disabled because it overlaps the default aggregates.
+- Byte-array HTTP responses are decoded using the declared charset, strict UTF-8, or Latin-1 fallback. Disconnect.me Simple Tracking parses 34 domains and is enabled in Balanced and Strict.
 - Selected downloads retry three times and any final failure stops the build.
 - Enabled sources must parse within a reviewed expected-count range. Zero-domain and anomalous-count results fail publication.
 - Output files are written atomically only after all selected sources succeed.
@@ -26,16 +26,17 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - The publication workflow uses lease-protected replacement of the generated branch and retains the previous publication when a build fails.
 - The generated branch snapshot was squash integrated into `main` without replacing the source repository README or source files.
 - The README now presents source inventory counts and prominent links to the human-readable catalog, generated technical catalog, and CSV source of truth.
+- The source schema requires `DisabledReason` for disabled rows and rejects reasons on enabled rows. Every supported plain-domain source is enabled.
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
 
 ## Source Profiles
 
 | Profile | Enabled sources | Purpose |
 |---|---:|---|
-| Balanced | 2 | HaGeZi Threat Intelligence Feeds plus HaGeZi Pro |
-| Strict | 3 | Balanced plus OISD Big |
+| Balanced | 23 | All supported moderate-risk sources |
+| Strict | 24 | Balanced plus OISD Big |
 | Device | 11 | Device and service-specific restrictions |
-| Policy | 5 | Piracy, shortener, bypass, fake-news, and SafeSearch restrictions |
+| Policy | 9 | High-risk policy, DNS, badware-hosting, and pop-up restrictions |
 
 ## Verified Results
 
@@ -44,7 +45,7 @@ Local validation on 2026-08-11:
 ```text
 MarkdownRows=45
 CsvRows=45
-EnabledRows=19
+EnabledRows=44
 ParityDifferences=0
 MetadataProblems=0
 InvalidUrls=0
@@ -52,7 +53,7 @@ DuplicateUrls=0
 DuplicateSources=0
 FailedHttp=0
 Redirects=0
-PesterTests=18 passed, 0 failed
+PesterTests=19 passed, 0 failed
 PSScriptAnalyzerFindings=0
 MarkdownProblems=0
 ```
@@ -61,26 +62,28 @@ Production-equivalent isolated builds:
 
 | Profile | Sources | Domains | Build seconds |
 |---|---:|---:|---:|
-| Balanced | 2 | 2,360,773 | 189.04 |
-| Strict | 3 | 2,420,078 | 186.81 |
-| Device | 11 | 3,396 | 1.35 |
-| Policy | 5 | 68,986 | 4.49 |
+| Balanced | 23 | 3,535,901 | 480.16 |
+| Strict | 24 | 3,573,746 | 497.73 |
+| Device | 11 | 3,396 | 2.97 |
+| Policy | 9 | 141,669 | 18.56 |
 
-All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. Peak observed working memory during the large build was about 718 MiB, compared with about 3.5 GiB during the previous implementation.
+All 45 source URLs passed live validation with zero failures or redirects. All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
 
 ## Remaining Risks
 
 - The repository still contains old generated-feed objects in Git history. Removing them requires a separate coordinated history rewrite and force push.
 - Broad aggregate lists can create false positives even with the safer default profile.
 - Expected-count baselines require manual review when a legitimate upstream change exceeds its threshold.
+- Balanced and Strict intentionally contain heavy aggregate and component overlap. This increases download dependencies and processing cost while many sources contribute few exclusive domains.
 - Legacy `main` subscription URLs now resolve, but their compatibility snapshot becomes stale when the next generated-branch publication succeeds.
 - Balanced and Strict currently download their shared sources separately during the multi-profile workflow. A reviewed cache could reduce build time.
 - Plain-domain outputs cannot implement TLD-wide or regex rules.
 
 ## Recommended Next Work
 
-1. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
-2. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
-3. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
-4. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
-5. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.
+1. Monitor false positives, build duration, memory, and exclusive contribution after enabling all supported sources.
+2. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
+3. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
+4. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
+5. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
+6. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.

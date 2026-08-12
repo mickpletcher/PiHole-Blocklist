@@ -1,34 +1,181 @@
 {
-  "generatedAtUtc": "2026-08-12T03:08:06.3967236Z",
+  "generatedAtUtc": "2026-08-12T04:31:17.8767691Z",
   "profile": "Strict",
-  "sourceCount": 3,
-  "blocklistDomains": 2420073,
+  "sourceCount": 24,
+  "blocklistDomains": 3573746,
   "allowlistDomains": 0,
   "allowlistCollisionsRemoved": 0,
-  "elapsedSeconds": 60.59,
+  "elapsedSeconds": 497.73,
   "outputFile": "curated-blocklist-strict.txt",
-  "outputSha256": "3F836ABBCD1BDF20FEC5A00F6DAE857EF7A542EF68138D4FCFD9DCBC852AC6DE",
+  "outputSha256": "B9856C11DD8BE05857063C52CCC0AFD7D431F93BC9972163737893CA85A1D40A",
   "sources": [
+    {
+      "source": "KADhosts",
+      "parsedDomains": 61232,
+      "exclusiveDomains": 61232,
+      "expectedDomains": 61184,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "FadeMind Spam Extras",
+      "parsedDomains": 57,
+      "exclusiveDomains": 57,
+      "expectedDomains": 57,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "w3kbl",
+      "parsedDomains": 350,
+      "exclusiveDomains": 350,
+      "expectedDomains": 355,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "Matomo Referrer Spam Blacklist",
+      "parsedDomains": 2343,
+      "exclusiveDomains": 2342,
+      "expectedDomains": 2303,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "Someone Who Cares Hosts Zero",
+      "parsedDomains": 12998,
+      "exclusiveDomains": 12944,
+      "expectedDomains": 12992,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "RooneyMcNibNug SNAFU",
+      "parsedDomains": 74380,
+      "exclusiveDomains": 74078,
+      "expectedDomains": 74788,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "AdAway",
+      "parsedDomains": 6540,
+      "exclusiveDomains": 5498,
+      "expectedDomains": 6540,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "HoSTS AdBlock",
+      "parsedDomains": 153360,
+      "exclusiveDomains": 151591,
+      "expectedDomains": 153356,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "Peter Lowe's Ad and tracking server list",
+      "parsedDomains": 3522,
+      "exclusiveDomains": 1563,
+      "expectedDomains": 3521,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "FadeMind Ad Extras",
+      "parsedDomains": 9,
+      "exclusiveDomains": 9,
+      "expectedDomains": 9,
+      "maxChangePercent": 200.0
+    },
+    {
+      "source": "Disconnect.me Simple Ad",
+      "parsedDomains": 2700,
+      "exclusiveDomains": 969,
+      "expectedDomains": 2700,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "Disconnect.me Simple Tracking",
+      "parsedDomains": 34,
+      "exclusiveDomains": 11,
+      "expectedDomains": 34,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "EasyPrivacy",
+      "parsedDomains": 42727,
+      "exclusiveDomains": 15305,
+      "expectedDomains": 42728,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "FadeMind Tracking Extras",
+      "parsedDomains": 2030,
+      "exclusiveDomains": 1297,
+      "expectedDomains": 2030,
+      "maxChangePercent": 100.0
+    },
+    {
+      "source": "CNAME Cloaking Blocklist",
+      "parsedDomains": 35,
+      "exclusiveDomains": 11,
+      "expectedDomains": 35,
+      "maxChangePercent": 200.0
+    },
     {
       "source": "Threat Intelligence Feeds",
       "parsedDomains": 2224519,
-      "exclusiveDomains": 2224519,
+      "exclusiveDomains": 2179405,
       "expectedDomains": 2224519,
       "maxChangePercent": 50.0
     },
     {
+      "source": "Phishing URL Blocklist",
+      "parsedDomains": 155996,
+      "exclusiveDomains": 68212,
+      "expectedDomains": 156067,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "URLhaus",
+      "parsedDomains": 365,
+      "exclusiveDomains": 106,
+      "expectedDomains": 363,
+      "maxChangePercent": 200.0
+    },
+    {
+      "source": "ThreatFox",
+      "parsedDomains": 47632,
+      "exclusiveDomains": 36117,
+      "expectedDomains": 49957,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "RPiList Phishing",
+      "parsedDomains": 157313,
+      "exclusiveDomains": 1576,
+      "expectedDomains": 157313,
+      "maxChangePercent": 75.0
+    },
+    {
+      "source": "RPiList Malware",
+      "parsedDomains": 1077116,
+      "exclusiveDomains": 837563,
+      "expectedDomains": 1077116,
+      "maxChangePercent": 75.0
+    },
+    {
       "source": "Hagezi Pro",
       "parsedDomains": 215439,
-      "exclusiveDomains": 136254,
+      "exclusiveDomains": 73758,
       "expectedDomains": 215439,
       "maxChangePercent": 50.0
     },
     {
       "source": "OISD Big",
       "parsedDomains": 251477,
-      "exclusiveDomains": 59300,
+      "exclusiveDomains": 38353,
       "expectedDomains": 251327,
       "maxChangePercent": 50.0
+    },
+    {
+      "source": "StevenBlack Unified Hosts",
+      "parsedDomains": 97645,
+      "exclusiveDomains": 11399,
+      "expectedDomains": 99558,
+      "maxChangePercent": 75.0
     }
   ]
 }

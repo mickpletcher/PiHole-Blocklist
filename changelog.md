@@ -2,6 +2,10 @@
 
 ## 2026-08-11
 
+- Added `DisabledReason` to every source row, required it for disabled sources, rejected it for enabled sources, and exposed it in both generated source catalogs.
+- Re-enabled 21 moderate-risk sources in Balanced and Strict and four high-risk HaGeZi specialty sources in Policy.
+- Kept HaGeZi Spam TLDs disabled with the recorded reason that TLD-wide rules cannot be represented in plain-domain output.
+- Updated profile counts to Balanced 23, Strict 24, Device 11, and Policy 9.
 - Added a prominent README source inventory with total, enabled, and disabled counts plus direct links to the CSV source of truth and both human-readable catalogs.
 - Squash integrated the current `generated` branch publication into `main` to restore the legacy raw blocklist and allowlist URLs.
 - Preserved the source repository README and source files while adding the generated profile lists, JSON build metadata, and validation report.
