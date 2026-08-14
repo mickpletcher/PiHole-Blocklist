@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-08-14
+
+- Fixed GitHub Actions run `31792116990` ("Build and publish generated lists"): the Device profile failed because jsDelivr returned HTTP 403 for HaGeZi host-format sources in `dns-blocklists@latest`.
+- Repointed four Device host-format sources to `https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/...` (`native.winoffice.txt`, `native.tiktok.txt`, `native.samsung.txt`, `native.lgwebos.txt`).
+- Regenerated `pihole-list-sources.md` and `LISTS.md` from `pihole-blocklist-sources.csv`.
+- Updated `assessment.md` with the failure root cause and remediation status.
+- Reviewed `README.md`; setup and command guidance remains valid, and added a dated review entry for this source-URL migration.
+
 ## 2026-08-11
 
 - Added `DisabledReason` to every source row, required it for disabled sources, rejected it for enabled sources, and exposed it in both generated source catalogs.

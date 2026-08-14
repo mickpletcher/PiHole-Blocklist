@@ -1,6 +1,6 @@
 # Repository Assessment
 
-Last reviewed: 2026-08-11
+Last reviewed: 2026-08-14
 
 ## Current Condition
 
@@ -28,6 +28,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - The README now presents source inventory counts and prominent links to the human-readable catalog, generated technical catalog, and CSV source of truth.
 - The source schema requires `DisabledReason` for disabled rows and rejects reasons on enabled rows. Every supported plain-domain source is enabled.
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
+- GitHub Actions run `31792116990` failed in the "Build and publish generated lists" job when jsDelivr returned HTTP 403 for HaGeZi host-format device sources. The four affected host URLs now point to `hagezi/dns-blocklists-legacy` on `raw.githubusercontent.com`, which currently serves those files.
 
 ## Source Profiles
 
@@ -68,6 +69,8 @@ Production-equivalent isolated builds:
 | Policy | 9 | 141,669 | 18.56 |
 
 All 45 source URLs passed live validation with zero failures or redirects. All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
+
+On 2026-08-14, local live URL validation from this sandbox environment reported multiple unrelated transient or blocked upstream fetches, but the four updated HaGeZi host-format legacy URLs returned HTTP 200 in direct checks.
 
 ## Remaining Risks
 

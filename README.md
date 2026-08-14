@@ -187,4 +187,8 @@ Every source-code or configuration change must review and update:
 
 Generated deployments on the `generated` branch are publication artifacts. Changes to their behavior or structure still require the documentation updates above on `main`.
 
+## Documentation Review Log
+
+- 2026-08-14: Reviewed for the generated-list build fix. Setup, commands, outputs, and limitations remain accurate; only source-catalog URLs for four HaGeZi host-format device sources changed.
+
 See [assessment.md](assessment.md), [changelog.md](changelog.md), and [completed-upgrades.md](completed-upgrades.md).
