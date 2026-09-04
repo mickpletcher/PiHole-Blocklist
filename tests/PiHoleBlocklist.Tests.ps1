@@ -62,8 +62,10 @@ Describe 'Invoke-PiHoleListBuild' {
     BeforeEach {
         $script:sourceCsv = Join-Path $TestDrive 'sources.csv'
         $script:allowlist = Join-Path $TestDrive 'allowlist.txt'
+        $script:denylist = Join-Path $TestDrive 'denylist.txt'
         $script:output = Join-Path $TestDrive ([guid]::NewGuid().ToString('N'))
         Set-Content -LiteralPath $script:allowlist -Value 'b.example' -Encoding utf8NoBOM
+        Set-Content -LiteralPath $script:denylist -Value "c.example`nb.example" -Encoding utf8NoBOM
         @'
 Category,Source,URL,Enabled,Profiles,Format,Risk,ExpectedDomains,MaxChangePercent,DisabledReason
 Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,10,
@@ -81,11 +83,15 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
         $result = Invoke-PiHoleListBuild `
             -SourceCsv $script:sourceCsv `
             -ProjectAllowlistPath $script:allowlist `
+            -ProjectDenylistPath $script:denylist `
             -OutputDirectory $script:output
 
         $result.blocklistDomains | Should -Be 1
         $result.allowlistCollisionsRemoved | Should -Be 1
+        $result.projectDenylistDomains | Should -Be 1
+        $result.projectDenylistCollisionsRemoved | Should -Be 1
         Get-Content -LiteralPath (Join-Path $script:output 'curated-blocklist.txt') | Should -Be @('a.example')
+        Get-Content -LiteralPath (Join-Path $script:output 'curated-project-denylist.txt') | Should -Be @('c.example')
         Test-Path -LiteralPath (Join-Path $script:output 'Sources') | Should -BeFalse
         Test-Path -LiteralPath (Join-Path $script:output 'build-metadata-balanced.json') | Should -BeTrue
     }
@@ -104,6 +110,7 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
             Invoke-PiHoleListBuild `
                 -SourceCsv $script:sourceCsv `
                 -ProjectAllowlistPath $script:allowlist `
+                -ProjectDenylistPath $script:denylist `
                 -OutputDirectory $script:output
         } | Should -Throw '*Parsed count outside baseline*'
 
@@ -118,6 +125,7 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
             Invoke-PiHoleListBuild `
                 -SourceCsv $script:sourceCsv `
                 -ProjectAllowlistPath $script:allowlist `
+                -ProjectDenylistPath $script:denylist `
                 -OutputDirectory $script:output
         } | Should -Throw '*Download failed after 3 attempts*'
 
@@ -135,6 +143,7 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
             Invoke-PiHoleListBuild `
                 -SourceCsv $script:sourceCsv `
                 -ProjectAllowlistPath $script:allowlist `
+                -ProjectDenylistPath $script:denylist `
                 -OutputDirectory $script:output
         } | Should -Throw '*Source CSV is missing required column: DisabledReason*'
     }

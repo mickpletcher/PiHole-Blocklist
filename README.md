@@ -18,6 +18,7 @@ Use the raw URLs from the history-limited `generated` branch.
 | Device | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-device.txt` | Device and service-specific restrictions |
 | Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
 | Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
+| OpenClaw denylist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt` | Reviewed domains promoted after local canary testing |
 
 The generated snapshot is also tracked on `main` to restore these legacy subscription URLs:
 
@@ -29,6 +30,11 @@ https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/refs/heads/main/
 The daily workflow refreshes the `generated` branch. The `main` copies remain compatibility snapshots until publication to `main` is automated or subscribers migrate to the canonical URLs above.
 
 Start with Balanced. Add Device or Policy only when those restrictions are wanted.
+
+Keep the OpenClaw denylist as a separate Pi-hole subscription assigned only to
+the intended client group. Disable that subscription and update gravity for an
+immediate list-level rollback. Do not merge untested recommendations into a
+profile.
 
 Pi-hole setup:
 
@@ -104,6 +110,7 @@ $output = Join-Path $env:TEMP 'PiHole-Blocklist-build'
 .\Merge-PiholeBlocklists.ps1 `
     -SourceCsv .\pihole-blocklist-sources.csv `
     -ProjectAllowlistPath .\project-allowlist.txt `
+    -ProjectDenylistPath .\project-denylist.txt `
     -BuildProfile Balanced `
     -OutputDirectory $output
 ```
@@ -125,6 +132,8 @@ The builder:
 - Requires every disabled source to record `DisabledReason` and rejects reasons on enabled sources.
 - Writes final files atomically only after every selected source succeeds.
 - Applies only the repository-owned `project-allowlist.txt`.
+- Publishes `project-denylist.txt` separately and removes any exact collision
+  with the project allowlist.
 - Writes a JSON build report with counts, exclusive contribution, elapsed time, and output SHA-256.
 
 Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-domain list. The HaGeZi Spam TLD source remains documented but disabled.
@@ -137,6 +146,7 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 | `pihole-list-sources.md` | Generated complete source catalog |
 | `LISTS.md` | User-facing profile and source review page |
 | `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
+| `project-denylist.txt` | Empty-by-default domains approved after local canary testing |
 | `PiHoleBlocklist.psm1` | Parser and fail-closed build implementation |
 | `Merge-PiholeBlocklists.ps1` | Profile build command |
 | `Validate-BlocklistSources.ps1` | Inventory, metadata, parity, duplicate, and live URL validation |
@@ -174,6 +184,7 @@ The update workflow never publishes partial output. Failed downloads, unexpected
 - Plain-domain outputs cannot express TLD-wide or regex rules.
 - Source baselines require manual review when a legitimate upstream change exceeds the configured threshold.
 - Broad upstream aggregates can still produce false positives. Use local Pi-hole allowlisting for site-specific exceptions.
+- The OpenClaw denylist is intentionally manual. A report recommendation never publishes or blocks a domain by itself.
 - Legacy `main` URLs point to a compatibility snapshot and can become stale after the next successful `generated` branch publication.
 - Old generated commits remain in the existing Git history. The new publication model stops future daily feed growth but does not rewrite past history.
 
@@ -186,9 +197,5 @@ Every source-code or configuration change must review and update:
 - `changelog.md`
 
 Generated deployments on the `generated` branch are publication artifacts. Changes to their behavior or structure still require the documentation updates above on `main`.
-
-## Documentation Review Log
-
-- 2026-08-14: Reviewed for the generated-list build fix. Setup, commands, outputs, and limitations remain accurate; only source-catalog URLs for four HaGeZi host-format device sources changed.
 
 See [assessment.md](assessment.md), [changelog.md](changelog.md), and [completed-upgrades.md](completed-upgrades.md).
