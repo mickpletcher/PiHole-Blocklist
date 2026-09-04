@@ -1,12 +1,12 @@
 # Changelog
 
-## 2026-08-14
+## 2026-09-03
 
-- Fixed GitHub Actions run `31792116990` ("Build and publish generated lists"): the Device profile failed because jsDelivr returned HTTP 403 for HaGeZi host-format sources in `dns-blocklists@latest`.
-- Repointed four Device host-format sources to `https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/...` (`native.winoffice.txt`, `native.tiktok.txt`, `native.samsung.txt`, `native.lgwebos.txt`).
-- Regenerated `pihole-list-sources.md` and `LISTS.md` from `pihole-blocklist-sources.csv`.
-- Updated `assessment.md` with the failure root cause and remediation status.
-- Reviewed `README.md`; setup and command guidance remains valid, and added a dated review entry for this source-URL migration.
+- Added the empty-by-default `project-denylist.txt` input for domains approved after local OpenClaw canary testing.
+- Published the reviewed project denylist separately as `curated-project-denylist.txt` so Pi-hole can disable or unassign it independently.
+- Removed exact project allowlist collisions from the project denylist and recorded the resulting counts in build metadata.
+- Added tests, workflow publication, setup guidance, rollback behavior, risks, and maintenance documentation for the independent denylist.
+- Migrated four HaGeZi native tracker sources from retired legacy hosts URLs to the current official Adblock URLs and refreshed their count baselines.
 
 ## 2026-08-11
 

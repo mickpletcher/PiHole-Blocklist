@@ -46,6 +46,7 @@ jobs:
             ./Merge-PiholeBlocklists.ps1 `
               -SourceCsv ./pihole-blocklist-sources.csv `
               -ProjectAllowlistPath ./project-allowlist.txt `
+              -ProjectDenylistPath ./project-denylist.txt `
               -OutputDirectory $outputDirectory `
               -BuildProfile $profileName `
               -TimeoutSeconds 60 `
@@ -79,6 +80,7 @@ jobs:
             '| `Lists/curated-blocklist-device.txt` | Device opt-in |'
             '| `Lists/curated-blocklist-policy.txt` | Policy opt-in |'
             '| `Lists/curated-whitelist.txt` | Project-owned reviewed allowlist |'
+            '| `Lists/curated-project-denylist.txt` | OpenClaw-reviewed denylist with an independent kill switch |'
           )
           Set-Content -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'README.md') -Value $readme -Encoding utf8NoBOM
 

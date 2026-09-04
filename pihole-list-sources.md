@@ -67,8 +67,8 @@ The CSV is the source of truth. Disabled rows remain documented for review but a
 | true | Device | N/A | High | Auto | RPiList Apple iCloud | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud |
 | true | Device | N/A | High | Auto | RPiList Apple iTunes | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iTunes |
 | true | Device | N/A | High | Auto | RPiList MS Office Telemetry | https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry |
-| true | Device | N/A | High | Hosts | Hagezi Windows / Office Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/native.winoffice.txt |
-| true | Device | N/A | High | Hosts | Hagezi TikTok Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/native.tiktok.txt |
+| true | Device | N/A | High | Adblock | Hagezi Windows / Office Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt |
+| true | Device | N/A | High | Adblock | Hagezi TikTok Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt |
 | true | Device | N/A | High | Auto | RPiList Microsoft Office 365 | https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft%20Office%20365 |
 
 ## Smart TV / IoT
@@ -76,8 +76,8 @@ The CSV is the source of truth. Disabled rows remain documented for review but a
 | Enabled | Profiles | Disabled reason | Risk | Format | Source | URL |
 |---|---|---|---|---|---|---|
 | true | Device | N/A | High | Auto | Perflyst SmartTV | https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt |
-| true | Device | N/A | High | Hosts | Hagezi Samsung Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/native.samsung.txt |
-| true | Device | N/A | High | Hosts | Hagezi LG WebOS Native Tracker | https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/hosts/native.lgwebos.txt |
+| true | Device | N/A | High | Adblock | Hagezi Samsung Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt |
+| true | Device | N/A | High | Adblock | Hagezi LG WebOS Native Tracker | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt |
 
 ## Fake DNS / DynDNS
 

@@ -213,6 +213,9 @@ function Invoke-PiHoleListBuild {
         [ValidateScript({ Test-Path -LiteralPath $_ -PathType Leaf })]
         [string]$ProjectAllowlistPath = './project-allowlist.txt',
 
+        [ValidateScript({ Test-Path -LiteralPath $_ -PathType Leaf })]
+        [string]$ProjectDenylistPath = './project-denylist.txt',
+
         [ValidateRange(1, 300)]
         [int]$TimeoutSeconds = 60,
 
@@ -293,10 +296,19 @@ function Invoke-PiHoleListBuild {
 
     $allowlistContent = Get-Content -LiteralPath $ProjectAllowlistPath -Raw
     $allowlistDomains = Get-DomainsFromContent -Content $allowlistContent -Format Domains
+    $projectDenylistContent = Get-Content -LiteralPath $ProjectDenylistPath -Raw
+    $projectDenylistDomains = Get-DomainsFromContent -Content $projectDenylistContent -Format Domains
     $collisionCount = 0
     foreach ($domain in $allowlistDomains) {
         if ($blockDomains.Remove($domain)) {
             $collisionCount++
+        }
+    }
+
+    $projectDenylistCollisionCount = 0
+    foreach ($domain in $allowlistDomains) {
+        if ($projectDenylistDomains.Remove($domain)) {
+            $projectDenylistCollisionCount++
         }
     }
 
@@ -320,6 +332,10 @@ function Invoke-PiHoleListBuild {
         $whitelistPath = Join-Path $OutputDirectory 'curated-whitelist.txt'
         $sortedAllowlist = ConvertTo-SortedArray -Domains $allowlistDomains
         Write-AtomicFile -Path $whitelistPath -Lines $sortedAllowlist
+
+        $projectDenylistOutputPath = Join-Path $OutputDirectory 'curated-project-denylist.txt'
+        $sortedProjectDenylist = ConvertTo-SortedArray -Domains $projectDenylistDomains
+        Write-AtomicFile -Path $projectDenylistOutputPath -Lines $sortedProjectDenylist
     }
 
     $metadata = [pscustomobject][ordered]@{
@@ -329,6 +345,8 @@ function Invoke-PiHoleListBuild {
         blocklistDomains = $blockDomains.Count
         allowlistDomains = $allowlistDomains.Count
         allowlistCollisionsRemoved = $collisionCount
+        projectDenylistDomains = $projectDenylistDomains.Count
+        projectDenylistCollisionsRemoved = $projectDenylistCollisionCount
         elapsedSeconds = [Math]::Round(((Get-Date) - $startTime).TotalSeconds, 2)
         outputFile = $blocklistFileName
         outputSha256 = (Get-FileHash -LiteralPath $blocklistPath -Algorithm SHA256).Hash

@@ -1,6 +1,6 @@
 # Repository Assessment
 
-Last reviewed: 2026-08-14
+Last reviewed: 2026-09-03
 
 ## Current Condition
 
@@ -9,6 +9,8 @@ The repository now has a fail-closed PowerShell 7 pipeline with explicit Balance
 The source catalog contains 45 blocklist rows. Forty-four rows are enabled in at least one published profile. HaGeZi Spam TLDs is the sole disabled row because its TLD-wide rules cannot be represented in a plain-domain output.
 
 The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
+
+`project-denylist.txt` is a separate, empty-by-default input for domains that pass local OpenClaw canary testing. It publishes independently from the four profiles so Pi-hole can disable or unassign it without changing the baseline subscriptions.
 
 A generated publication snapshot is tracked on `main` again to restore the legacy raw subscription URLs. The daily workflow continues publishing final outputs, validation results, and JSON build metadata to the history-limited orphan `generated` branch. It does not refresh the `main` snapshot.
 
@@ -28,7 +30,8 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - The README now presents source inventory counts and prominent links to the human-readable catalog, generated technical catalog, and CSV source of truth.
 - The source schema requires `DisabledReason` for disabled rows and rejects reasons on enabled rows. Every supported plain-domain source is enabled.
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
-- GitHub Actions run `31792116990` failed in the "Build and publish generated lists" job when jsDelivr returned HTTP 403 for HaGeZi host-format device sources. The four affected host URLs now point to `hagezi/dns-blocklists-legacy` on `raw.githubusercontent.com`, which currently serves those files.
+- Project deny entries are validated as plain domains, deduplicated, checked against the project allowlist, and published as an independent rollback unit.
+- Four HaGeZi native tracker sources were migrated from retired legacy hosts URLs to the current official Adblock URLs and their reviewed count baselines were refreshed.
 
 ## Source Profiles
 
@@ -70,8 +73,6 @@ Production-equivalent isolated builds:
 
 All 45 source URLs passed live validation with zero failures or redirects. All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
 
-On 2026-08-14, local live URL validation from this sandbox environment reported multiple unrelated transient or blocked upstream fetches, but the four updated HaGeZi host-format legacy URLs returned HTTP 200 in direct checks.
-
 ## Remaining Risks
 
 - The repository still contains old generated-feed objects in Git history. Removing them requires a separate coordinated history rewrite and force push.
@@ -81,12 +82,14 @@ On 2026-08-14, local live URL validation from this sandbox environment reported 
 - Legacy `main` subscription URLs now resolve, but their compatibility snapshot becomes stale when the next generated-branch publication succeeds.
 - Balanced and Strict currently download their shared sources separately during the multi-profile workflow. A reviewed cache could reduce build time.
 - Plain-domain outputs cannot implement TLD-wide or regex rules.
+- Candidate promotion remains a human decision. The repository cannot prove that a domain passed functional testing.
 
 ## Recommended Next Work
 
 1. Monitor false positives, build duration, memory, and exclusive contribution after enabling all supported sources.
-2. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
-3. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
-4. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
-5. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
-6. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.
+2. Promote only reviewed canary results into `project-denylist.txt` and retain a generic reason in the pull request.
+3. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
+4. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
+5. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.
+6. Add a separate reviewed Pi-hole regex publication only if TLD-wide blocking is required.
+7. Consider a checksum-validated temporary download cache to avoid repeated aggregate downloads across profiles.

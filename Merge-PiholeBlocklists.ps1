@@ -12,6 +12,9 @@ param (
     [ValidateScript({ Test-Path -LiteralPath $_ -PathType Leaf })]
     [string]$ProjectAllowlistPath = './project-allowlist.txt',
 
+    [ValidateScript({ Test-Path -LiteralPath $_ -PathType Leaf })]
+    [string]$ProjectDenylistPath = './project-denylist.txt',
+
     [ValidateRange(1, 300)]
     [int]$TimeoutSeconds = 60,
 
@@ -37,6 +40,8 @@ try {
     Write-Host "BlocklistDomains=$($result.blocklistDomains)"
     Write-Host "AllowlistDomains=$($result.allowlistDomains)"
     Write-Host "AllowlistCollisionsRemoved=$($result.allowlistCollisionsRemoved)"
+    Write-Host "ProjectDenylistDomains=$($result.projectDenylistDomains)"
+    Write-Host "ProjectDenylistCollisionsRemoved=$($result.projectDenylistCollisionsRemoved)"
     exit 0
 }
 catch {
