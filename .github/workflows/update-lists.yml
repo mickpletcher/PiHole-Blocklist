@@ -56,6 +56,25 @@ jobs:
             }
           }
 
+          Import-Module ./PiHoleBlocklist.psm1 -Force
+          $candidateDomains = @(Get-Content -LiteralPath ./candidate-blocklist-2.txt)
+          if ($candidateDomains.Count -ne 97) {
+            throw "Candidate blocklist 2 must contain exactly 97 domains. Found $($candidateDomains.Count)."
+          }
+          if (($candidateDomains | Sort-Object -Unique).Count -ne $candidateDomains.Count) {
+            throw 'Candidate blocklist 2 contains duplicate domains.'
+          }
+          if (($candidateDomains -join "`n") -cne (($candidateDomains | Sort-Object) -join "`n")) {
+            throw 'Candidate blocklist 2 must remain sorted.'
+          }
+          $invalid = @($candidateDomains | Where-Object { -not (Test-DomainName -Domain $_) })
+          if ($invalid.Count -gt 0) {
+            throw "Candidate blocklist 2 contains invalid domains: $($invalid -join ', ')"
+          }
+          $candidateDomains |
+            Sort-Object |
+            Set-Content -LiteralPath (Join-Path $outputDirectory 'candidate-blocklist-2.txt') -Encoding utf8NoBOM
+
       - name: Create publication metadata
         shell: pwsh
         run: |
@@ -81,6 +100,7 @@ jobs:
             '| `Lists/curated-blocklist-policy.txt` | Policy opt-in |'
             '| `Lists/curated-whitelist.txt` | Project-owned reviewed allowlist |'
             '| `Lists/curated-project-denylist.txt` | OpenClaw-reviewed denylist with an independent kill switch |'
+            '| `Lists/candidate-blocklist-2.txt` | User-approved standalone candidate blocklist |'
           )
           Set-Content -LiteralPath (Join-Path $env:PUBLICATION_ROOT 'README.md') -Value $readme -Encoding utf8NoBOM
 

@@ -34,7 +34,23 @@ jobs:
 
       - name: Validate inventory
         shell: pwsh
-        run: ./Validate-BlocklistSources.ps1 -SkipUrlChecks
+        run: |
+          ./Validate-BlocklistSources.ps1 -SkipUrlChecks
+          Import-Module ./PiHoleBlocklist.psm1 -Force
+          $domains = @(Get-Content -LiteralPath ./candidate-blocklist-2.txt)
+          if ($domains.Count -ne 97) {
+            throw "Candidate blocklist 2 must contain exactly 97 domains. Found $($domains.Count)."
+          }
+          if (($domains | Sort-Object -Unique).Count -ne $domains.Count) {
+            throw 'Candidate blocklist 2 contains duplicate domains.'
+          }
+          if (($domains -join "`n") -cne (($domains | Sort-Object) -join "`n")) {
+            throw 'Candidate blocklist 2 must remain sorted.'
+          }
+          $invalid = @($domains | Where-Object { -not (Test-DomainName -Domain $_) })
+          if ($invalid.Count -gt 0) {
+            throw "Candidate blocklist 2 contains invalid domains: $($invalid -join ', ')"
+          }
 
       - name: Run tests
         shell: pwsh

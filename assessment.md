@@ -1,6 +1,6 @@
 # Repository Assessment
 
-Last reviewed: 2026-09-03
+Last reviewed: 2026-09-10
 
 ## Current Condition
 
@@ -11,6 +11,8 @@ The source catalog contains 45 blocklist rows. Forty-four rows are enabled in at
 The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
 
 `project-denylist.txt` is a separate, empty-by-default input for domains that pass local OpenClaw canary testing. It publishes independently from the four profiles so Pi-hole can disable or unassign it without changing the baseline subscriptions.
+
+`candidate-blocklist-2.txt` contains 97 user-approved advertising, tracking, analytics, and Private Relay domains. It publishes as a separate subscription and is not merged into any existing profile or project list.
 
 A generated publication snapshot is tracked on `main` again to restore the legacy raw subscription URLs. The daily workflow continues publishing final outputs, validation results, and JSON build metadata to the history-limited orphan `generated` branch. It does not refresh the `main` snapshot.
 
@@ -32,6 +34,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - PowerShell support is accurately documented as PowerShell 7.4 or later.
 - Project deny entries are validated as plain domains, deduplicated, checked against the project allowlist, and published as an independent rollback unit.
 - Four HaGeZi native tracker sources were migrated from retired legacy hosts URLs to the current official Adblock URLs and their reviewed count baselines were refreshed.
+- Candidate blocklist 2 is validated for count, duplicates, sorting, and domain syntax before publication as an independent list.
 
 ## Source Profiles
 
@@ -83,6 +86,7 @@ All 45 source URLs passed live validation with zero failures or redirects. All f
 - Balanced and Strict currently download their shared sources separately during the multi-profile workflow. A reviewed cache could reduce build time.
 - Plain-domain outputs cannot implement TLD-wide or regex rules.
 - Candidate promotion remains a human decision. The repository cannot prove that a domain passed functional testing.
+- Candidate blocklist 2 intentionally blocks parent domains and may cause site or application breakage. Its separate subscription is the rollback boundary.
 
 ## Recommended Next Work
 

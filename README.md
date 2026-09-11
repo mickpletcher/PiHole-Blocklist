@@ -19,6 +19,7 @@ Use the raw URLs from the history-limited `generated` branch.
 | Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
 | Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
 | OpenClaw denylist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt` | Reviewed domains promoted after local canary testing |
+| Candidate blocklist 2 | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt` | User-approved standalone advertising, tracking, analytics, and Private Relay restrictions |
 
 The generated snapshot is also tracked on `main` to restore these legacy subscription URLs:
 
@@ -35,6 +36,10 @@ Keep the OpenClaw denylist as a separate Pi-hole subscription assigned only to
 the intended client group. Disable that subscription and update gravity for an
 immediate list-level rollback. Do not merge untested recommendations into a
 profile.
+
+Keep Candidate blocklist 2 as a separate subscribed denylist. It contains 97
+reviewed parent domains and remains independent from every profile and the
+OpenClaw denylist so it can be disabled without changing other subscriptions.
 
 Pi-hole setup:
 
@@ -147,6 +152,7 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 | `LISTS.md` | User-facing profile and source review page |
 | `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
 | `project-denylist.txt` | Empty-by-default domains approved after local canary testing |
+| `candidate-blocklist-2.txt` | Standalone 97-domain denylist published without merging it into another profile |
 | `PiHoleBlocklist.psm1` | Parser and fail-closed build implementation |
 | `Merge-PiholeBlocklists.ps1` | Profile build command |
 | `Validate-BlocklistSources.ps1` | Inventory, metadata, parity, duplicate, and live URL validation |
