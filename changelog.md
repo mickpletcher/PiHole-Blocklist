@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-11
+
+- Promoted 14 reviewed exact deny rules into the maintained project denylist.
+- Added `mask-h2.icloud.com` beside `mask.icloud.com` for the documented iCloud Private Relay policy.
+- Removed eight Apple service domains from Candidate blocklist 2 because they can affect RCS, iCloud DNS, or Private Cloud Compute.
+- Reduced Candidate blocklist 2 from 97 to 89 domains and updated publication validation and documentation.
+
 ## 2026-09-10
 
 - Added the 97-domain `candidate-blocklist-2.txt` source as an independent subscribed Pi-hole denylist.

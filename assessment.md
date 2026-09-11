@@ -1,6 +1,6 @@
 # Repository Assessment
 
-Last reviewed: 2026-09-10
+Last reviewed: 2026-09-11
 
 ## Current Condition
 
@@ -10,9 +10,9 @@ The source catalog contains 45 blocklist rows. Forty-four rows are enabled in at
 
 The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
 
-`project-denylist.txt` is a separate, empty-by-default input for domains that pass local OpenClaw canary testing. It publishes independently from the four profiles so Pi-hole can disable or unassign it without changing the baseline subscriptions.
+`project-denylist.txt` is a separate input for domains that pass local OpenClaw testing or implement an intentional local policy. It currently contains 15 reviewed entries, including only the two Apple hostnames recommended for disabling iCloud Private Relay. It publishes independently from the four profiles so Pi-hole can disable or unassign it without changing the baseline subscriptions.
 
-`candidate-blocklist-2.txt` contains 97 user-approved advertising, tracking, analytics, and Private Relay domains. It publishes as a separate subscription and is not merged into any existing profile or project list.
+`candidate-blocklist-2.txt` contains 89 user-approved advertising, tracking, and analytics domains. Eight Apple service domains were removed because current Apple documentation identifies them as RCS, iCloud DNS, Private Cloud Compute, or unnecessary for the documented Private Relay policy. It publishes as a separate subscription and is not merged into any existing profile or project list.
 
 A generated publication snapshot is tracked on `main` again to restore the legacy raw subscription URLs. The daily workflow continues publishing final outputs, validation results, and JSON build metadata to the history-limited orphan `generated` branch. It does not refresh the `main` snapshot.
 
@@ -35,6 +35,8 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - Project deny entries are validated as plain domains, deduplicated, checked against the project allowlist, and published as an independent rollback unit.
 - Four HaGeZi native tracker sources were migrated from retired legacy hosts URLs to the current official Adblock URLs and their reviewed count baselines were refreshed.
 - Candidate blocklist 2 is validated for count, duplicates, sorting, and domain syntax before publication as an independent list.
+- Fourteen reviewed local exact blocks were promoted into the project denylist, and the previously missing `mask-h2.icloud.com` Private Relay policy hostname was added.
+- Eight Apple service domains were removed from Candidate blocklist 2 to prevent collateral blocking of RCS, iCloud DNS, and Private Cloud Compute.
 
 ## Source Profiles
 
@@ -47,7 +49,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 
 ## Verified Results
 
-Local validation on 2026-08-11:
+Local validation on 2026-09-11:
 
 ```text
 MarkdownRows=45
@@ -69,12 +71,12 @@ Production-equivalent isolated builds:
 
 | Profile | Sources | Domains | Build seconds |
 |---|---:|---:|---:|
-| Balanced | 23 | 3,535,901 | 480.16 |
-| Strict | 24 | 3,573,746 | 497.73 |
-| Device | 11 | 3,396 | 2.97 |
-| Policy | 9 | 141,669 | 18.56 |
+| Balanced | 23 | 3,357,993 | Not recorded |
+| Strict | 24 | 3,396,066 | Not recorded |
+| Device | 11 | 1,709 | Not recorded |
+| Policy | 9 | 145,831 | Not recorded |
 
-All 45 source URLs passed live validation with zero failures or redirects. All four outputs had zero invalid domains, duplicates, or out-of-order lines. The empty project allowlist produced zero overrides. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
+All 45 source URLs passed live validation with zero failures or redirects. All four builds published the same 15-domain project denylist with zero allowlist collisions. The 89-domain Candidate blocklist 2 passed count, uniqueness, ordering, and syntax checks. Pester passed 19 tests, and the PowerShell analyzer and Markdown checks returned no findings. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
 
 ## Remaining Risks
 
@@ -87,11 +89,12 @@ All 45 source URLs passed live validation with zero failures or redirects. All f
 - Plain-domain outputs cannot implement TLD-wide or regex rules.
 - Candidate promotion remains a human decision. The repository cannot prove that a domain passed functional testing.
 - Candidate blocklist 2 intentionally blocks parent domains and may cause site or application breakage. Its separate subscription is the rollback boundary.
+- The project denylist is local policy. Its entries require periodic review as vendor services and Apple endpoint guidance change.
 
 ## Recommended Next Work
 
 1. Monitor false positives, build duration, memory, and exclusive contribution after enabling all supported sources.
-2. Promote only reviewed canary results into `project-denylist.txt` and retain a generic reason in the pull request.
+2. Promote only reviewed canary results into `project-denylist.txt`, document policy-only entries, and retain a generic reason in the pull request.
 3. Decide whether to automate compatibility publication to `main` or migrate every subscriber to the canonical `generated` URLs.
 4. Monitor scheduled generated-branch publications and adjust baselines only after reviewing upstream changes.
 5. Decide whether repository-size reduction justifies a one-time coordinated history rewrite.

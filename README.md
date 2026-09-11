@@ -19,7 +19,7 @@ Use the raw URLs from the history-limited `generated` branch.
 | Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
 | Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
 | OpenClaw denylist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt` | Reviewed domains promoted after local canary testing |
-| Candidate blocklist 2 | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt` | User-approved standalone advertising, tracking, analytics, and Private Relay restrictions |
+| Candidate blocklist 2 | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt` | User-approved standalone advertising, tracking, and analytics restrictions |
 
 The generated snapshot is also tracked on `main` to restore these legacy subscription URLs:
 
@@ -37,9 +37,15 @@ the intended client group. Disable that subscription and update gravity for an
 immediate list-level rollback. Do not merge untested recommendations into a
 profile.
 
-Keep Candidate blocklist 2 as a separate subscribed denylist. It contains 97
+Keep Candidate blocklist 2 as a separate subscribed denylist. It contains 89
 reviewed parent domains and remains independent from every profile and the
 OpenClaw denylist so it can be disabled without changing other subscriptions.
+
+The OpenClaw denylist contains the reviewed local exceptions plus the two Apple
+hostnames recommended for intentionally disabling iCloud Private Relay:
+`mask.icloud.com` and `mask-h2.icloud.com`. Other Apple relay and DNS service
+hosts are not included because blocking them can affect RCS, iCloud DNS, or
+Private Cloud Compute.
 
 Pi-hole setup:
 
@@ -151,8 +157,8 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 | `pihole-list-sources.md` | Generated complete source catalog |
 | `LISTS.md` | User-facing profile and source review page |
 | `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
-| `project-denylist.txt` | Empty-by-default domains approved after local canary testing |
-| `candidate-blocklist-2.txt` | Standalone 97-domain denylist published without merging it into another profile |
+| `project-denylist.txt` | Domains approved after local canary testing and intentional local policy blocks |
+| `candidate-blocklist-2.txt` | Standalone 89-domain denylist published without merging it into another profile |
 | `PiHoleBlocklist.psm1` | Parser and fail-closed build implementation |
 | `Merge-PiholeBlocklists.ps1` | Profile build command |
 | `Validate-BlocklistSources.ps1` | Inventory, metadata, parity, duplicate, and live URL validation |

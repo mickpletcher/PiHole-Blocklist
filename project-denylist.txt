@@ -1,1 +1,16 @@
-# Reviewed domains only. Keep this list empty until a candidate passes local testing.
+# Reviewed domains promoted after local testing.
+asc-a.hbwrapper.com
+assets.a-mo.net
+c.albss.com
+cdn-gl.imrworldwide.com
+mask-h2.icloud.com
+mask.icloud.com
+safeframe.googlesyndication.com
+static.criteo.net
+static.hotjar.com
+telemetry.myq-cloud.com
+tongdun.net
+tru.am
+tvsquared.com
+uk-script.dotmetrics.net
+www.storygize.net
