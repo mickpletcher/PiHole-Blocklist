@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-10
+
+- Added the 97-domain `candidate-blocklist-2.txt` source as an independent subscribed Pi-hole denylist.
+- Added CI validation for exact count, duplicates, sorting, and domain syntax.
+- Published the list separately on the history-limited `generated` branch without changing existing profiles or project lists.
+
 ## 2026-09-03
 
 - Added the empty-by-default `project-denylist.txt` input for domains approved after local OpenClaw canary testing.
