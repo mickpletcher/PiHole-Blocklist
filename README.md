@@ -17,7 +17,7 @@ Use the raw URLs from the history-limited `generated` branch.
 | Strict | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-strict.txt` | Balanced plus OISD Big |
 | Device | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-device.txt` | Device and service-specific restrictions |
 | Policy | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt` | Piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions |
-| Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed project-owned exceptions only |
+| Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed permanent functional exceptions |
 | OpenClaw denylist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt` | Reviewed domains promoted after local canary testing |
 | Candidate blocklist 2 | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt` | User-approved standalone advertising, tracking, and analytics restrictions |
 
@@ -46,6 +46,10 @@ hostnames recommended for intentionally disabling iCloud Private Relay:
 `mask.icloud.com` and `mask-h2.icloud.com`. Other Apple relay and DNS service
 hosts are not included because blocking them can affect RCS, iCloud DNS, or
 Private Cloud Compute.
+
+The project allowlist contains nine reviewed permanent exceptions. Six are URL
+shorteners that deliberately override the Policy list. Treat their destinations
+as untrusted because DNS allowlisting cannot reveal or validate the final URL.
 
 Pi-hole setup:
 
@@ -156,7 +160,7 @@ Dotless TLD rules such as `||actor^` cannot be represented in a Pi-hole plain-do
 | `pihole-blocklist-sources.csv` | Source of truth for metadata, profiles, baselines, enablement, and disabled reasons |
 | `pihole-list-sources.md` | Generated complete source catalog |
 | `LISTS.md` | User-facing profile and source review page |
-| `project-allowlist.txt` | Empty-by-default reviewed project allowlist |
+| `project-allowlist.txt` | Nine reviewed permanent functional exceptions |
 | `project-denylist.txt` | Domains approved after local canary testing and intentional local policy blocks |
 | `candidate-blocklist-2.txt` | Standalone 89-domain denylist published without merging it into another profile |
 | `PiHoleBlocklist.psm1` | Parser and fail-closed build implementation |
