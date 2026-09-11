@@ -8,7 +8,7 @@ The repository now has a fail-closed PowerShell 7 pipeline with explicit Balance
 
 The source catalog contains 45 blocklist rows. Forty-four rows are enabled in at least one published profile. HaGeZi Spam TLDs is the sole disabled row because its TLD-wide rules cannot be represented in a plain-domain output.
 
-The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and is empty by default.
+The former third-party whitelist was removed. `project-allowlist.txt` is the only allowlist input and contains nine reviewed permanent functional exceptions. Six URL-shortener exceptions intentionally override the Policy list, while the remaining entries preserve Apple location, iCloud connectivity, and App Store functions.
 
 `project-denylist.txt` is a separate input for domains that pass local OpenClaw testing or implement an intentional local policy. It currently contains 15 reviewed entries, including only the two Apple hostnames recommended for disabling iCloud Private Relay. It publishes independently from the four profiles so Pi-hole can disable or unassign it without changing the baseline subscriptions.
 
@@ -37,6 +37,7 @@ A generated publication snapshot is tracked on `main` again to restore the legac
 - Candidate blocklist 2 is validated for count, duplicates, sorting, and domain syntax before publication as an independent list.
 - Fourteen reviewed local exact blocks were promoted into the project denylist, and the previously missing `mask-h2.icloud.com` Private Relay policy hostname was added.
 - Eight Apple service domains were removed from Candidate blocklist 2 to prevent collateral blocking of RCS, iCloud DNS, and Private Cloud Compute.
+- Nine reviewed exact allow rules were promoted into the maintained project allowlist.
 
 ## Source Profiles
 
@@ -71,12 +72,12 @@ Production-equivalent isolated builds:
 
 | Profile | Sources | Domains | Build seconds |
 |---|---:|---:|---:|
-| Balanced | 23 | 3,357,993 | Not recorded |
-| Strict | 24 | 3,396,066 | Not recorded |
-| Device | 11 | 1,709 | Not recorded |
-| Policy | 9 | 145,831 | Not recorded |
+| Balanced | 23 | 3,358,001 | Not recorded |
+| Strict | 24 | 3,396,100 | Not recorded |
+| Device | 11 | 1,708 | Not recorded |
+| Policy | 9 | 145,825 | Not recorded |
 
-All 45 source URLs passed live validation with zero failures or redirects. All four builds published the same 15-domain project denylist with zero allowlist collisions. The 89-domain Candidate blocklist 2 passed count, uniqueness, ordering, and syntax checks. Pester passed 19 tests, and the PowerShell analyzer and Markdown checks returned no findings. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
+All 45 source URLs passed live validation with zero failures or redirects. All four builds published the same nine-domain project allowlist and 15-domain project denylist. The allowlist removed one collision from Balanced, Strict, and Device and six from Policy. The 89-domain Candidate blocklist 2 passed count, uniqueness, ordering, and syntax checks. Pester passed 19 tests, and the PowerShell analyzer and Markdown checks returned no findings. The previous observed working-memory comparison remains about 718 MiB for the optimized implementation versus about 3.5 GiB before optimization; this change did not repeat peak-memory instrumentation.
 
 ## Remaining Risks
 
@@ -90,6 +91,7 @@ All 45 source URLs passed live validation with zero failures or redirects. All f
 - Candidate promotion remains a human decision. The repository cannot prove that a domain passed functional testing.
 - Candidate blocklist 2 intentionally blocks parent domains and may cause site or application breakage. Its separate subscription is the rollback boundary.
 - The project denylist is local policy. Its entries require periodic review as vendor services and Apple endpoint guidance change.
+- Allowlisted URL shorteners can redirect to untrusted destinations. Their inclusion is a deliberate usability exception to the Policy profile and requires periodic review.
 
 ## Recommended Next Work
 

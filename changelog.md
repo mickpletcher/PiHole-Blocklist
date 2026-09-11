@@ -6,6 +6,8 @@
 - Added `mask-h2.icloud.com` beside `mask.icloud.com` for the documented iCloud Private Relay policy.
 - Removed eight Apple service domains from Candidate blocklist 2 because they can affect RCS, iCloud DNS, or Private Cloud Compute.
 - Reduced Candidate blocklist 2 from 97 to 89 domains and updated publication validation and documentation.
+- Promoted nine permanent functional exceptions from local exact allows into the maintained project allowlist.
+- Documented that six allowlisted URL shorteners deliberately override the Policy list and do not validate destination safety.
 
 ## 2026-09-10
 

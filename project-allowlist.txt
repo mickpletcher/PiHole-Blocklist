@@ -1,1 +1,10 @@
-# Add only reviewed project-owned allowlist domains below.
+# Reviewed permanent functional exceptions.
+bit.ly
+cbsloc.al
+cnb.cx
+fxn.ws
+gs-loc.apple.com
+itunes.apple.com
+probe.icloud.com
+qrco.de
+trib.al
