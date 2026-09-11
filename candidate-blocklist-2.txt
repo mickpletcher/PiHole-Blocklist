@@ -11,10 +11,6 @@ aggle.net
 amazon-adsystem.com
 amxrtb.com
 api.hubapi.com
-apple-native-relay.apple.com
-apple-native-relay.mask.apple-dns.net
-apple-relay.cloudflare.com
-apple-relay.fastly-edge.com
 balance-x.com
 bidmachine.io
 bidswitch.net
@@ -56,16 +52,12 @@ liadm.com
 liftdsp.com
 liveintent.com
 loudecho.ai
-mask-api.fe2.apple-dns.net
-mask-api.icloud.com
-mask.apple-dns.net
 maticooads.com
 mediago.io
 mediagotechnology.com
 minutemedia-prebid.com
 mobilefuse.com
 moengage.com
-north-america-mask.wrr.mask.apple-dns.net
 openwebmp.com
 openx.net
 optable.co

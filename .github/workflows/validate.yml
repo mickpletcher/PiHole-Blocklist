@@ -38,8 +38,8 @@ jobs:
           ./Validate-BlocklistSources.ps1 -SkipUrlChecks
           Import-Module ./PiHoleBlocklist.psm1 -Force
           $domains = @(Get-Content -LiteralPath ./candidate-blocklist-2.txt)
-          if ($domains.Count -ne 97) {
-            throw "Candidate blocklist 2 must contain exactly 97 domains. Found $($domains.Count)."
+          if ($domains.Count -ne 89) {
+            throw "Candidate blocklist 2 must contain exactly 89 domains. Found $($domains.Count)."
           }
           if (($domains | Sort-Object -Unique).Count -ne $domains.Count) {
             throw 'Candidate blocklist 2 contains duplicate domains.'
