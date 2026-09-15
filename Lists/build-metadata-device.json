@@ -1,0 +1,92 @@
+{
+  "generatedAtUtc": "2026-09-15T10:20:02.2774612Z",
+  "profile": "Device",
+  "sourceCount": 11,
+  "blocklistDomains": 1764,
+  "allowlistDomains": 9,
+  "allowlistCollisionsRemoved": 1,
+  "projectDenylistDomains": 15,
+  "projectDenylistCollisionsRemoved": 0,
+  "elapsedSeconds": 0.53,
+  "outputFile": "curated-blocklist-device.txt",
+  "outputSha256": "E59029E62350228435217D03CE24B945A17471B09A13B77080BC645EF51283E9",
+  "sources": [
+    {
+      "source": "RPiList Amazon Video",
+      "parsedDomains": 15,
+      "exclusiveDomains": 15,
+      "expectedDomains": 15,
+      "maxChangePercent": 500.0
+    },
+    {
+      "source": "RPiList Apple Music",
+      "parsedDomains": 2,
+      "exclusiveDomains": 2,
+      "expectedDomains": 2,
+      "maxChangePercent": 1000.0
+    },
+    {
+      "source": "RPiList Apple iCloud",
+      "parsedDomains": 19,
+      "exclusiveDomains": 19,
+      "expectedDomains": 19,
+      "maxChangePercent": 500.0
+    },
+    {
+      "source": "RPiList Apple iTunes",
+      "parsedDomains": 5,
+      "exclusiveDomains": 5,
+      "expectedDomains": 5,
+      "maxChangePercent": 1000.0
+    },
+    {
+      "source": "RPiList MS Office Telemetry",
+      "parsedDomains": 3,
+      "exclusiveDomains": 3,
+      "expectedDomains": 3,
+      "maxChangePercent": 1000.0
+    },
+    {
+      "source": "Hagezi Windows / Office Native Tracker",
+      "parsedDomains": 387,
+      "exclusiveDomains": 386,
+      "expectedDomains": 389,
+      "maxChangePercent": 200.0
+    },
+    {
+      "source": "Hagezi TikTok Native Tracker",
+      "parsedDomains": 438,
+      "exclusiveDomains": 438,
+      "expectedDomains": 434,
+      "maxChangePercent": 200.0
+    },
+    {
+      "source": "RPiList Microsoft Office 365",
+      "parsedDomains": 1,
+      "exclusiveDomains": 0,
+      "expectedDomains": 1,
+      "maxChangePercent": 1000.0
+    },
+    {
+      "source": "Perflyst SmartTV",
+      "parsedDomains": 493,
+      "exclusiveDomains": 493,
+      "expectedDomains": 240,
+      "maxChangePercent": 300.0
+    },
+    {
+      "source": "Hagezi Samsung Native Tracker",
+      "parsedDomains": 200,
+      "exclusiveDomains": 183,
+      "expectedDomains": 201,
+      "maxChangePercent": 200.0
+    },
+    {
+      "source": "Hagezi LG WebOS Native Tracker",
+      "parsedDomains": 222,
+      "exclusiveDomains": 221,
+      "expectedDomains": 341,
+      "maxChangePercent": 200.0
+    }
+  ]
+}
