@@ -39,7 +39,7 @@ The CSV is the source of truth. Disabled rows remain documented for review but a
 | true | Balanced, Strict | N/A | Moderate | Domains | Disconnect.me Simple Tracking | https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt |
 | true | Balanced, Strict | N/A | Moderate | Auto | EasyPrivacy | https://v.firebog.net/hosts/Easyprivacy.txt |
 | true | Balanced, Strict | N/A | Moderate | Hosts | FadeMind Tracking Extras | https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts |
-| true | Balanced, Strict | N/A | Moderate | Domains | CNAME Cloaking Blocklist | https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains |
+| true | Balanced, Strict | N/A | Moderate | Domains | CNAME Cloaking Blocklist | https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a/Lists/Sources/blocklist/15-tracking-cname-cloaking-blocklist.txt |
 
 ## Malicious
 

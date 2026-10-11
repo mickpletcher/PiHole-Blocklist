@@ -95,6 +95,20 @@ Review the complete source inventory before subscribing or changing profiles.
 
 The CSV `Enabled` and `Profiles` fields control publication. `DisabledReason` is required when a row is disabled and must be blank when it is enabled. HaGeZi Spam TLDs is the only disabled source because TLD-wide rules cannot be represented in the plain-domain outputs.
 
+### Archived CNAME Cloaking Source
+
+Reviewed on 2026-10-11: the NextDNS CNAME Cloaking Blocklist upstream URL
+returns HTTP 404. Balanced and Strict now read the original 35 domains from
+[this repository's immutable 2026-08-11 snapshot](https://github.com/mickpletcher/PiHole-Blocklist/blob/ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a/Lists/Sources/blocklist/15-tracking-cname-cloaking-blocklist.txt).
+The domain set matches the preserved upstream commit
+`d86cbb9fc05f768fe18adeffd7c936a63486702a`. Profiles, expected counts,
+change thresholds, and fail-closed publication checks are unchanged.
+
+This source is frozen and does not receive new upstream entries. Review an
+upstream replacement before changing it. Preserve this pinned commit or move
+the verified snapshot before any repository history cleanup. A failed snapshot
+download still stops publication; feeds are never silently skipped.
+
 ## Requirements
 
 - PowerShell 7.4 or later
