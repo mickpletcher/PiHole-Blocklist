@@ -6,6 +6,7 @@
 - Verified that the recovered upstream domain set and archived snapshot are identical; retained all source assignments, count baselines, and fail-closed checks.
 - Regenerated both source catalogs and documented the frozen-source limitation and pinned-history dependency.
 - Reviewed and updated `README.md` and `assessment.md`; setup, commands, outputs, and publication behavior remain unchanged.
+- Passed all 45 live URL checks, 19 Pester tests, analyzer and Markdown checks, and isolated builds plus output audits for all four profiles.
 
 ## 2026-09-11
 

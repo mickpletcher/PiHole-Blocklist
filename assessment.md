@@ -45,6 +45,18 @@ checks reported zero findings. Candidate blocklist 2 retained 89 valid, unique,
 sorted domains. Generated catalog regeneration was idempotent. These checks do
 not publish any lists; the daily workflow uses the repair only after merge.
 
+All four isolated live builds passed. Output auditing confirmed valid, unique,
+sorted domains and matching metadata SHA-256 hashes. All 35 archived CNAME
+domains remain present in Balanced and Strict. The project allowlist and denylist
+remain unchanged at nine and 15 domains, respectively.
+
+| Profile | Sources | Domains | Build seconds |
+|---|---:|---:|---:|
+| Balanced | 23 | 2,942,682 | 129.37 |
+| Strict | 24 | 2,977,657 | 180.96 |
+| Device | 11 | 1,777 | 42.38 |
+| Policy | 9 | 149,117 | 37.08 |
+
 ## Resolved Findings
 
 - Byte-array HTTP responses are decoded using the declared charset, strict UTF-8, or Latin-1 fallback. Disconnect.me Simple Tracking parses 34 domains and is enabled in Balanced and Strict.
