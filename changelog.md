@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-11
+
+- Replaced the unavailable NextDNS CNAME Cloaking Blocklist URL with the immutable 35-domain snapshot already preserved in this repository.
+- Verified that the recovered upstream domain set and archived snapshot are identical; retained all source assignments, count baselines, and fail-closed checks.
+- Regenerated both source catalogs and documented the frozen-source limitation and pinned-history dependency.
+- Reviewed and updated `README.md` and `assessment.md`; setup, commands, outputs, and publication behavior remain unchanged.
+
 ## 2026-09-11
 
 - Promoted 14 reviewed exact deny rules into the maintained project denylist.

@@ -13,7 +13,7 @@ Advertising,Disconnect.me Simple Ad,https://s3.amazonaws.com/lists.disconnect.me
 Tracking,Disconnect.me Simple Tracking,https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt,true,Balanced;Strict,Domains,Moderate,34,100,
 Tracking,EasyPrivacy,https://v.firebog.net/hosts/Easyprivacy.txt,true,Balanced;Strict,Auto,Moderate,42728,75,
 Tracking,FadeMind Tracking Extras,https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts,true,Balanced;Strict,Hosts,Moderate,2030,100,
-Tracking,CNAME Cloaking Blocklist,https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains,true,Balanced;Strict,Domains,Moderate,35,200,
+Tracking,CNAME Cloaking Blocklist,https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a/Lists/Sources/blocklist/15-tracking-cname-cloaking-blocklist.txt,true,Balanced;Strict,Domains,Moderate,35,200,
 Malicious,Threat Intelligence Feeds,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt,true,Balanced;Strict,Adblock,Moderate,2224519,50,
 Malicious,Phishing URL Blocklist,https://phishing.army/download/phishing_army_blocklist_extended.txt,true,Balanced;Strict,Domains,Moderate,156067,75,
 Malicious,URLhaus,https://urlhaus.abuse.ch/downloads/hostfile/,true,Balanced;Strict,Hosts,Moderate,363,200,

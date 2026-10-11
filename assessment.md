@@ -1,6 +1,6 @@
 # Repository Assessment
 
-Last reviewed: 2026-09-11
+Last reviewed: 2026-10-11
 
 ## Current Condition
 
@@ -15,6 +15,35 @@ The former third-party whitelist was removed. `project-allowlist.txt` is the onl
 `candidate-blocklist-2.txt` contains 89 user-approved advertising, tracking, and analytics domains. Eight Apple service domains were removed because current Apple documentation identifies them as RCS, iCloud DNS, Private Cloud Compute, or unnecessary for the documented Private Relay policy. It publishes as a separate subscription and is not merged into any existing profile or project list.
 
 A generated publication snapshot is tracked on `main` again to restore the legacy raw subscription URLs. The daily workflow continues publishing final outputs, validation results, and JSON build metadata to the history-limited orphan `generated` branch. It does not refresh the `main` snapshot.
+
+## 2026-10-11 CNAME Source Repair
+
+The scheduled workflow failed on the NextDNS CNAME Cloaking Blocklist download
+with HTTP 404 after three attempts ([failed run](https://github.com/mickpletcher/PiHole-Blocklist/actions/runs/38044309561)). The upstream repository and equivalent
+jsDelivr endpoints also returned 404 during this review.
+
+The inventory now points to the normalized source archived in this repository
+at commit `ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a` (2026-08-11). Its 35-domain
+set exactly matches the original upstream commit
+`d86cbb9fc05f768fe18adeffd7c936a63486702a`, recovered from multiple existing
+forks; [GitHub reports the upstream commit's signature as verified](https://github.com/sskafandri/cname-cloaking-blocklist/commit/d86cbb9fc05f768fe18adeffd7c936a63486702a). The archived
+file was fetched over its new raw URL and matched the local Git object exactly.
+Its SHA-256 is
+`83d4738f8a1a1021265760700fc04f521b3345b15d83f0b50d36f4d7d3c866f7`.
+
+No sources were disabled, no count thresholds were relaxed, and no list-building
+or publication safety checks changed. Balanced and Strict retain the original
+CNAME source coverage. Device, Policy, project lists, and Candidate blocklist 2
+are unchanged. The source is now explicitly frozen, so future upstream updates
+require review. The pinned historical commit must survive any future repository
+history cleanup, or the snapshot must first be migrated.
+
+Repair verification on 2026-10-11 (PowerShell 7.6.6): all 45 source URLs passed
+live validation with zero failures or redirects; inventory and generated
+catalog parity passed; all 19 Pester tests passed; PSScriptAnalyzer and Markdown
+checks reported zero findings. Candidate blocklist 2 retained 89 valid, unique,
+sorted domains. Generated catalog regeneration was idempotent. These checks do
+not publish any lists; the daily workflow uses the repair only after merge.
 
 ## Resolved Findings
 
