@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-15
+
+- Follow-up validation passed all 37 tests, analyzer, Markdown, inventory, catalog parity, and live URL checks; full-build limitations remain unchanged.
+- Fixed the PR review finding that malformed URLs could expose secrets in URI parameter-binding errors; use nonthrowing URL parsing and test full error-record/wrapper diagnostics with synthetic secrets and zero requests/retries.
+
+- Retry invalid upstream responses within the existing per-source attempt budget, with bounded exponential backoff and sanitized diagnostics.
+- Preserve baseline validation, source URLs, CNAME parsing, and fail-closed output/publication behavior.
+- Add regression coverage for HTTP-200 rate limits, recovery, exhaustion, empty/malformed responses, configuration errors, size limits, diagnostic sanitization, and the archived CNAME fixture.
+- Reviewed README setup, commands, outputs, and limitations; updated build safety and assessment.
+- Passed 36 Pester tests, analyzer, Markdown, inventory/catalog parity, and 45 live URL checks. Local Device/Policy builds passed; Balanced/Strict safely exhausted retries on the ongoing TIF rate-limit body.
+
 ## 2026-10-11
 
 - Replaced the unavailable NextDNS CNAME Cloaking Blocklist URL with the immutable 35-domain snapshot already preserved in this repository.

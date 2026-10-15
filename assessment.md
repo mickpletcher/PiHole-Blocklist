@@ -1,6 +1,56 @@
 # Repository Assessment
 
-Last reviewed: 2026-10-11
+Last reviewed: 2026-10-15
+
+## 2026-10-15 Invalid Upstream Response Retry Fix
+
+Prepared against main `faf84a7399841ed80e7b937923614810f27cc93d` in an isolated
+local worktree. The existing OneDrive checkout has unrelated uncommitted work
+and was left untouched.
+
+The scheduled run failed when HaGeZi TIF parsed zero domains. Subsequent checks
+reported HTTP 200 containing a `429: Too Many Requests` body; the original failed
+job's body was not captured, so rate limiting remains the likely explanation.
+Response decoding, error-payload classification, parsing, and unchanged count
+bounds now participate in the same bounded retry budget as transport failures.
+Configuration validation and size limits fail immediately. Exhausted retries
+still abort before outputs are written. Diagnostics omit untrusted bodies and
+URL secrets. Source URLs, thresholds, workflow publication, and CNAME behavior
+are unchanged. The CNAME fixture is copied exactly from the pinned archived
+source in commit `ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a`.
+
+Validation on 2026-10-15: 36 Pester tests passed (zero failures/skips),
+PSScriptAnalyzer 1.24.0 reported zero warnings/errors, Markdown checks reported
+zero problems, and generated catalog regeneration had no diff. Inventory and
+45 live URL checks passed (zero HTTP failures or redirects). HTTP status checks
+do not detect error text returned with HTTP 200.
+
+Local Balanced and Strict builds each retried the 199-byte HaGeZi TIF rate-limit
+body three times, then failed closed with zero parsed domains and unchanged
+bounds of 1,112,260 to 3,336,779. Both parsed the CNAME source's 35 domains first.
+Device built 1,777 domains; Policy built 149,108. No Balanced or Strict output
+was created. All local build artifacts were directed outside the worktree.
+Upstream rate limiting still prevents complete live build validation. The
+fetched generated ref remains `5695ca6fcda3b6c579044b33eb40843d4228b031`;
+no publication was attempted.
+
+PR review follow-up: confirmed that the initial `[uri]` parameter introduced a
+sanitization gap for malformed URLs. A synthetic nonnumeric-port URL exposed
+its credentials, private path, query token, and fragment through parameter
+binding before validation. Accepting string input and using `Uri.TryCreate`
+now rejects it with a fixed message before requests or retries. The regression
+checks the full error record and wrapper-style `Write-Error` output, as well as
+zero requests, sleeps, or created output. No real secrets were used.
+The new regression failed before the fix (36 passed, one failed); after the
+fix all 37 tests passed with zero failures/skips. Analyzer, Markdown, inventory,
+and catalog checks passed. Repeated live validation again passed all 45 URL
+checks; Device/Policy retained 1,777/149,108 domains, while Balanced/Strict
+failed closed after three TIF rate-limit responses each and parsed CNAME at 35.
+
+Risk: legitimate baseline drift now takes the retry budget before failing;
+three attempts and short backoff cannot guarantee recovery from prolonged
+upstream rate limiting. Review and approval to publish this patch are the next
+steps; no production workflow or Pi-hole changes are part of this preparation.
 
 ## Current Condition
 
