@@ -215,6 +215,29 @@ Test,Fixture,https://example.invalid/list.txt,true,Balanced,Adblock,Moderate,2,1
         Should -Invoke -ModuleName PiHoleBlocklist Start-Sleep -Times 0 -Exactly
     }
 
+    It 'rejects malformed URLs without requests, retries, or secret diagnostics' {
+        $row = Import-Csv $script:sourceCsv
+        $row.URL = 'https://synthetic-user:synthetic-password@example.invalid:badport/synthetic-private?token=synthetic-token#synthetic-fragment'
+        $row | Export-Csv $script:sourceCsv -NoTypeInformation
+        Mock -ModuleName PiHoleBlocklist Invoke-WebRequest { throw 'must not request' }
+        $warnings = @()
+        $failure = $null
+        try {
+            Invoke-PiHoleListBuild -SourceCsv $script:sourceCsv -ProjectAllowlistPath $script:allowlist -ProjectDenylistPath $script:denylist -OutputDirectory $script:output -WarningVariable warnings
+        }
+        catch { $failure = $_ }
+        $failure | Should -Not -BeNullOrEmpty
+        Should -Invoke -ModuleName PiHoleBlocklist Invoke-WebRequest -Times 0 -Exactly
+        Should -Invoke -ModuleName PiHoleBlocklist Start-Sleep -Times 0 -Exactly
+        Test-Path $script:output | Should -BeFalse
+        # Include the complete error record and the wrapper's Write-Error rendering.
+        $diagnostics = ($failure | Format-List * -Force | Out-String) +
+            (& { Write-Error -ErrorRecord $failure -ErrorAction Continue } 2>&1 | Out-String) +
+            ($warnings -join ' ')
+        $diagnostics | Should -Not -Match 'synthetic-user|synthetic-password|synthetic-private|synthetic-token|synthetic-fragment|badport'
+        $failure.Exception.Message | Should -Be 'Source URL must be an absolute HTTP or HTTPS URL.'
+    }
+
     It 'preserves the archived 35-domain CNAME response on the first attempt' {
         $row = Import-Csv $script:sourceCsv
         $row.Format = 'Domains'

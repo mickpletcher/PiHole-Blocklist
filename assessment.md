@@ -34,6 +34,19 @@ Upstream rate limiting still prevents complete live build validation. The
 fetched generated ref remains `5695ca6fcda3b6c579044b33eb40843d4228b031`;
 no publication was attempted.
 
+PR review follow-up: confirmed that the initial `[uri]` parameter introduced a
+sanitization gap for malformed URLs. A synthetic nonnumeric-port URL exposed
+its credentials, private path, query token, and fragment through parameter
+binding before validation. Accepting string input and using `Uri.TryCreate`
+now rejects it with a fixed message before requests or retries. The regression
+checks the full error record and wrapper-style `Write-Error` output, as well as
+zero requests, sleeps, or created output. No real secrets were used.
+The new regression failed before the fix (36 passed, one failed); after the
+fix all 37 tests passed with zero failures/skips. Analyzer, Markdown, inventory,
+and catalog checks passed. Repeated live validation again passed all 45 URL
+checks; Device/Policy retained 1,777/149,108 domains, while Balanced/Strict
+failed closed after three TIF rate-limit responses each and parsed CNAME at 35.
+
 Risk: legitimate baseline drift now takes the retry budget before failing;
 three attempts and short backoff cannot guarantee recovery from prolonged
 upstream rate limiting. Review and approval to publish this patch are the next

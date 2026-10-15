@@ -158,6 +158,8 @@ The builder:
 - Reports host, attempt, payload category, byte size, and parsed/baseline counts
   without logging response bodies or URL credentials, paths, queries, or fragments.
 - Fails immediately for invalid source configuration and oversized responses.
+  Malformed URLs are parsed without throwing and receive a fixed error message
+  that does not expose the URL in parameter-binding diagnostics.
 - Decodes byte responses using the declared charset or UTF-8 fallback.
 - Accepts hosts, AdBlock, and plain-domain input formats.
 - Rejects invalid DNS hostnames, including underscore labels.

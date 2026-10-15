@@ -140,7 +140,7 @@ function Get-SourceInventory {
 
 function Get-ListResponse {
     param(
-        [uri]$Url,
+        [string]$Url,
         [int]$TimeoutSeconds,
         [ValidateRange(1, 10)]
         [int]$MaxAttempts,
@@ -154,19 +154,21 @@ function Get-ListResponse {
     )
 
     # Validate configuration before any request; never retry local configuration errors.
-    if (-not $Url.IsAbsoluteUri -or $Url.Scheme -notin @('http', 'https')) {
+    $sourceUri = $null
+    if (-not [uri]::TryCreate($Url, [System.UriKind]::Absolute, [ref]$sourceUri) -or
+        $sourceUri.Scheme -notin @('http', 'https')) {
         throw 'Source URL must be an absolute HTTP or HTTPS URL.'
     }
     $lowerBound = [Math]::Max(1, [Math]::Ceiling($ExpectedDomains * (1 - ($MaxChangePercent / 100))))
     $upperBound = [Math]::Ceiling($ExpectedDomains * (1 + ($MaxChangePercent / 100)))
     # Host only: omit credentials, path, query, fragments and untrusted response text.
-    $sourceHost = $Url.DnsSafeHost
+    $sourceHost = $sourceUri.DnsSafeHost
     $lastError = ''
     for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
         $response = $null
         try {
             $response = Invoke-WebRequest `
-                -Uri $Url `
+                -Uri $sourceUri `
                 -TimeoutSec $TimeoutSeconds `
                 -UserAgent 'PiHole-Blocklist/1.0' `
                 -UseBasicParsing `
