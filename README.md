@@ -150,7 +150,14 @@ Supported profile names are `Balanced`, `Strict`, `Device`, and `Policy`.
 
 The builder:
 
-- Retries transient downloads three times.
+- Makes up to three attempts per source by default (`MaxAttempts`), retrying
+  transport failures and invalid responses, including HTTP-200 rate-limit/error
+  pages, empty lists, and counts outside the unchanged baseline.
+- Backs off for 1 then 2 seconds by default; higher attempt settings cap each
+  delay at 30 seconds. Exhaustion still fails the build before output writes.
+- Reports host, attempt, payload category, byte size, and parsed/baseline counts
+  without logging response bodies or URL credentials, paths, queries, or fragments.
+- Fails immediately for invalid source configuration and oversized responses.
 - Decodes byte responses using the declared charset or UTF-8 fallback.
 - Accepts hosts, AdBlock, and plain-domain input formats.
 - Rejects invalid DNS hostnames, including underscore labels.

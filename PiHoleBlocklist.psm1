@@ -140,15 +140,32 @@ function Get-SourceInventory {
 
 function Get-ListResponse {
     param(
-        [string]$Url,
+        [uri]$Url,
         [int]$TimeoutSeconds,
-        [int]$MaxAttempts
+        [ValidateRange(1, 10)]
+        [int]$MaxAttempts,
+        [ValidateSet('Auto', 'Hosts', 'Adblock', 'Domains')]
+        [string]$Format,
+        [ValidateScript({ $_ -gt 0 })]
+        [long]$ExpectedDomains,
+        [ValidateScript({ $_ -gt 0 -and $_ -le 1000 })]
+        [double]$MaxChangePercent,
+        [int]$MaxResponseBytes
     )
 
-    $lastError = $null
+    # Validate configuration before any request; never retry local configuration errors.
+    if (-not $Url.IsAbsoluteUri -or $Url.Scheme -notin @('http', 'https')) {
+        throw 'Source URL must be an absolute HTTP or HTTPS URL.'
+    }
+    $lowerBound = [Math]::Max(1, [Math]::Ceiling($ExpectedDomains * (1 - ($MaxChangePercent / 100))))
+    $upperBound = [Math]::Ceiling($ExpectedDomains * (1 + ($MaxChangePercent / 100)))
+    # Host only: omit credentials, path, query, fragments and untrusted response text.
+    $sourceHost = $Url.DnsSafeHost
+    $lastError = ''
     for ($attempt = 1; $attempt -le $MaxAttempts; $attempt++) {
+        $response = $null
         try {
-            return Invoke-WebRequest `
+            $response = Invoke-WebRequest `
                 -Uri $Url `
                 -TimeoutSec $TimeoutSeconds `
                 -UserAgent 'PiHole-Blocklist/1.0' `
@@ -156,14 +173,44 @@ function Get-ListResponse {
                 -ErrorAction Stop
         }
         catch {
-            $lastError = $_
-            if ($attempt -lt $MaxAttempts) {
-                Start-Sleep -Seconds ([Math]::Pow(2, $attempt - 1))
+            $lastError = 'Transport or HTTP failure'
+        }
+
+        if ($null -ne $response) {
+            $content = $response.Content
+            $contentLength = if ($content -is [byte[]]) {
+                $content.Length
             }
+            else {
+                [System.Text.Encoding]::UTF8.GetByteCount([string]$content)
+            }
+            if ($contentLength -gt $MaxResponseBytes) {
+                throw "Source response exceeds MaxResponseBytes: host=$sourceHost ($contentLength bytes)"
+            }
+
+            $contentType = [string]($response.Headers['Content-Type'] | Select-Object -First 1)
+            $text = if ($null -eq $content) { '' } else {
+                ConvertTo-ListText -Content $content -ContentType $contentType
+            }
+            $parsed = Get-DomainsFromContent -Content $text -Format $Format
+            $payloadKind = if ([string]::IsNullOrWhiteSpace($text)) { 'empty' }
+            elseif ($text -match '(?i)^\s*(?:429(?=\s|:|$)|too many requests\b)') { 'rate-limit' }
+            elseif ($text -match '(?i)^\s*(?:[45]\d{2}(?=\s|:|$)|<!doctype\s+html\b|<html\b)') { 'error-page' }
+            else { 'list' }
+
+            if ($payloadKind -eq 'list' -and $parsed.Count -ge $lowerBound -and $parsed.Count -le $upperBound) {
+                return ,$parsed
+            }
+            $lastError = "Invalid payload ($payloadKind, bytes=$contentLength). Parsed count outside baseline or error payload: actual=$($parsed.Count) expected=$ExpectedDomains allowed=$lowerBound..$upperBound"
+        }
+
+        Write-Warning "Source host=$sourceHost attempt=$attempt/$MaxAttempts failed: $lastError"
+        if ($attempt -lt $MaxAttempts) {
+            Start-Sleep -Seconds ([Math]::Min(30, [Math]::Pow(2, $attempt - 1)))
         }
     }
 
-    throw "Download failed after $MaxAttempts attempts: $Url -- $($lastError.Exception.Message)"
+    throw "Download failed after $MaxAttempts attempts: host=$sourceHost -- $lastError"
 }
 
 function Write-AtomicFile {
@@ -245,38 +292,16 @@ function Invoke-PiHoleListBuild {
 
     foreach ($source in $selectedSources) {
         Write-Host "[$BuildProfile] Downloading $($source.Source)"
-        $response = Get-ListResponse `
+        $parsed = Get-ListResponse `
             -Url $source.URL `
             -TimeoutSeconds $TimeoutSeconds `
-            -MaxAttempts $MaxAttempts
-
-        $content = $response.Content
-        $contentLength = if ($content -is [byte[]]) {
-            $content.Length
-        }
-        else {
-            [System.Text.Encoding]::UTF8.GetByteCount([string]$content)
-        }
-        if ($contentLength -gt $MaxResponseBytes) {
-            throw "Source response exceeds MaxResponseBytes: $($source.Source) ($contentLength bytes)"
-        }
-
-        $contentType = [string]($response.Headers.'Content-Type' | Select-Object -First 1)
-        $text = ConvertTo-ListText -Content $content -ContentType $contentType
-        $parsed = Get-DomainsFromContent -Content $text -Format $source.Format
+            -MaxAttempts $MaxAttempts `
+            -Format $source.Format `
+            -ExpectedDomains $source.ExpectedDomains `
+            -MaxChangePercent $source.MaxChangePercent `
+            -MaxResponseBytes $MaxResponseBytes
         $expected = [int64]$source.ExpectedDomains
         $changePercent = [double]$source.MaxChangePercent
-        $lowerBound = if ($expected -gt 0) {
-            [Math]::Max(1, [Math]::Ceiling($expected * (1 - ($changePercent / 100))))
-        }
-        else {
-            1
-        }
-        $upperBound = [Math]::Ceiling($expected * (1 + ($changePercent / 100)))
-
-        if ($parsed.Count -lt $lowerBound -or $parsed.Count -gt $upperBound) {
-            throw "Parsed count outside baseline for $($source.Source): actual=$($parsed.Count) expected=$expected allowed=$lowerBound..$upperBound"
-        }
 
         $beforeCount = $blockDomains.Count
         $blockDomains.UnionWith($parsed)
