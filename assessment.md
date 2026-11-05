@@ -6,7 +6,9 @@ Added contribution, support, security, conduct and accessibility documentation; 
 
 GitHub community health was 42% before this change. Main requires squash pull requests and both repository and live-source checks. No open PRs existed at review time. Keep `generated` as the deployment branch; the old retry feature branch is already squash merged. Do not rewrite main or remove subscriber URLs.
 
-Publication remains affected by URLhaus upstream validation failures, with the last successful generated snapshot on October 21. This documentation change does not resolve that incident or weaken fail-closed checks. Next work: investigate upstream availability, restore verified publication, and perform manual keyboard/screen-reader checks. Accessibility guidance is not a conformance audit. Conduct reports need a private channel requested without public incident details; no private maintainer email was available to verify.
+Publication remains affected by URLhaus and ThreatFox legacy endpoints returning HTTP 410, with the last successful generated snapshot on October 21. This documentation change does not resolve that incident or weaken fail-closed checks. Next work: approve a secure migration to the authenticated upstream exports or explicitly choose replacement sources, restore verified publication, and perform manual keyboard/screen-reader checks. Accessibility guidance is not a conformance audit. Conduct reports need a private channel requested without public incident details; no private maintainer email was available to verify.
+
+Both [URLhaus](https://urlhaus.abuse.ch/api/) and [ThreatFox](https://threatfox.abuse.ch/export/) now document a required abuse.ch Auth-Key. Do not put credentials or authenticated feed URLs in the public CSV, documentation or logs. Credential setup and source replacement are not part of this documentation change.
 
 Last reviewed: 2026-11-05
 

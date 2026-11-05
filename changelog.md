@@ -5,7 +5,7 @@
 - Added community contribution, conduct, support, security and accessibility guidance.
 - Added bug, source proposal and accessibility issue templates and a pull request checklist.
 - Added descriptive license, PowerShell, contribution and accessibility-guidance badges, plus labeled subscription links.
-- Documented the current upstream publication outage and preserved deployment-branch URLs, existing licensing and validation requirements.
+- Documented the retired URLhaus/ThreatFox endpoints and authenticated-export migration requirement and preserved deployment-branch URLs, existing licensing and validation requirements.
 - Reviewed README, assessment and changelog together; no list-generation behavior changed.
 
 ## 2026-10-15
