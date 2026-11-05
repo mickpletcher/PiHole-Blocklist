@@ -1,5 +1,13 @@
 # Repository Assessment
 
+## Community and accessibility review: 2026-11-05
+
+Added contribution, support, security, conduct and accessibility documentation; bug/source/accessibility issue templates; and a PR checklist. README badges point to evidence or guidance without claiming certification. Labeled subscription links complement the wide hosted-list table. Existing MIT licensing and generation behavior are unchanged.
+
+GitHub community health was 42% before this change. Main requires squash pull requests and both repository and live-source checks. No open PRs existed at review time. Keep `generated` as the deployment branch; the old retry feature branch is already squash merged. Do not rewrite main or remove subscriber URLs.
+
+Publication remains affected by URLhaus upstream validation failures, with the last successful generated snapshot on October 21. This documentation change does not resolve that incident or weaken fail-closed checks. Next work: investigate upstream availability, restore verified publication, and perform manual keyboard/screen-reader checks. Accessibility guidance is not a conformance audit. Conduct reports need a private channel requested without public incident details; no private maintainer email was available to verify.
+
 Last reviewed: 2026-10-15
 
 ## 2026-10-15 Invalid Upstream Response Retry Fix

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-05
+
+- Added community contribution, conduct, support, security and accessibility guidance.
+- Added bug, source proposal and accessibility issue templates and a pull request checklist.
+- Added descriptive license, PowerShell, contribution and accessibility-guidance badges, plus labeled subscription links.
+- Documented the current upstream publication outage and preserved deployment-branch URLs, existing licensing and validation requirements.
+- Reviewed README, assessment and changelog together; no list-generation behavior changed.
+
 ## 2026-10-15
 
 - Follow-up validation passed all 37 tests, analyzer, Markdown, inventory, catalog parity, and live URL checks; full-build limitations remain unchanged.

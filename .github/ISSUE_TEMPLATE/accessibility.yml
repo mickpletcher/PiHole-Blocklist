@@ -1,0 +1,25 @@
+name: Accessibility barrier
+description: Report difficulty using documentation or command-line tools.
+body:
+  - type: markdown
+    attributes:
+      value: A text description is enough. Do not share medical details or private logs. Screenshots and assistive-technology information are optional.
+  - type: input
+    id: location
+    attributes:
+      label: Affected page or command
+      description: Include a public URL or command name.
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier and expected behavior
+      description: What was difficult, and what would help?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional context
+      description: Browser, operating system, assistive technology, or a suggested improvement, if you want to share.
