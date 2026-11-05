@@ -16,9 +16,13 @@ The Balanced list includes every supported moderate-risk source. Device and high
 
 Read the [contribution guide](CONTRIBUTING.md), [code of conduct](CODE_OF_CONDUCT.md), [support guide](SUPPORT.md), [security policy](SECURITY.md) and [accessibility guidance](ACCESSIBILITY.md). Use the [issue templates](https://github.com/mickpletcher/PiHole-Blocklist/issues/new/choose) to report bugs, false positives, source proposals or accessibility barriers.
 
-Badges link to workflow results, the existing MIT license and project guidance. The accessibility badge indicates documentation, not certification. Workflow success and publication freshness are separate: check the latest update run and generated metadata. As of the November 5, 2026 review, daily publication is blocked by retired URLhaus and ThreatFox hostfile endpoints (HTTP 410) and the last successful generated snapshot is October 21. Existing `main` copies are compatibility snapshots, not daily refreshes.
+Badges link to workflow results, the existing MIT license and project guidance. The accessibility badge indicates documentation, not certification. Workflow success and publication freshness are separate: check the latest update run and generated metadata. Existing `main` copies are compatibility snapshots, not daily refreshes; consult the `generated` metadata for the last successful publication.
 
-Both [URLhaus](https://urlhaus.abuse.ch/api/) and [ThreatFox](https://threatfox.abuse.ch/export/) now document a required abuse.ch Auth-Key. Do not put credentials or authenticated feed URLs in the public CSV, documentation or logs. Credential setup and source replacement are not part of this documentation change.
+URLhaus and ThreatFox legacy hostfile feeds are disabled after returning HTTP 410. Balanced and Strict retain the other malware/phishing sources, including HaGeZi TIF, but equivalent coverage is not established. Device and Policy inputs are unchanged. In the October 21 build, the two feeds contributed at most 27,609 of roughly 3.07 million Balanced entries; later sources may overlap, so this is not a measured unique coverage loss.
+
+Disabled rows retain their upstream URLs and reasons for audit. Live HTTP checks cover enabled sources only; metadata, URL syntax and catalog parity still cover all rows. Enabled-source download, parsing and count failures still prevent publication. No stale cached feed or authenticated URL is substituted.
+
+Both [URLhaus](https://urlhaus.abuse.ch/api/) and [ThreatFox](https://threatfox.abuse.ch/export/) now document a required abuse.ch Auth-Key. Do not put credentials or authenticated feed URLs in the public CSV, documentation or logs. Credential setup and source replacement are not included in this change.
 
 ## Hosted Lists
 

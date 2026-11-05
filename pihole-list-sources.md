@@ -6,8 +6,8 @@ The CSV is the source of truth. Disabled rows remain documented for review but a
 
 | Profile | Purpose | Source count |
 |---|---|---:|
-| Balanced | Default security, privacy, advertising, and tracking protection. | 23 |
-| Strict | Balanced plus OISD Big for broader blocking. | 24 |
+| Balanced | Default security, privacy, advertising, and tracking protection. | 21 |
+| Strict | Balanced plus OISD Big for broader blocking. | 22 |
 | Device | Opt-in device and service-specific restrictions. | 11 |
 | Policy | Opt-in piracy, shortener, bypass, fake-news, and SafeSearch policy restrictions. | 9 |
 
@@ -47,8 +47,8 @@ The CSV is the source of truth. Disabled rows remain documented for review but a
 |---|---|---|---|---|---|---|
 | true | Balanced, Strict | N/A | Moderate | Adblock | Threat Intelligence Feeds | https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt |
 | true | Balanced, Strict | N/A | Moderate | Domains | Phishing URL Blocklist | https://phishing.army/download/phishing_army_blocklist_extended.txt |
-| true | Balanced, Strict | N/A | Moderate | Hosts | URLhaus | https://urlhaus.abuse.ch/downloads/hostfile/ |
-| true | Balanced, Strict | N/A | Moderate | Hosts | ThreatFox | https://threatfox.abuse.ch/downloads/hostfile/ |
+| false | None | Legacy hostfile retired (HTTP 410); authenticated export not configured | Moderate | Hosts | URLhaus | https://urlhaus.abuse.ch/downloads/hostfile/ |
+| false | None | Legacy hostfile retired (HTTP 410); authenticated export not configured | Moderate | Hosts | ThreatFox | https://threatfox.abuse.ch/downloads/hostfile/ |
 | true | Balanced, Strict | N/A | Moderate | Auto | RPiList Phishing | https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe |
 | true | Balanced, Strict | N/A | Moderate | Auto | RPiList Malware | https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware |
 
