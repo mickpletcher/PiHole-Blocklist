@@ -165,7 +165,7 @@ if (-not $SkipUrlChecks) {
     $client.Timeout = [TimeSpan]::FromSeconds($TimeoutSeconds)
     $client.DefaultRequestHeaders.UserAgent.ParseAdd('PiHole-Blocklist-Validator/1.0')
     try {
-        $urlResults = @($csvRows | ForEach-Object {
+        $urlResults = @($csvRows | Where-Object Enabled -eq 'true' | ForEach-Object {
             $test = Test-SourceUrl -Client $client -Url $_.URL
             [pscustomobject]@{
                 Category = $_.Category
@@ -198,6 +198,8 @@ Write-Host "InvalidUrls=$($invalidUrls.Count)"
 Write-Host "DuplicateUrls=$($duplicateUrls.Count)"
 Write-Host "DuplicateSources=$($duplicateSources.Count)"
 if (-not $SkipUrlChecks) {
+    Write-Host "CheckedUrls=$($urlResults.Count)"
+    Write-Host "SkippedDisabledUrls=$(@($csvRows | Where-Object Enabled -eq 'false').Count)"
     Write-Host "FailedHttp=$($failedUrls.Count)"
     Write-Host "Redirects=$($redirects.Count)"
 }

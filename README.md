@@ -3,9 +3,26 @@
 [![Validate](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/validate.yml/badge.svg)](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/validate.yml)
 [![Update Pi-hole lists](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml/badge.svg)](https://github.com/mickpletcher/PiHole-Blocklist/actions/workflows/update-lists.yml)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PowerShell 7](https://img.shields.io/badge/PowerShell-7-blue.svg)](https://learn.microsoft.com/powershell/)
+[![Contributing guide](https://img.shields.io/badge/Contributions-guide-blue.svg)](CONTRIBUTING.md)
+[![Accessibility guidance](https://img.shields.io/badge/Accessibility-guidance-blue.svg)](ACCESSIBILITY.md)
+
 PowerShell 7 tooling for validated, profile-based Pi-hole blocklists.
 
 The Balanced list includes every supported moderate-risk source. Device and high-risk policy restrictions remain separate opt-in subscriptions.
+
+## Community and accessibility
+
+Read the [contribution guide](CONTRIBUTING.md), [code of conduct](CODE_OF_CONDUCT.md), [support guide](SUPPORT.md), [security policy](SECURITY.md) and [accessibility guidance](ACCESSIBILITY.md). Use the [issue templates](https://github.com/mickpletcher/PiHole-Blocklist/issues/new/choose) to report bugs, false positives, source proposals or accessibility barriers.
+
+Badges link to workflow results, the existing MIT license and project guidance. The accessibility badge indicates documentation, not certification. Workflow success and publication freshness are separate: check the latest update run and generated metadata. Existing `main` copies are compatibility snapshots, not daily refreshes; consult the `generated` metadata for the last successful publication.
+
+URLhaus and ThreatFox legacy hostfile feeds are disabled after returning HTTP 410. Balanced and Strict retain the other malware/phishing sources, including HaGeZi TIF, but equivalent coverage is not established. Device and Policy inputs are unchanged. In the October 21 build, the two feeds contributed at most 27,609 of roughly 3.07 million Balanced entries; later sources may overlap, so this is not a measured unique coverage loss.
+
+Disabled rows retain their upstream URLs and reasons for audit. Live HTTP checks cover enabled sources only; metadata, URL syntax and catalog parity still cover all rows. Enabled-source download, parsing and count failures still prevent publication. No stale cached feed or authenticated URL is substituted.
+
+Both [URLhaus](https://urlhaus.abuse.ch/api/) and [ThreatFox](https://threatfox.abuse.ch/export/) now document a required abuse.ch Auth-Key. Do not put credentials or authenticated feed URLs in the public CSV, documentation or logs. Credential setup and source replacement are not included in this change.
 
 ## Hosted Lists
 
@@ -20,6 +37,16 @@ Use the raw URLs from the history-limited `generated` branch.
 | Project allowlist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt` | Reviewed permanent functional exceptions |
 | OpenClaw denylist | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt` | Reviewed domains promoted after local canary testing |
 | Candidate blocklist 2 | `https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt` | User-approved standalone advertising, tracking, and analytics restrictions |
+
+For a simpler alternative to the table, use these direct subscription links:
+
+- [Balanced blocklist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist.txt): recommended starting point.
+- [Strict blocklist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-strict.txt): Balanced plus OISD Big.
+- [Device blocklist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-device.txt): optional device restrictions.
+- [Policy blocklist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-blocklist-policy.txt): optional policy restrictions.
+- [Project allowlist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-whitelist.txt): reviewed functional exceptions.
+- [OpenClaw denylist](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/curated-project-denylist.txt): separate reviewed restrictions.
+- [Candidate blocklist 2](https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/generated/Lists/candidate-blocklist-2.txt): separate 89-domain subscription.
 
 The generated snapshot is also tracked on `main` to restore these legacy subscription URLs:
 

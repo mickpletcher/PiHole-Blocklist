@@ -16,8 +16,8 @@ Tracking,FadeMind Tracking Extras,https://raw.githubusercontent.com/FadeMind/hos
 Tracking,CNAME Cloaking Blocklist,https://raw.githubusercontent.com/mickpletcher/PiHole-Blocklist/ce64b1b6b771659ba7d0a8dd5d0f59aa86fed91a/Lists/Sources/blocklist/15-tracking-cname-cloaking-blocklist.txt,true,Balanced;Strict,Domains,Moderate,35,200,
 Malicious,Threat Intelligence Feeds,https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt,true,Balanced;Strict,Adblock,Moderate,2224519,50,
 Malicious,Phishing URL Blocklist,https://phishing.army/download/phishing_army_blocklist_extended.txt,true,Balanced;Strict,Domains,Moderate,156067,75,
-Malicious,URLhaus,https://urlhaus.abuse.ch/downloads/hostfile/,true,Balanced;Strict,Hosts,Moderate,363,200,
-Malicious,ThreatFox,https://threatfox.abuse.ch/downloads/hostfile/,true,Balanced;Strict,Hosts,Moderate,49957,75,
+Malicious,URLhaus,https://urlhaus.abuse.ch/downloads/hostfile/,false,,Hosts,Moderate,363,200,Legacy hostfile retired (HTTP 410); authenticated export not configured
+Malicious,ThreatFox,https://threatfox.abuse.ch/downloads/hostfile/,false,,Hosts,Moderate,49957,75,Legacy hostfile retired (HTTP 410); authenticated export not configured
 Malicious,RPiList Phishing,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe,true,Balanced;Strict,Auto,Moderate,157313,75,
 Malicious,RPiList Malware,https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware,true,Balanced;Strict,Auto,Moderate,1077116,75,
 Fake News,StevenBlack Fake News,https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts,true,Policy,Hosts,High,2187,100,

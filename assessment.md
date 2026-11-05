@@ -1,6 +1,20 @@
 # Repository Assessment
 
-Last reviewed: 2026-10-15
+## Community and accessibility review: 2026-11-05
+
+Added contribution, support, security, conduct and accessibility documentation; bug/source/accessibility issue templates; and a PR checklist. README badges point to evidence or guidance without claiming certification. Labeled subscription links complement the wide hosted-list table. Existing MIT licensing and generation behavior are unchanged.
+
+GitHub community health was 42% before this change. Main requires squash pull requests and both repository and live-source checks. No open PRs existed at review time. Keep `generated` as the deployment branch; the old retry feature branch is already squash merged. Do not rewrite main or remove subscriber URLs.
+
+URLhaus and ThreatFox legacy hostfile feeds are disabled after returning HTTP 410. Balanced and Strict retain the other malware/phishing sources, including HaGeZi TIF, but equivalent coverage is not established. Device and Policy inputs are unchanged. In the October 21 build, the two feeds contributed at most 27,609 of roughly 3.07 million Balanced entries; later sources may overlap, so this is not a measured unique coverage loss.
+
+Disabled rows retain their upstream URLs and reasons for audit. Live HTTP checks cover enabled sources only; metadata, URL syntax and catalog parity still cover all rows. Enabled-source download, parsing and count failures still prevent publication. No stale cached feed or authenticated URL is substituted.
+
+The last successful snapshot observed before this repair was October 21; fresh local validation now passes all 40 tests, PowerShell analysis, Markdown checks, inventory/catalog parity and all 42 enabled URLs. All four fresh builds passed: Balanced 2,567,514 domains; Strict 2,590,555; Device 1,883; Policy 186,010. These totals reflect current upstream contents as well as the disabled feeds and must not be treated as a measured removal delta. Required remote CI and publication remain to be verified before declaring deployed recovery. Manual keyboard/screen-reader checks remain recommended. Accessibility guidance is not a conformance audit. Conduct reports need a private channel requested without public incident details.
+
+Both [URLhaus](https://urlhaus.abuse.ch/api/) and [ThreatFox](https://threatfox.abuse.ch/export/) now document a required abuse.ch Auth-Key. Do not put credentials or authenticated feed URLs in the public CSV, documentation or logs. Any future authenticated migration needs separate secure credential setup and coverage review.
+
+Last reviewed: 2026-11-05
 
 ## 2026-10-15 Invalid Upstream Response Retry Fix
 
