@@ -1,0 +1,40 @@
+=== SUMMARY ===
+MarkdownRows=45
+CsvRows=45
+EnabledRows=42
+ParityDifferences=0
+MetadataProblems=0
+InvalidUrls=0
+DuplicateUrls=0
+DuplicateSources=0
+CheckedUrls=42
+SkippedDisabledUrls=3
+FailedHttp=0
+Redirects=0
+
+=== PROFILE COVERAGE ===
+
+Profile  Sources
+-------  -------
+Balanced      21
+Strict        22
+Device        11
+Policy         9
+
+=== METADATA PROBLEMS ===
+None
+
+=== DUPLICATE URLS ===
+None
+
+=== DUPLICATE SOURCES ===
+None
+
+=== CSV VS MARKDOWN DIFF ===
+None
+
+=== FAILED URLS ===
+None
+
+=== REDIRECTS ===
+None
